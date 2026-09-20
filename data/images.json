@@ -1,14 +1,22 @@
 {
  "better-sleep-habits": {
-  "kind": "card"
+  "kind": "ai",
+  "prompt": "Flat vector editorial illustration, simple shapes, A calm bedroom at night with a crescent moon in the window, a soft blue lamp, a pillow and a cup of tea, peaceful sleep concept, warm saffron and deep blue palette, clean uncluttered composition, no text, no letters, no numbers, no logos, no watermark, no people, no faces",
+  "provider": "cloudflare-flux-1-schnell"
  },
  "upi-fraud-safety-tips": {
-  "kind": "card"
+  "kind": "ai",
+  "prompt": "Flat vector editorial illustration, simple shapes, A smartphone with a large protective shield and a padlock, a warning triangle and a magnifying glass over a payment screen, digital payment security, warm saffron and deep blue palette, clean uncluttered composition, no text, no letters, no numbers, no logos, no watermark, no people, no faces",
+  "provider": "cloudflare-flux-1-schnell"
  },
  "upi-mdr-explained": {
-  "kind": "card"
+  "kind": "ai",
+  "prompt": "Flat vector editorial illustration, simple shapes, A smartphone showing a green payment success tick next to a small shop counter with a QR code stand and a few coins, digital payments in India, warm saffron and deep blue palette, clean uncluttered composition, no text, no letters, no numbers, no logos, no watermark, no people, no faces",
+  "provider": "cloudflare-flux-1-schnell"
  },
  "what-is-sip-beginners-guide": {
-  "kind": "card"
+  "kind": "ai",
+  "prompt": "Flat vector editorial illustration, simple shapes, A small green plant growing out of a stack of coins beside a calendar and gently rising bars, steady monthly saving concept, warm saffron and deep blue palette, clean uncluttered composition, no text, no letters, no numbers, no logos, no watermark, no people, no faces",
+  "provider": "cloudflare-flux-1-schnell"
  }
 }
