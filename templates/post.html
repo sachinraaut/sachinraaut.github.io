@@ -1,50 +1,68 @@
 {% extends "base.html" %}
-{% block head %}
-{% set ld = {
-  "@context": "https://schema.org", "@type": "BlogPosting", "headline": post.title, "description": post.description,
-  "inLanguage": site.language, "datePublished": post.date.isoformat(), "dateModified": post.lastmod.isoformat(),
-  "mainEntityOfPage": {"@type": "WebPage", "@id": canonical}, "articleSection": cat.name, "keywords": post.tags | join(", "),
-  "wordCount": post.words,
-  "author": {"@type": "Organization", "name": site.author, "url": abs_url("/")},
-  "publisher": {"@type": "Organization", "name": site.title, "url": abs_url("/")}
-} %}
-{% if post.image %}{% set _ = ld.update({"image": [post.image if post.image.startswith('http') else abs_url(post.image)]}) %}{% endif %}
-<script type="application/ld+json">{{ ld | tojson }}</script>
-<script type="application/ld+json">{{ {
-  "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": site.title, "item": abs_url("/")},
-    {"@type": "ListItem", "position": 2, "name": cat.name, "item": abs_url("/category/" ~ post.category ~ "/")},
-    {"@type": "ListItem", "position": 3, "name": post.title, "item": canonical}]
-} | tojson }}</script>
-{% endblock %}
 {% block content %}
-<nav class="crumbs" aria-label="मार्ग"><a href="{{ url('/') }}">मुख्यपृष्ठ</a> › <a href="{{ url('/category/' ~ post.category ~ '/') }}">{{ cat.name }}</a></nav>
+<div class="wrap">
+<nav class="crumbs" aria-label="मार्ग">
+  <a href="{{ url('/') }}">मुख्यपृष्ठ</a> <span aria-hidden="true">›</span>
+  <a href="{{ url(cat_url(post.category)) }}">{{ cat.name }}</a> <span aria-hidden="true">›</span>
+  <span>{{ post.title }}</span>
+</nav>
 <article class="post">
-  <header>
-    <p class="meta"><a class="chip c-{{ post.category }}" href="{{ url('/category/' ~ post.category ~ '/') }}">{{ cat.name }}</a>
-      <time datetime="{{ post.date.isoformat() }}">{{ post.date | mr_date }}</time> · वाचन वेळ: {{ post.minutes | mr_num }} मिनिटे</p>
+  <header class="post-head">
+    <p class="meta"><a class="chip c-{{ post.category }}" href="{{ url(cat_url(post.category)) }}">{{ cat.name }}</a></p>
     <h1>{{ post.title }}</h1>
     <p class="lead">{{ post.description }}</p>
+    <p class="byline">
+      <span class="by">{{ site.author }}</span> ·
+      <time datetime="{{ post.date.isoformat() }}">{{ post.date | mr_date }}</time>
+      {% if post.was_updated %} · <span class="upd">अद्ययावत: <time datetime="{{ post.updated.isoformat() }}">{{ post.updated | mr_date }}</time></span>{% endif %}
+      · {{ post.minutes | mr_num }} मिनिटे वाचन
+    </p>
   </header>
   {% if post.image %}
-  <figure class="hero-img"><img src="{{ post.image if post.image.startswith('http') else url(post.image) }}" alt="{{ post.image_alt }}" width="1200" height="630" fetchpriority="high">
-    {% if image_kind(post.slug) == 'ai' %}<figcaption>चित्र: AI ने तयार केलेले प्रातिनिधिक चित्र (खरे छायाचित्र नाही)</figcaption>{% endif %}</figure>
+  <figure class="hero-img">
+    {% with pic = picture(post, '(max-width: 900px) 100vw, 760px', true) %}{% include "_picture.html" %}{% endwith %}
+    {% if image_kind(post.slug) == 'ai' %}<figcaption>चित्र: AI ने तयार केलेले प्रातिनिधिक चित्र (खरे छायाचित्र नाही)</figcaption>{% endif %}
+  </figure>
   {% endif %}
   {% if cat.disclaimer %}<aside class="note" role="note"><strong>महत्त्वाची सूचना:</strong> {{ cat.disclaimer }}</aside>{% endif %}
-
+  {% if post.toc | length >= 4 %}{% include "_toc.html" %}{% endif %}
   <div class="body">{{ post.html | safe }}</div>
+
+  {% if post.pros and post.cons %}
+  <section class="pc">
+    <div class="pc-box pc-pro"><h2>फायदे</h2><ul>{% for x in post.pros %}<li>{{ x }}</li>{% endfor %}</ul></div>
+    <div class="pc-box pc-con"><h2>तोटे / जोखीम</h2><ul>{% for x in post.cons %}<li>{{ x }}</li>{% endfor %}</ul></div>
+  </section>
+  {% endif %}
+
+  {% include "_ad.html" %}
+  {% if post.faq %}{% include "_faq.html" %}{% endif %}
+
   {% if post.sources %}
   <section class="sources"><h2>संदर्भ / स्रोत</h2>
     <ul>{% for s in post.sources %}<li><a href="{{ s.url }}" rel="noopener nofollow" target="_blank">{{ s.name }}</a></li>{% endfor %}</ul>
   </section>
   {% endif %}
   {% if post.tags %}<p class="tags">{% for t in post.tags %}<span>#{{ t }}</span> {% endfor %}</p>{% endif %}
-
-  {% if post.ai_assisted %}<p class="small ai">हा लेख AI च्या मदतीने तयार केला आहे. चूक आढळल्यास कृपया कळवा.</p>{% endif %}
-
+  {% include "_share.html" %}
+  <aside class="author">
+    <p class="foot-brand"><span class="logo" aria-hidden="true">म</span> <strong>{{ site.author }}</strong></p>
+    <p class="small">{{ site.tagline }} — <a href="{{ url('/about/') }}">आमच्याबद्दल अधिक वाचा</a>.</p>
+    {% if post.ai_assisted %}<p class="small ai">हा लेख AI च्या मदतीने तयार केला आहे आणि प्रकाशनापूर्वी तपासला जातो. चूक आढळल्यास कृपया <a href="{{ url('/contact/') }}">कळवा</a>.</p>{% endif %}
+  </aside>
 </article>
+{% include "_prevnext.html" %}
 {% if related %}
-<section><h2 class="sec">हेही वाचा</h2>
-<div class="grid">{% for p in related %}{% include "_card.html" %}{% endfor %}</div></section>
+<section class="rail">
+  <h2 class="sec">हेही वाचा</h2>
+  <div class="grid">{% for p in related %}{% with hl = 3 %}{% include "_card.html" %}{% endwith %}{% endfor %}</div>
+</section>
 {% endif %}
+</div>
+<script>
+(function(){document.querySelectorAll('[data-copy]').forEach(function(b){b.addEventListener('click',function(){
+var t=b.getAttribute('data-copy');(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject())
+.then(function(){var o=b.textContent;b.textContent='कॉपी झाले!';setTimeout(function(){b.textContent=o},1500)})
+.catch(function(){window.prompt('ही लिंक कॉपी करा:',t)})})})})();
+</script>
 {% endblock %}

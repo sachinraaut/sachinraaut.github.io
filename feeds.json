@@ -1,7 +1,7 @@
 {
-  "note": "Free public feeds only. Edit freely: add/remove feeds per category. 'lang' is informational.",
+  "note": "Free public feeds only. Edit freely: add/remove feeds per category. 'lang' is informational. Categories with no feed here (e.g. how-to) are evergreen and written without a news brief.",
   "categories": {
-    "tech": [
+    "technology": [
       {
         "name": "Google News: तंत्रज्ञान (मराठी)",
         "lang": "mr",
@@ -16,6 +16,18 @@
         "name": "The Hindu: Technology",
         "lang": "en",
         "url": "https://www.thehindu.com/sci-tech/technology/feeder/default.rss"
+      }
+    ],
+    "ai": [
+      {
+        "name": "Google News: AI (मराठी)",
+        "lang": "mr",
+        "url": "https://news.google.com/rss/search?q=AI+%E0%A4%A4%E0%A4%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%A8+OR+%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%AE+%E0%A4%AC%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%BF%E0%A4%AE%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%BE+OR+ChatGPT&hl=mr&gl=IN&ceid=IN:mr"
+      },
+      {
+        "name": "Google News: AI (India)",
+        "lang": "en",
+        "url": "https://news.google.com/rss/search?q=artificial+intelligence+OR+ChatGPT+OR+Gemini+India&hl=en-IN&gl=IN&ceid=IN:en"
       }
     ],
     "finance": [
@@ -33,6 +45,23 @@
         "name": "RBI press releases",
         "lang": "en",
         "url": "https://www.rbi.org.in/pressreleases_rss.xml"
+      }
+    ],
+    "stock-market": [
+      {
+        "name": "Google News: शेअर बाजार (मराठी)",
+        "lang": "mr",
+        "url": "https://news.google.com/rss/search?q=%E0%A4%B6%E0%A5%87%E0%A4%85%E0%A4%B0+%E0%A4%AC%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%B0+OR+%E0%A4%A8%E0%A4%BF%E0%A4%AB%E0%A5%8D%E0%A4%9F%E0%A5%80+OR+%E0%A4%B8%E0%A5%87%E0%A4%A8%E0%A5%8D%E0%A4%B8%E0%A5%87%E0%A4%95%E0%A5%8D%E0%A4%B8&hl=mr&gl=IN&ceid=IN:mr"
+      },
+      {
+        "name": "Google News: Markets (India)",
+        "lang": "en",
+        "url": "https://news.google.com/rss/search?q=Nifty+OR+Sensex+OR+IPO+Indian+stock+market&hl=en-IN&gl=IN&ceid=IN:en"
+      },
+      {
+        "name": "SEBI press releases",
+        "lang": "en",
+        "url": "https://www.sebi.gov.in/sebirss.xml"
       }
     ],
     "health": [

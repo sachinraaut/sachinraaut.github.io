@@ -1,0 +1,6 @@
+<nav class="toc" aria-labelledby="toc-h">
+  <h2 id="toc-h" class="toc-h">या लेखात काय आहे?</h2>
+  <ol>
+    {% for h in post.toc %}<li class="toc-l{{ h.level }}"><a href="#{{ h.id }}">{{ h.name }}</a></li>{% endfor %}
+  </ol>
+</nav>

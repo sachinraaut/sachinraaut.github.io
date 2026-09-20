@@ -1,5 +1,12 @@
 {% extends "base.html" %}
 {% block content %}
-<h1>क्षमस्व, हे पान सापडले नाही</h1>
-<p>पत्ता चुकला असेल किंवा पान हलवले गेले असेल. <a href="{{ url('/') }}">मुख्यपृष्ठावर जा</a> किंवा <a href="{{ url('/search/') }}">लेख शोधा</a>.</p>
+<div class="wrap">
+<header class="page-head"><h1>क्षमस्व, हे पान सापडले नाही</h1>
+<p class="lead">पत्ता चुकला असेल किंवा पान हलवले गेले असेल.</p></header>
+<p><a class="btn" href="{{ url('/') }}">मुख्यपृष्ठावर जा</a> <a class="btn" href="{{ url('/search/') }}">लेख शोधा</a> <a class="btn" href="{{ url('/archive/') }}">सर्व लेख</a></p>
+{% if nav_cats %}
+<h2 class="sec">विभाग</h2>
+<p>{% for slug, c in nav_cats.items() %}<a class="chip c-{{ slug }}" href="{{ url(cat_url(slug)) }}">{{ c.name }}</a> {% endfor %}</p>
+{% endif %}
+</div>
 {% endblock %}

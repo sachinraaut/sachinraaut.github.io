@@ -17,13 +17,19 @@ from .content import ContentError, Post, Site, load_post
 SLUG = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 RAW_HTML = re.compile(r"<\s*/?\s*[A-Za-z][^>]*>")
 BAD_LINK = re.compile(r"\]\(\s*(?:javascript|data|vbscript):", re.I)
-NEEDS_SOURCES = {"news", "finance", "health"}
-LIMITS = {"title": (20, 80), "description": (90, 175), "words": 350, "tags": (3, 7), "min_ratio": 0.6}
+INTERNAL_LINK = re.compile(r"\]\(\s*(?:\.\./|/posts/)")
+NEEDS_SOURCES = {"news", "finance", "health", "stock-market"}
+LIMITS = {"title": (20, 110), "seo_title": 65, "description": (90, 175), "words": 350, "tags": (3, 7),
+          "min_ratio": 0.6, "faq": (2, 8)}
+# Below this many published posts there is little to link to, so the internal-link rule stays off.
+INTERNAL_LINK_FROM = 5
 
 # Claims that must never appear in health / finance content (Marathi phrases, matched as substrings).
+MONEY_RISKY = ["हमखास फायदा", "गॅरंटीड रिटर्न", "निश्चित परतावा", "१००% खात्री", "100% खात्री", "दुप्पट पैसे",
+               "रातोरात श्रीमंत", "हा शेअर खरेदी करा", "हा शेअर विका", "जोखीम नाही"]
 RISKY = {
-    "finance": ["हमखास फायदा", "गॅरंटीड रिटर्न", "निश्चित परतावा", "१००% खात्री", "100% खात्री", "दुप्पट पैसे",
-                "रातोरात श्रीमंत", "हा शेअर खरेदी करा", "हा शेअर विका", "जोखीम नाही"],
+    "finance": MONEY_RISKY,
+    "stock-market": MONEY_RISKY + ["नक्की वाढणार", "टार्गेट प्राइस", "मल्टीबॅगर निश्चित"],
     "health": ["कायमचा इलाज", "चमत्कारिक", "१००% खात्रीशीर", "100% खात्रीशीर", "डॉक्टरांची गरज नाही",
                "औषध बंद करा", "कर्करोग बरा होतो", "मधुमेह पूर्ण बरा"],
 }
@@ -34,9 +40,13 @@ def check_post(post: Post, site: Site) -> list[str]:
     lo, hi = LIMITS["title"]
     if not lo <= len(post.title) <= hi:
         e.append(f"title length {len(post.title)} not in {lo}-{hi}")
+    if post.seo_title and len(post.seo_title) > LIMITS["seo_title"]:
+        e.append(f"seo_title length {len(post.seo_title)} over {LIMITS['seo_title']} (it is the <title> text)")
     lo, hi = LIMITS["description"]
     if not lo <= len(post.description) <= hi:
         e.append(f"description length {len(post.description)} not in {lo}-{hi} (SEO snippet)")
+    if post.seo_description and not lo <= len(post.seo_description) <= hi:
+        e.append(f"seo_description length {len(post.seo_description)} not in {lo}-{hi}")
     if not SLUG.match(post.slug):
         e.append(f"slug {post.slug!r} must be lowercase English letters/digits/hyphens")
     if post.category not in site.categories:
@@ -66,6 +76,18 @@ def check_post(post: Post, site: Site) -> list[str]:
     for phrase in RISKY.get(post.category, []):
         if phrase in post.body or phrase in post.title:
             e.append(f"risky claim not allowed in {post.category}: {phrase!r}")
+    if post.faq:
+        lo, hi = LIMITS["faq"]
+        if not lo <= len(post.faq) <= hi:
+            e.append(f"faq needs {lo}-{hi} questions, has {len(post.faq)}")
+        for i, f in enumerate(post.faq):
+            if not 10 <= len(f["q"]) <= 140:
+                e.append(f"faq #{i + 1}: question must be 10-140 characters")
+    for name, items in (("pros", post.pros), ("cons", post.cons)):
+        if items and not 2 <= len(items) <= 8:
+            e.append(f"{name} needs 2-8 entries, has {len(items)}")
+    if bool(post.pros) != bool(post.cons):
+        e.append("pros and cons go together: give both or neither")
     prompt = post.raw.get("image_prompt")
     if prompt is not None and not re.match(r"^[A-Za-z0-9 ,.'\-()]{15,300}$", " ".join(str(prompt).split())):
         e.append("image_prompt must be 15-300 characters of plain English (letters, digits, , . ' - ( ))")
@@ -95,9 +117,22 @@ def check_all(root: Path, site: Site, now: datetime | None = None) -> dict[str, 
         if errs:
             problems[rel] = errs
     slugs = Counter(p.slug for p in posts)
+    known = set(slugs)
     for p in posts:
+        rel = str(p.path.relative_to(root))
+        extra = []
         if slugs[p.slug] > 1:
-            problems.setdefault(str(p.path.relative_to(root)), []).append(f"duplicate slug {p.slug!r}")
+            extra.append(f"duplicate slug {p.slug!r}")
+        for s in p.related_slugs:
+            if s not in known:
+                extra.append(f"related: no post with slug {s!r}")
+            elif s == p.slug:
+                extra.append("related: a post cannot be related to itself")
+        # Internal links are what turn a pile of posts into a site, so they are required once there is a pile.
+        if len(posts) >= INTERNAL_LINK_FROM and not INTERNAL_LINK.search(p.body):
+            extra.append("needs at least one internal link to another post, e.g. [येथे वाचा](../other-slug/)")
+        if extra:
+            problems.setdefault(rel, []).extend(extra)
     titles = Counter(p.title for p in posts)
     for p in posts:
         if titles[p.title] > 1:
@@ -106,12 +141,13 @@ def check_all(root: Path, site: Site, now: datetime | None = None) -> dict[str, 
 
 
 def check_daily_set(root: Path, site: Site, day: str) -> list[str]:
-    """For the daily run: exactly one post per category dated `day` (YYYY-MM-DD)."""
+    """For the daily run: exactly one post per daily category dated `day` (YYYY-MM-DD)."""
     from .content import load_posts
+    wanted = site.daily_categories or list(site.categories)
     posts = [p for p in load_posts(root, site, include_hidden=True) if p.date.strftime("%Y-%m-%d") == day]
     by_cat = Counter(p.category for p in posts)
-    missing = [c for c in site.categories if by_cat[c] == 0]
-    extra = [c for c, n in by_cat.items() if n > 1]
+    missing = [c for c in wanted if by_cat[c] == 0]
+    extra = [c for c, n in by_cat.items() if n > 1 and c in wanted]
     out = []
     if missing:
         out.append(f"missing posts for {day}: {', '.join(missing)}")

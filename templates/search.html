@@ -1,8 +1,11 @@
 {% extends "base.html" %}
 {% block content %}
-<h1>लेख शोधा</h1>
-<form onsubmit="return false" role="search"><input id="q" type="search" placeholder="उदा. UPI, झोप, गुंतवणूक" aria-label="शोध" autofocus></form>
-<ul id="results" class="archive" aria-live="polite"></ul>
+<div class="wrap">
+<header class="page-head"><h1>लेख शोधा</h1><p class="lead">शीर्षक, विषय किंवा टॅगनुसार शोधा.</p></header>
+<form onsubmit="return false" role="search"><input id="q" type="search" placeholder="उदा. UPI, झोप, SIP, AI" aria-label="शोध" autofocus></form>
+<p id="count" class="small" aria-live="polite"></p>
+<ul id="results" class="archive"></ul>
 <script>window.SEARCH_INDEX = "{{ url('/search.json') }}";</script>
 <script src="{{ url('/search.js') }}" defer></script>
+</div>
 {% endblock %}

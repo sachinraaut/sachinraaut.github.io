@@ -1,0 +1,7 @@
+<section class="share" aria-label="हा लेख शेअर करा">
+  <span class="small">शेअर करा:</span>
+  <a class="btn btn-wa" href="https://wa.me/?text={{ (post.title ~ ' ' ~ canonical) | urlencode }}" rel="noopener nofollow" target="_blank">WhatsApp</a>
+  <a class="btn" href="https://t.me/share/url?url={{ canonical | urlencode }}&amp;text={{ post.title | urlencode }}" rel="noopener nofollow" target="_blank">Telegram</a>
+  <a class="btn" href="https://twitter.com/intent/tweet?url={{ canonical | urlencode }}&amp;text={{ post.title | urlencode }}" rel="noopener nofollow" target="_blank">X</a>
+  <button class="btn" type="button" data-copy="{{ canonical }}">लिंक कॉपी करा</button>
+</section>

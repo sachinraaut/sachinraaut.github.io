@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 {% block content %}
-<h1>सर्व लेख</h1>
+<div class="wrap">
+<nav class="crumbs" aria-label="मार्ग"><a href="{{ url('/') }}">मुख्यपृष्ठ</a> <span aria-hidden="true">›</span> <span>सर्व लेख</span></nav>
+<header class="page-head"><h1>सर्व लेख</h1><p class="lead">महिन्यानुसार मांडलेले {{ site.title }} वरील सगळे लेख.</p></header>
 {% for ym, items in months %}
 <h2 class="sec">{{ items[0].date | month_year }}</h2>
 <ul class="archive">{% for p in items %}
@@ -8,6 +10,7 @@
       <a href="{{ url(p.url_path) }}">{{ p.title }}</a>
       <span class="chip c-{{ p.category }}">{{ categories[p.category].name }}</span></li>
 {% endfor %}</ul>
-{% else %}<p>अजून लेख नाहीत.</p>
+{% else %}<p class="empty">अजून लेख नाहीत.</p>
 {% endfor %}
+</div>
 {% endblock %}

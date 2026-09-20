@@ -1,8 +1,16 @@
-<article class="card">
-  {% if p.image %}<a href="{{ url(p.url_path) }}" tabindex="-1" aria-hidden="true"><img class="thumb" src="{{ p.image if p.image.startswith('http') else url(p.image) }}" alt="" width="1200" height="630" loading="lazy"></a>{% endif %}
-
-  <p class="meta"><a class="chip c-{{ p.category }}" href="{{ url('/category/' ~ p.category ~ '/') }}">{{ categories[p.category].name }}</a>
-    <time datetime="{{ p.date.isoformat() }}">{{ p.date | mr_date }}</time></p>
-  <h3><a href="{{ url(p.url_path) }}">{{ p.title }}</a></h3>
-  <p>{{ p.description }}</p>
+{# p = post. hl = heading level (3 under a section heading, 2 on a list page). #}
+<article class="card {{ card_class | default('') }}">
+  {% if p.image %}
+  <a class="card-img" href="{{ url(p.url_path) }}" tabindex="-1" aria-hidden="true">
+    {% with pic = picture(p, card_sizes | default('(max-width: 640px) 100vw, (max-width: 1024px) 45vw, 360px')), pic_class = 'thumb' %}
+      {% include "_picture.html" %}
+    {% endwith %}
+  </a>
+  {% endif %}
+  <div class="card-body">
+    <p class="meta"><a class="chip c-{{ p.category }}" href="{{ url(cat_url(p.category)) }}">{{ categories[p.category].name }}</a></p>
+    <h{{ hl | default(3) }} class="card-h"><a href="{{ url(p.url_path) }}">{{ p.title }}</a></h{{ hl | default(3) }}>
+    {% if show_excerpt | default(true) %}<p class="excerpt">{{ p.description }}</p>{% endif %}
+    <p class="meta"><time datetime="{{ p.date.isoformat() }}">{{ p.date | mr_date }}</time> · {{ p.minutes | mr_num }} मिनिटे वाचन</p>
+  </div>
 </article>

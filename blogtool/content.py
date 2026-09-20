@@ -8,6 +8,7 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 import markdown
+import unicodedata
 import yaml
 
 from . import mr
@@ -29,6 +30,10 @@ class Site:
     google_site_verification: str = ""
     custom_domain: str = ""
     posts_per_page: int = 12
+    ga4_id: str = ""
+    ads: dict = field(default_factory=dict)
+    organization: dict = field(default_factory=dict)
+    daily_categories: list = field(default_factory=list)
     categories: dict = field(default_factory=dict)
 
     @property
@@ -42,6 +47,10 @@ class Site:
         from urllib.parse import urlparse
         u = urlparse(self.base_url)
         return f"{u.scheme}://{u.netloc}"
+
+    @property
+    def ads_enabled(self) -> bool:
+        return bool((self.ads or {}).get("client"))
 
     def tz(self) -> timezone:
         sign = -1 if self.timezone_offset.startswith("-") else 1
@@ -75,6 +84,15 @@ class Post:
     ai_assisted: bool = True
     image: str = ""
     html: str = ""
+    seo_title: str = ""
+    seo_description: str = ""
+    faq: list = field(default_factory=list)
+    pros: list = field(default_factory=list)
+    cons: list = field(default_factory=list)
+    related_slugs: list = field(default_factory=list)
+    featured: bool = False
+    trending: bool = False
+    toc: list = field(default_factory=list)
     raw: dict = field(default_factory=dict)
 
     @property
@@ -97,12 +115,27 @@ class Post:
     def lastmod(self) -> datetime:
         return self.updated or self.date
 
+    @property
+    def meta_title(self) -> str:
+        """Shorter headline for <title>/OG when the display headline is long."""
+        return self.seo_title or self.title
+
+    @property
+    def meta_description(self) -> str:
+        return self.seo_description or self.description
+
+    @property
+    def was_updated(self) -> bool:
+        return bool(self.updated and self.updated.date() != self.date.date())
+
 
 class ContentError(ValueError):
     pass
 
 
-PLAIN_SCALARS = re.compile(r"^(title|description|image|slug|category):[ \t]*(?![\"'|>\[{])(.+?)[ \t]*$", re.M)
+PLAIN_SCALARS = re.compile(
+    r"^(title|description|seo_title|seo_description|image|image_alt|image_prompt|slug|category)"
+    r":[ \t]*(?![\"'|>\[{])(.+?)[ \t]*$", re.M)
 
 
 def _autoquote(block: str) -> str:
@@ -140,10 +173,44 @@ def _dt(value, site: Site, path) -> datetime:
     return d if d.tzinfo else d.replace(tzinfo=site.tz())
 
 
-def render_markdown(body: str) -> str:
-    md = markdown.Markdown(extensions=["extra", "sane_lists", "smarty"],
-                           extension_configs={"smarty": {"smart_quotes": False}})
-    return md.convert(body)
+DEVANAGARI_BLOCK = r"\u0900-\u097F"
+
+
+def slug_mr(value: str, separator: str = "-") -> str:
+    r"""Heading id that keeps Marathi readable. Python's \w drops the matras (Mn marks), which turns
+    'म्हणजे' into 'महणज', so the Devanagari block is allowed explicitly."""
+    v = unicodedata.normalize("NFC", str(value)).strip().lower()
+    v = re.sub(rf"[^\w\s{DEVANAGARI_BLOCK}-]", "", v, flags=re.U)
+    return re.sub(r"[-\s]+", separator, v).strip(separator)
+
+
+def _flatten_toc(tokens, out) -> list:
+    """markdown's toc_tokens tree -> a flat [{level, id, name}] list for the on-page contents box."""
+    for t in tokens:
+        out.append({"level": t["level"], "id": t["id"], "name": re.sub(r"<[^>]+>", "", t["name"]).strip()})
+        _flatten_toc(t.get("children") or [], out)
+    return out
+
+
+def render_markdown(body: str) -> tuple[str, list]:
+    """Returns (html, toc). 'toc' gives the h2/h3 outline; headings get ids so the box can link to them."""
+    md = markdown.Markdown(
+        extensions=["extra", "sane_lists", "smarty", "admonition", "toc"],
+        extension_configs={"smarty": {"smart_quotes": False},
+                           "toc": {"toc_depth": "2-3", "anchorlink": False, "permalink": False,
+                                   "slugify": slug_mr}})
+    html = md.convert(body)
+    return html, _flatten_toc(getattr(md, "toc_tokens", []), [])
+
+
+def _faq(meta, path) -> list:
+    """[{q, a}] from front matter; the answer is rendered as Markdown so it can hold links and lists."""
+    out = []
+    for i, item in enumerate(meta.get("faq") or []):
+        if not (isinstance(item, dict) and str(item.get("q", "")).strip() and str(item.get("a", "")).strip()):
+            raise ContentError(f"{path}: faq #{i + 1} needs a 'q' and an 'a'")
+        out.append({"q": str(item["q"]).strip(), "a": render_markdown(str(item["a"]).strip())[0]})
+    return out
 
 
 def load_post(path: Path, site: Site) -> Post:
@@ -156,8 +223,15 @@ def load_post(path: Path, site: Site) -> Post:
              tags=[str(t) for t in (meta.get("tags") or [])], sources=list(meta.get("sources") or []),
              body=body, path=path, updated=_dt(meta["updated"], site, path) if meta.get("updated") else None,
              draft=bool(meta.get("draft", False)), ai_assisted=bool(meta.get("ai_assisted", True)),
-             image=str(meta.get("image", "") or ""), raw=meta)
-    p.html = render_markdown(body)
+             image=str(meta.get("image", "") or ""),
+             seo_title=str(meta.get("seo_title", "") or "").strip(),
+             seo_description=str(meta.get("seo_description", "") or "").strip(),
+             faq=_faq(meta, path),
+             pros=[str(x) for x in (meta.get("pros") or [])], cons=[str(x) for x in (meta.get("cons") or [])],
+             related_slugs=[str(x) for x in (meta.get("related") or [])],
+             featured=bool(meta.get("featured", False)), trending=bool(meta.get("trending", False)),
+             raw=meta)
+    p.html, p.toc = render_markdown(body)
     return p
 
 
@@ -185,5 +259,5 @@ def load_pages(root: Path) -> dict[str, Page]:
     for path in sorted(d.glob("*.md")) if d.exists() else []:
         meta, body = parse_front(path.read_text(encoding="utf-8"), path)
         out[path.stem] = Page(path.stem, str(meta.get("title", path.stem)), str(meta.get("description", "")),
-                              render_markdown(body), body)
+                              render_markdown(body)[0], body)
     return out

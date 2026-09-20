@@ -1,27 +1,53 @@
 {% extends "base.html" %}
-{% block head %}
-<script type="application/ld+json">{{ {"@context": "https://schema.org", "@type": "WebSite", "name": site.title, "url": abs_url("/"), "inLanguage": site.language, "description": site.description} | tojson }}</script>
-{% endblock %}
 {% block content %}
-<section class="hero">
-  <h1>{{ site.title }}</h1>
-  <p>{{ site.tagline }}</p>
-</section>
-{% if posts %}
-<h2 class="sec">ताजे लेख</h2>
-<div class="grid">
-{% for p in posts %}{% include "_card.html" %}{% endfor %}
-</div>
-{% for slug, c in categories.items() %}
-  {% if by_cat.get(slug) %}
-  <h2 class="sec c-{{ slug }}-h"><a href="{{ url('/category/' ~ slug ~ '/') }}">{{ c.name }}</a></h2>
-  <div class="grid">
-  {% for p in by_cat[slug][:3] %}{% include "_card.html" %}{% endfor %}
+{% if trending %}
+<section class="strip" aria-label="ताजे लेख">
+  <div class="wrap strip-in">
+    <span class="strip-tag">ताजे</span>
+    <ul class="strip-list">
+      {% for p in trending %}<li><a href="{{ url(p.url_path) }}">{{ p.title }}</a></li>{% endfor %}
+    </ul>
   </div>
-  {% endif %}
-{% endfor %}
-<p class="more"><a href="{{ url('/archive/') }}">सर्व {{ total | mr_num }} लेख पाहा →</a></p>
-{% else %}
-<p>लवकरच नवीन लेख येथे प्रकाशित होतील.</p>
+</section>
 {% endif %}
+<div class="wrap">
+  <h1 class="home-h1">{{ site.tagline }}</h1>
+  {% if lead %}
+  <section class="hero" aria-label="प्रमुख लेख">
+    {% with p = lead, hl = 2, card_class = 'card-lead', card_sizes = '(max-width: 900px) 100vw, 700px', show_excerpt = true %}
+      {% include "_card.html" %}
+    {% endwith %}
+    {% if secondary %}
+    <div class="hero-side">
+      {% for p in secondary %}
+        {% with hl = 2, card_class = 'card-row', show_excerpt = false, card_sizes = '(max-width: 900px) 30vw, 150px' %}
+          {% include "_card.html" %}
+        {% endwith %}
+      {% endfor %}
+    </div>
+    {% endif %}
+  </section>
+  {% else %}
+  <p class="empty">लवकरच नवीन लेख येथे प्रकाशित होतील.</p>
+  {% endif %}
+
+  {% include "_ad.html" %}
+
+  {% if latest %}
+  <section>
+    <h2 class="sec">ताजे लेख</h2>
+    <div class="grid">{% for p in latest %}{% with hl = 3 %}{% include "_card.html" %}{% endwith %}{% endfor %}</div>
+  </section>
+  {% endif %}
+
+  {% for slug, c, items in rails %}
+  <section class="rail">
+    <h2 class="sec c-{{ slug }}-h"><a href="{{ url(cat_url(slug)) }}">{{ c.name }}</a><a class="sec-more" href="{{ url(cat_url(slug)) }}">सर्व पाहा →</a></h2>
+    <p class="sec-intro">{{ c.description }}</p>
+    <div class="grid">{% for p in items %}{% with hl = 3 %}{% include "_card.html" %}{% endwith %}{% endfor %}</div>
+  </section>
+  {% endfor %}
+
+  {% if total %}<p class="more"><a class="btn" href="{{ url('/archive/') }}">सर्व {{ total | mr_num }} लेख पाहा →</a></p>{% endif %}
+</div>
 {% endblock %}

@@ -25,6 +25,10 @@ import requests
 from .content import Post, Site
 
 W, H = 1200, 630
+# Cards show the picture in a ~300-500px box, so a 480w copy saves most of the bytes; AVIF and WebP
+# save most of the rest. The 1200 JPEG stays the master because it is the Open Graph / social image.
+WIDTHS = (480, 1200)
+MODERN = ("avif", "webp")
 IMG_DIR = Path("static/images/posts")
 MANIFEST = Path("data/images.json")
 FONT_DIR = Path("assets/fonts")
@@ -179,6 +183,45 @@ def make_card(root: Path, title: str, label: str, brand: str, color: str, render
         return to_banner_jpeg(png.read_bytes())
 
 
+def _encode(im, fmt: str) -> dict:
+    """Per-format encoder settings, tuned for photographic banners at these sizes."""
+    return {"avif": {"format": "AVIF", "quality": 55},
+            "webp": {"format": "WEBP", "quality": 76, "method": 6},
+            "jpg": {"format": "JPEG", "quality": 82, "optimize": True, "progressive": True}}[fmt]
+
+
+def derivative_name(slug: str, width: int, fmt: str) -> str:
+    return f"{slug}-{width}.{fmt}"
+
+
+def ensure_derivatives(root: Path, slug: str, log=print) -> int:
+    """Create whatever responsive copies of <slug>.jpg are missing. Returns how many were written.
+
+    Runs for every post that has a master, so images made before this existed get backfilled.
+    """
+    from PIL import Image
+    master = root / IMG_DIR / f"{slug}.jpg"
+    if not master.exists():
+        return 0
+    wanted = [(w, f) for w in WIDTHS for f in MODERN] + [(WIDTHS[0], "jpg")]
+    missing = [(w, f) for w, f in wanted if not (root / IMG_DIR / derivative_name(slug, w, f)).exists()]
+    if not missing:
+        return 0
+    im = Image.open(master)
+    im.load()
+    im = im.convert("RGB")
+    written = 0
+    for width, fmt in missing:
+        out = root / IMG_DIR / derivative_name(slug, width, fmt)
+        try:
+            img = im if width == im.width else im.resize((width, round(width * im.height / im.width)), Image.LANCZOS)
+            img.save(out, **_encode(img, fmt))
+            written += 1
+        except Exception as exc:                 # a missing encoder must never stop publishing
+            log(f"[{slug}] {width}w {fmt} not written ({type(exc).__name__}: {str(exc)[:120]})")
+    return written
+
+
 # ---------------------------------------------------------------------------------------------- orchestration
 def load_manifest(root: Path) -> dict:
     p = root / MANIFEST
@@ -198,7 +241,7 @@ def ensure_images(root: Path, site: Site, posts: list[Post], provider=None, rend
     manifest = load_manifest(root)
     out_dir = root / IMG_DIR
     out_dir.mkdir(parents=True, exist_ok=True)
-    stats = {"ai": 0, "card": 0, "kept": 0, "ai_failed": 0, "failed": 0}
+    stats = {"ai": 0, "card": 0, "kept": 0, "ai_failed": 0, "failed": 0, "derived": 0}
     for p in posts:
         path = out_dir / f"{p.slug}.jpg"
         entry = manifest.get(p.slug, {})
@@ -206,6 +249,7 @@ def ensure_images(root: Path, site: Site, posts: list[Post], provider=None, rend
         want_ai = bool(provider and p.raw.get("image_prompt"))
         if has and not (upgrade and want_ai and entry.get("kind") == "card"):
             stats["kept"] += 1
+            stats["derived"] += ensure_derivatives(root, p.slug, log)
             continue
         data, kind, prompt = None, None, None
         if want_ai:
@@ -218,6 +262,7 @@ def ensure_images(root: Path, site: Site, posts: list[Post], provider=None, rend
         if data is None:
             if has:                       # upgrade attempt failed: keep the existing card
                 stats["kept"] += 1
+                stats["derived"] += ensure_derivatives(root, p.slug, log)
                 continue
             try:
                 cat = site.categories[p.category]
@@ -228,8 +273,11 @@ def ensure_images(root: Path, site: Site, posts: list[Post], provider=None, rend
                 log(f"[{p.slug}] no image created: {exc}")
                 continue
         path.write_bytes(data)
+        for stale in (root / IMG_DIR).glob(f"{p.slug}-*.*"):   # the picture changed: its copies are wrong now
+            stale.unlink()
         manifest[p.slug] = {"kind": kind, **({"provider": provider.name, "prompt": prompt} if kind == "ai" else {})}
         stats[kind] += 1
+        stats["derived"] += ensure_derivatives(root, p.slug, log)
         log(f"[{p.slug}] {kind} image saved ({len(data) // 1024} KB)")
     save_manifest(root, manifest)
     return stats

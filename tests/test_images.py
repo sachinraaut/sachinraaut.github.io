@@ -69,7 +69,7 @@ def test_news_prompts_stay_drawn_not_photographic():
     assert "photorealistic" not in p
 
 
-@pytest.mark.parametrize("category", ["tech", "finance", "health", "", "unknown-category"])
+@pytest.mark.parametrize("category", ["technology", "finance", "health", "", "unknown-category"])
 def test_every_other_category_is_photographic(category):
     assert images.sanitize_prompt(PROMPT, category).startswith(images.PHOTO_STYLE[0])
 
@@ -157,7 +157,7 @@ def test_ai_used_only_with_provider_and_prompt_else_card(blog):
 
 def test_category_style_reaches_the_provider(blog):
     blog.add(slug="a-news-story", category="news", extra={"image_prompt": PROMPT})
-    blog.add(slug="a-tech-story", category="tech", extra={"image_prompt": PROMPT})
+    blog.add(slug="a-tech-story", category="technology", extra={"image_prompt": PROMPT})
     site = load_site(blog.root)
     prov = FakeProvider()
     images.ensure_images(blog.root, site, load_posts(blog.root, site, NOW, include_hidden=True), prov,
@@ -245,8 +245,47 @@ def test_post_page_with_image(blog):
     assert 'name="twitter:card" content="summary_large_image"' in html
     assert '"image": ["https://user.github.io/images/posts/pic.jpg"]' in html
     assert (out / "images/posts/pic.jpg").exists()
+    assert 'fetchpriority="high"' in html                       # the hero image is the LCP element
     home = (out / "index.html").read_text(encoding="utf-8")
-    assert 'class="thumb" src="/images/posts/pic.jpg"' in home and 'loading="lazy"' in home
+    assert 'src="/images/posts/pic.jpg"' in home and 'class="thumb"' in home and 'loading="lazy"' in home
+
+
+def test_responsive_derivatives_reach_the_page(blog):
+    """AVIF/WebP <source> entries appear only for the files that actually exist."""
+    blog.add(slug="pic")
+    img = blog.root / "static/images/posts"
+    img.mkdir(parents=True)
+    (img / "pic.jpg").write_bytes(images.to_banner_jpeg(noisy()))
+    assert images.ensure_derivatives(blog.root, "pic", log=lambda *_: 0) == 5
+    for w in images.WIDTHS:
+        for fmt in images.MODERN:
+            assert (img / images.derivative_name("pic", w, fmt)).exists()
+    assert (img / "pic-480.jpg").exists()
+    assert Image.open(img / "pic-480.webp").size == (480, 252)
+    html = (build(blog) / "posts/pic/index.html").read_text(encoding="utf-8")
+    assert '<source type="image/avif"' in html and '<source type="image/webp"' in html
+    assert "/images/posts/pic-480.avif 480w" in html and "/images/posts/pic-1200.avif 1200w" in html
+    assert 'sizes="(max-width: 900px) 100vw, 760px"' in html
+
+
+def test_no_derivatives_means_a_plain_img(blog):
+    blog.add(slug="pic")
+    img = blog.root / "static/images/posts"
+    img.mkdir(parents=True)
+    (img / "pic.jpg").write_bytes(images.to_banner_jpeg(noisy()))
+    html = (build(blog) / "posts/pic/index.html").read_text(encoding="utf-8")
+    assert "<source" not in html and 'src="/images/posts/pic.jpg"' in html
+
+
+def test_a_new_image_drops_its_stale_derivatives(blog):
+    site, posts = site_posts(blog, a={"image_prompt": PROMPT})
+    images.ensure_images(blog.root, site, posts, None, render=fake_render, log=lambda *_: 0)
+    stale = blog.root / "static/images/posts/a-480.webp"
+    assert stale.exists()
+    stale.write_bytes(b"outdated")
+    images.ensure_images(blog.root, site, posts, FakeProvider(), render=fake_render, upgrade=True,
+                         log=lambda *_: 0)
+    assert stale.read_bytes() != b"outdated"
 
 
 def test_card_kind_has_no_ai_caption_and_alt_defaults_to_title(blog):

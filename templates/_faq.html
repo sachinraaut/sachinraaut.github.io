@@ -1,0 +1,9 @@
+<section class="faq" aria-labelledby="faq-h">
+  <h2 id="faq-h">वारंवार विचारले जाणारे प्रश्न</h2>
+  {% for f in post.faq %}
+  <details{% if loop.first %} open{% endif %}>
+    <summary>{{ f.q }}</summary>
+    <div class="faq-a">{{ f.a | safe }}</div>
+  </details>
+  {% endfor %}
+</section>

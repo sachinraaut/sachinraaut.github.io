@@ -10,7 +10,7 @@ BODY = ("## पहिला विभाग\n\n" + "हा लेख चाच�
         + "\n\n## दुसरा विभाग\n\n" + "आणखी काही माहिती येथे दिली आहे जेणेकरून लेख पुरेसा मोठा ठरेल. " * 25 + "\n")
 
 
-def make_post(slug="test-post", date="2026-09-20T07:30:00+05:30", category="tech", title=None, body=BODY, extra=None,
+def make_post(slug="test-post", date="2026-09-20T07:30:00+05:30", category="technology", title=None, body=BODY, extra=None,
               sources=True, tags=("एक", "दोन", "तीन")):
     title = title or f"चाचणी लेखाचे शीर्षक {slug}"
     desc = "हे या चाचणी लेखाचे वर्णन आहे आणि ते शोध निकालांमध्ये दिसण्यासाठी पुरेसे लांब लिहिलेले आहे, जेणेकरून नियम पाळले जातील."

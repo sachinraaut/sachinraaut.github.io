@@ -47,7 +47,7 @@ def test_load_post_and_visibility(blog):
     assert [p.slug for p in shown] == ["a"]
     assert len(load_posts(blog.root, site, NOW, include_hidden=True)) == 3
     p = shown[0]
-    assert p.date.utcoffset().total_seconds() == 19800 and p.minutes >= 1 and "<h2>" in p.html
+    assert p.date.utcoffset().total_seconds() == 19800 and p.minutes >= 1 and "<h2 id=" in p.html
 
 
 def test_naive_date_gets_site_timezone(blog):

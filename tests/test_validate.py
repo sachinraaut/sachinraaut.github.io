@@ -40,7 +40,7 @@ def test_rules_reject(tmp_path, kw, fragment):
 
 
 def test_tech_without_sources_is_allowed(tmp_path):
-    assert errors(tmp_path, category="tech", sources=False) == []
+    assert errors(tmp_path, category="technology", sources=False) == []
 
 
 def test_check_all_duplicates_and_filename(blog):
@@ -58,11 +58,23 @@ def test_broken_front_matter_reported(blog):
 
 
 def test_daily_set(blog):
-    for cat in ("tech", "finance", "health"):
-        blog.add(slug=f"d-{cat}", category=cat)
+    """The daily run must fill site.daily_categories - not every category the site defines."""
     site = load_site(blog.root)
-    assert "missing posts for 2026-09-20: news" in check_daily_set(blog.root, site, "2026-09-20")[0]
+    assert site.daily_categories and "news" not in site.daily_categories
+    for cat in site.daily_categories[:-1]:
+        blog.add(slug=f"d-{cat}", category=cat)
+    last = site.daily_categories[-1]
+    assert f"missing posts for 2026-09-20: {last}" in check_daily_set(blog.root, site, "2026-09-20")[0]
+    blog.add(slug=f"d-{last}", category=last)
+    assert check_daily_set(blog.root, site, "2026-09-20") == []
+    blog.add(slug="d-extra", category=last, title="दुसरे शीर्षक जे पूर्णपणे वेगळे आहे")
+    assert "more than one" in check_daily_set(blog.root, site, "2026-09-20")[0]
+
+
+def test_a_category_outside_the_daily_set_is_not_required(blog):
+    """News is not a daily category, so an extra news post must not trip the daily check."""
+    site = load_site(blog.root)
+    for cat in site.daily_categories:
+        blog.add(slug=f"d-{cat}", category=cat)
     blog.add(slug="d-news", category="news")
     assert check_daily_set(blog.root, site, "2026-09-20") == []
-    blog.add(slug="d-news2", category="news", title="दुसरे बातमी शीर्षक जे वेगळे आहे")
-    assert "more than one" in check_daily_set(blog.root, site, "2026-09-20")[0]

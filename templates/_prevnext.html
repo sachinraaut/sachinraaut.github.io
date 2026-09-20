@@ -1,0 +1,6 @@
+{% if newer or older %}
+<nav class="prevnext" aria-label="मागील आणि पुढील लेख">
+  {% if newer %}<a class="pn" href="{{ url(newer.url_path) }}"><span class="small">← नवीन लेख</span><span class="pn-t">{{ newer.title }}</span></a>{% else %}<span></span>{% endif %}
+  {% if older %}<a class="pn pn-r" href="{{ url(older.url_path) }}"><span class="small">जुना लेख →</span><span class="pn-t">{{ older.title }}</span></a>{% else %}<span></span>{% endif %}
+</nav>
+{% endif %}

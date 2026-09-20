@@ -5,66 +5,96 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ page_title }}</title>
 <meta name="description" content="{{ meta_description }}">
-<link rel="canonical" href="{{ canonical }}">
-{% if noindex %}<meta name="robots" content="noindex, follow">{% else %}<meta name="robots" content="index, follow, max-image-preview:large">{% endif %}
-
+{% if canonical %}<link rel="canonical" href="{{ canonical }}">{% endif %}
+{% if noindex %}<meta name="robots" content="noindex, follow">{% else %}<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">{% endif %}
 {% if site.google_site_verification %}<meta name="google-site-verification" content="{{ site.google_site_verification }}">{% endif %}
-
+{% set og_title = post.title if post is defined else (heading if heading is defined and heading else site.title) %}
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:locale" content="{{ site.locale }}">
 <meta property="og:type" content="{% if post is defined %}article{% else %}website{% endif %}">
-<meta property="og:title" content="{{ page_title }}">
+<meta property="og:title" content="{{ og_title }}">
 <meta property="og:description" content="{{ meta_description }}">
-<meta property="og:url" content="{{ canonical }}">
+{% if canonical %}<meta property="og:url" content="{{ canonical }}">{% endif %}
 {% if post is defined %}
 <meta property="article:published_time" content="{{ post.date.isoformat() }}">
 <meta property="article:modified_time" content="{{ post.lastmod.isoformat() }}">
 <meta property="article:section" content="{{ cat.name }}">
 {% for t in post.tags %}<meta property="article:tag" content="{{ t }}">{% endfor %}
-
 {% endif %}
 {% set og = post.image if (post is defined and post.image) else default_image %}
-{% if og %}<meta property="og:image" content="{{ og if og.startswith('http') else abs_url(og) }}">
+{% if og %}
+<meta property="og:image" content="{{ og if og.startswith('http') else abs_url(og) }}">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
-<meta name="twitter:card" content="summary_large_image">{% else %}<meta name="twitter:card" content="summary">{% endif %}
-<meta name="theme-color" content="#c2410c">
+<meta property="og:image:alt" content="{{ post.image_alt if post is defined else site.title }}">
+<meta name="twitter:card" content="summary_large_image">
+{% else %}<meta name="twitter:card" content="summary">{% endif %}
+<meta name="twitter:title" content="{{ og_title }}">
+<meta name="twitter:description" content="{{ meta_description }}">
+<meta name="theme-color" content="#b91c1c" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="{{ url('/favicon.svg') }}" type="image/svg+xml">
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ url('/rss.xml') }}">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600;700&display=swap">
+{% if feed is defined and feed %}<link rel="alternate" type="application/rss+xml" title="{{ heading }} | {{ site.title }}" href="{{ url(feed) }}">{% endif %}
+<link rel="preload" as="font" type="font/woff2" href="{{ url('/fonts/noto-sans-devanagari-400.woff2') }}" crossorigin>
 <link rel="stylesheet" href="{{ url('/style.css') }}">
+{% if ld is defined and ld %}<script type="application/ld+json">{{ ld | safe }}</script>{% endif %}
 {% block head %}{% endblock %}
+{% if site.ga4_id %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga4_id }}"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','{{ site.ga4_id }}');</script>
+{% endif %}
 </head>
 <body>
 <a class="skip" href="#main">मुख्य मजकुराकडे जा</a>
 <header class="top">
   <div class="wrap bar">
-    <a class="brand" href="{{ url('/') }}"><span class="logo" aria-hidden="true">म</span>{{ site.title }}</a>
-    <nav aria-label="मुख्य मेनू">
-      {% for slug, c in categories.items() %}<a href="{{ url('/category/' ~ slug ~ '/') }}">{{ c.name }}</a>{% endfor %}
-
-      <a href="{{ url('/search/') }}">शोधा</a>
+    <a class="brand" href="{{ url('/') }}"><span class="logo" aria-hidden="true">म</span><span class="brand-name">{{ site.title }}</span></a>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="मेनू उघडा">
+      <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+    </button>
+    <nav id="menu" class="menu" aria-label="मुख्य मेनू">
+      <a href="{{ url('/') }}">मुख्यपृष्ठ</a>
+      {% for slug, c in nav_cats.items() %}<a class="n-{{ slug }}" href="{{ url(cat_url(slug)) }}">{{ c.name }}</a>{% endfor %}
+      <a href="{{ url('/trending/') }}">ट्रेंडिंग</a>
+      <a class="nav-search" href="{{ url('/search/') }}" aria-label="शोधा">शोधा</a>
     </nav>
   </div>
 </header>
-<main id="main" class="wrap">
+<main id="main">
 {% block content %}{% endblock %}
 </main>
 <footer class="foot">
-  <div class="wrap">
-    <p><strong>{{ site.title }}</strong>: {{ site.tagline }}</p>
-    <p class="small">या ब्लॉगवरील लेख AI च्या मदतीने तयार केले जातात आणि शक्य तेथे स्रोतांसह प्रकाशित होतात. चूक आढळल्यास कळवा.</p>
-    <p class="small">
-      <a href="{{ url('/about/') }}">आमच्याबद्दल</a> ·
-      <a href="{{ url('/disclaimer/') }}">अस्वीकरण</a> ·
-      <a href="{{ url('/privacy/') }}">गोपनीयता धोरण</a> ·
-      {% if site.contact_email %}<a href="{{ url('/contact/') }}">संपर्क</a> · {% endif %}
-
-      <a href="{{ url('/archive/') }}">सर्व लेख</a> ·
-      <a href="{{ url('/rss.xml') }}">RSS</a>
-    </p>
+  <div class="wrap foot-grid">
+    <div>
+      <p class="foot-brand"><span class="logo" aria-hidden="true">म</span> <strong>{{ site.title }}</strong></p>
+      <p class="small">{{ site.tagline }}</p>
+      <p class="small">या ब्लॉगवरील लेख AI च्या मदतीने तयार केले जातात आणि शक्य तेथे स्रोतांसह प्रकाशित होतात. चूक आढळल्यास कळवा.</p>
+    </div>
+    <div>
+      <h2 class="foot-h">विभाग</h2>
+      <ul class="foot-list">
+        {% for slug, c in nav_cats.items() %}<li><a href="{{ url(cat_url(slug)) }}">{{ c.name }}</a></li>{% endfor %}
+      </ul>
+    </div>
+    <div>
+      <h2 class="foot-h">साइटविषयी</h2>
+      <ul class="foot-list">
+        <li><a href="{{ url('/about/') }}">आमच्याबद्दल</a></li>
+        {% if site.contact_email %}<li><a href="{{ url('/contact/') }}">संपर्क</a></li>{% endif %}
+        <li><a href="{{ url('/disclaimer/') }}">अस्वीकरण</a></li>
+        <li><a href="{{ url('/privacy/') }}">गोपनीयता धोरण</a></li>
+        {% if has_page('terms') %}<li><a href="{{ url('/terms/') }}">वापराच्या अटी</a></li>{% endif %}
+        <li><a href="{{ url('/archive/') }}">सर्व लेख</a></li>
+        <li><a href="{{ url('/rss.xml') }}">RSS</a></li>
+      </ul>
+    </div>
   </div>
+  <div class="wrap"><p class="small copy">© {{ now.year | mr_num }} {{ site.title }}</p></div>
 </footer>
+<script>
+(function(){var b=document.querySelector('.burger'),m=document.getElementById('menu');if(!b||!m)return;
+b.addEventListener('click',function(){var o=b.getAttribute('aria-expanded')==='true';b.setAttribute('aria-expanded',String(!o));
+b.setAttribute('aria-label',o?'मेनू उघडा':'मेनू बंद करा');m.classList.toggle('open',!o)})})();
+</script>
 </body>
 </html>
