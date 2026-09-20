@@ -5,8 +5,8 @@ date: "2026-09-20T08:30:00+05:30"
 category: finance
 slug: what-is-sip-beginners-guide
 tags: [SIP, म्युच्युअल फंड, गुंतवणूक, बचत, नवशिके]
-image_prompt: "A small green plant growing out of a stack of coins beside a calendar and gently rising bars, steady monthly saving concept"
-image_alt: "नाण्यांच्या ढिगातून उगवणारे रोपटे आणि कॅलेंडर, दर महिन्याच्या बचतीचे प्रतीकात्मक चित्र"
+image_prompt: "A young woman sitting at a kitchen table in the morning, looking at her phone with a notebook and a cup of tea, planning her monthly savings at home"
+image_alt: "सकाळी घरी स्वयंपाकघरातील टेबलवर बसून मोबाइल आणि वहीत मासिक बचतीचे नियोजन करणारी तरुणी"
 sources:
   - name: "AMFI: Investor Corner"
     url: "https://www.amfiindia.com/investor"

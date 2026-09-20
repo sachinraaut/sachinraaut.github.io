@@ -5,8 +5,8 @@ date: "2026-09-20T06:30:00+05:30"
 category: news
 slug: upi-mdr-explained
 tags: [UPI, MDR, NPCI, डिजिटल पेमेंट, व्यापारी]
-image_prompt: "A smartphone showing a green payment success tick next to a small shop counter with a QR code stand and a few coins, digital payments in India"
-image_alt: "UPI पेमेंट दाखवणारा मोबाइल, दुकानातील QR कोड स्टँड आणि नाणी यांचे प्रतीकात्मक चित्र"
+image_prompt: "A small shopkeeper behind a counter of a neighbourhood store handing back change while a customer pays using a phone beside a QR code stand"
+image_alt: "दुकानाच्या काउंटरवर QR कोड स्टँडजवळ मोबाइलने पेमेंट करणारा ग्राहक आणि दुकानदार"
 sources:
   - name: "NPCI FAQ: Merchant Discount Rate (MDR) on Select UPI (P2M) Transactions (वित्तीय सेवा विभाग)"
     url: "https://financialservices.gov.in/sites/default/files/2026-09/FAQs---Merchant-Discount-Rate--MDR--on-Select-UPI--P2M--Transactions_0.pdf"

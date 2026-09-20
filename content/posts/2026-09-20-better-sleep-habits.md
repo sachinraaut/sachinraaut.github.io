@@ -5,8 +5,8 @@ date: "2026-09-20T09:30:00+05:30"
 category: health
 slug: better-sleep-habits
 tags: [झोप, आरोग्य, निद्रानाश, जीवनशैली, तणाव]
-image_prompt: "A calm bedroom at night with a crescent moon in the window, a soft blue lamp, a pillow and a cup of tea, peaceful sleep concept"
-image_alt: "चंद्रकोर, दिवा आणि उशी असलेली शांत बेडरूम, चांगल्या झोपेचे प्रतीकात्मक चित्र"
+image_prompt: "A woman sleeping peacefully in a dimly lit bedroom at night, soft warm lamp glow, tidy calm room, restful quiet scene"
+image_alt: "रात्री मंद दिव्याच्या उजेडात शांतपणे झोपलेली स्त्री, निवांत आणि शांत बेडरूम"
 sources:
   - name: "CDC: About Sleep"
     url: "https://www.cdc.gov/sleep/about/index.html"

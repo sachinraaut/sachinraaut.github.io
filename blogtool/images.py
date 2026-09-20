@@ -28,9 +28,10 @@ W, H = 1200, 630
 IMG_DIR = Path("static/images/posts")
 MANIFEST = Path("data/images.json")
 FONT_DIR = Path("assets/fonts")
-STYLE_PREFIX = "Flat vector editorial illustration, simple shapes, "
-STYLE_SUFFIX = (", warm saffron and deep blue palette, clean uncluttered composition, no text, no letters, no numbers, "
-                "no logos, no watermark, no people, no faces")
+STYLE_PREFIX = "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, "
+STYLE_SUFFIX = (", photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, "
+                "no logos, no brand names, no watermark, ordinary anonymous people only, "
+                "no celebrities, no politicians, no public figures, no medical procedures, no injuries")
 PROMPT_OK = re.compile(r"^[A-Za-z0-9 ,.'\-()]{15,300}$")
 CHROME_CANDIDATES = ["google-chrome", "google-chrome-stable", "chromium", "chromium-browser",
                      "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"]

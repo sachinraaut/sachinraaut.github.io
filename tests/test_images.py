@@ -56,7 +56,7 @@ def site_posts(blog, **posts):
 def test_sanitize_prompt_wraps_style_and_safety_words():
     p = images.sanitize_prompt(PROMPT)
     assert p.startswith(images.STYLE_PREFIX) and PROMPT in p
-    for word in ("no text", "no people", "no faces", "no logos"):
+    for word in ("no text", "no logos", "no watermark", "no celebrities", "no politicians"):
         assert word in p
 
 

@@ -53,10 +53,18 @@ Set `date` to those times of the target day. The site publishes each post when i
 ## Image rules (every new post gets `image_prompt` and `image_alt`)
 
 A free AI model (or, when it is unavailable, an automatically designed title card) creates the picture after you push.
-- `image_prompt`: English, 15-300 characters of plain letters, describing a **simple symbolic scene made of objects**
-  (phone, coins, plant, lamp, shield, calendar, medical-free wellness items...). The pipeline adds the style and safety wording.
-- **Never** describe: people or faces, real persons, politicians, brands or logos, flags or religious symbols, text or numbers,
-  violence, injuries, disasters, or medical/body imagery. For news, stay abstract (e.g. "digital payment icons").
+The house style is a **candid documentary photograph** of an everyday Indian scene, so pictures feel human rather than
+diagrammatic. The pipeline adds the photographic style and the safety wording.
+- `image_prompt`: English, 15-300 characters of plain letters, describing **one ordinary person (or two) doing something
+  real**, with a setting and a light: "a young woman at a kitchen table checking her phone with a notebook, morning light",
+  "a shopkeeper handing back change at a small counter". Describe them only in generic terms (a young woman, a middle aged
+  man, a shopkeeper, a farmer) - never a name, never a specific real individual.
+- **Never** describe: real or recognisable persons, politicians, celebrities, brands or logos, flags or religious symbols,
+  text or numbers, violence, injuries, disasters, medical procedures or body/medical imagery. Children only in wide, safe,
+  fully clothed everyday scenes.
+- **News posts:** the picture is illustrative, never evidence. Never depict the actual event, scene or people from the
+  story (no crash sites, no crowds at the real protest, no named person). Use a calm, generic scene related to the theme.
+  Every AI picture is captioned on the page as AI-generated and not a real photograph.
 - `image_alt`: 5-160 characters of Marathi describing the picture for screen readers.
 
 ## Quality and SEO checklist
