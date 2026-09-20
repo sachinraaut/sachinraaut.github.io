@@ -53,19 +53,30 @@ Set `date` to those times of the target day. The site publishes each post when i
 ## Image rules (every new post gets `image_prompt` and `image_alt`)
 
 A free AI model (or, when it is unavailable, an automatically designed title card) creates the picture after you push.
-The house style is a **candid documentary photograph** of an everyday Indian scene, so pictures feel human rather than
-diagrammatic. The pipeline adds the photographic style and the safety wording.
-- `image_prompt`: English, 15-300 characters of plain letters, describing **one ordinary person (or two) doing something
-  real**, with a setting and a light: "a young woman at a kitchen table checking her phone with a notebook, morning light",
-  "a shopkeeper handing back change at a small counter". Describe them only in generic terms (a young woman, a middle aged
-  man, a shopkeeper, a farmer) - never a name, never a specific real individual.
+**The style depends on the category, and the pipeline chooses it - you only describe the scene.**
+
+| Category | Style the pipeline applies | So write a prompt about... |
+|---|---|---|
+| `tech`, `finance`, `health` | candid documentary photograph | one ordinary person (or two) doing something real |
+| `news` | flat vector illustration, no people | objects and symbols only |
+
+**For tech, finance and health** (photograph): describe a person, a setting and a light - "a young woman at a kitchen
+table checking her phone with a notebook, morning light", "a shopkeeper handing back change at a small counter".
+Describe people only in generic terms (a young woman, a middle aged man, a shopkeeper, a farmer) - never a name, never
+a specific real individual.
+
+**For news** (illustration): describe a simple symbolic scene made of objects (a ballot box, a rain cloud over rooftops,
+digital payment icons). A photograph beside a news story reads as a photograph *of* that story, which is why news keeps
+the drawn style - do not ask for people, faces or a photographic look, the pipeline strips them anyway. Never depict the
+actual event, scene or people from the story: no crash sites, no crowds at the real protest, no named person.
+
+Rules for every category:
+- `image_prompt`: English, 15-300 characters of plain letters (letters, digits, `, . ' - ( )`).
 - **Never** describe: real or recognisable persons, politicians, celebrities, brands or logos, flags or religious symbols,
   text or numbers, violence, injuries, disasters, medical procedures or body/medical imagery. Children only in wide, safe,
   fully clothed everyday scenes.
-- **News posts:** the picture is illustrative, never evidence. Never depict the actual event, scene or people from the
-  story (no crash sites, no crowds at the real protest, no named person). Use a calm, generic scene related to the theme.
-  Every AI picture is captioned on the page as AI-generated and not a real photograph.
 - `image_alt`: 5-160 characters of Marathi describing the picture for screen readers.
+- Every AI picture is captioned on the page as AI-generated and not a real photograph.
 
 ## Quality and SEO checklist
 

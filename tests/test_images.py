@@ -54,10 +54,24 @@ def site_posts(blog, **posts):
 
 # ---------------------------------------------------------------- prompt safety
 def test_sanitize_prompt_wraps_style_and_safety_words():
-    p = images.sanitize_prompt(PROMPT)
-    assert p.startswith(images.STYLE_PREFIX) and PROMPT in p
+    p = images.sanitize_prompt(PROMPT, "finance")
+    assert p.startswith(images.PHOTO_STYLE[0]) and PROMPT in p
     for word in ("no text", "no logos", "no watermark", "no celebrities", "no politicians"):
         assert word in p
+
+
+def test_news_prompts_stay_drawn_not_photographic():
+    """A photograph beside a news story would read as evidence of it."""
+    p = images.sanitize_prompt(PROMPT, "news")
+    assert p.startswith(images.DRAWN_STYLE[0]) and PROMPT in p
+    for word in ("no people", "no faces", "no text", "no logos"):
+        assert word in p
+    assert "photorealistic" not in p
+
+
+@pytest.mark.parametrize("category", ["tech", "finance", "health", "", "unknown-category"])
+def test_every_other_category_is_photographic(category):
+    assert images.sanitize_prompt(PROMPT, category).startswith(images.PHOTO_STYLE[0])
 
 
 @pytest.mark.parametrize("bad", ["short", "मराठी वर्णन जे इंग्रजी नाही आहे पण लांब आहे", "x" * 301,
@@ -139,6 +153,20 @@ def test_ai_used_only_with_provider_and_prompt_else_card(blog):
     assert man["no_prompt"] == {"kind": "card"}
     for slug in ("with_prompt", "no_prompt"):
         assert Image.open(blog.root / f"static/images/posts/{slug}.jpg").size == (1200, 630)
+
+
+def test_category_style_reaches_the_provider(blog):
+    blog.add(slug="a-news-story", category="news", extra={"image_prompt": PROMPT})
+    blog.add(slug="a-tech-story", category="tech", extra={"image_prompt": PROMPT})
+    site = load_site(blog.root)
+    prov = FakeProvider()
+    images.ensure_images(blog.root, site, load_posts(blog.root, site, NOW, include_hidden=True), prov,
+                         render=fake_render, log=lambda *_: 0)
+    assert len(prov.calls) == 2
+    news = next(c for c in prov.calls if "no people" in c)
+    assert news.startswith(images.DRAWN_STYLE[0]) and "photorealistic" not in news
+    tech = next(c for c in prov.calls if c is not news)
+    assert tech.startswith(images.PHOTO_STYLE[0]) and "photorealistic" in tech
 
 
 def test_no_provider_gives_cards_and_existing_images_are_kept(blog):

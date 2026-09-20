@@ -28,10 +28,17 @@ W, H = 1200, 630
 IMG_DIR = Path("static/images/posts")
 MANIFEST = Path("data/images.json")
 FONT_DIR = Path("assets/fonts")
-STYLE_PREFIX = "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, "
-STYLE_SUFFIX = (", photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, "
-                "no logos, no brand names, no watermark, ordinary anonymous people only, "
-                "no celebrities, no politicians, no public figures, no medical procedures, no injuries")
+PHOTO_STYLE = ("Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, ",
+               ", photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, "
+               "no logos, no brand names, no watermark, ordinary anonymous people only, "
+               "no celebrities, no politicians, no public figures, no medical procedures, no injuries")
+DRAWN_STYLE = ("Flat vector editorial illustration, simple shapes, ",
+               ", warm saffron and deep blue palette, clean uncluttered composition, no text, no letters, no numbers, "
+               "no logos, no watermark, no people, no faces")
+# A photograph beside a news story reads as evidence of that story, so news keeps the drawn style; every other
+# category gets the photographic one.
+STYLES = {"news": DRAWN_STYLE}
+DEFAULT_STYLE = PHOTO_STYLE
 PROMPT_OK = re.compile(r"^[A-Za-z0-9 ,.'\-()]{15,300}$")
 CHROME_CANDIDATES = ["google-chrome", "google-chrome-stable", "chromium", "chromium-browser",
                      "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"]
@@ -41,12 +48,14 @@ class ImageError(RuntimeError):
     pass
 
 
-def sanitize_prompt(prompt: str) -> str:
-    """The writer's English scene description, wrapped in fixed style + safety wording. Raises if it isn't plain text."""
+def sanitize_prompt(prompt: str, category: str = "") -> str:
+    """The writer's English scene description, wrapped in the category's style + safety wording.
+    Raises if it isn't plain text."""
     p = " ".join(str(prompt).split())
     if not PROMPT_OK.match(p):
         raise ImageError("image_prompt must be 15-300 characters of plain English (letters, digits, , . ' - ( ))")
-    return f"{STYLE_PREFIX}{p}{STYLE_SUFFIX}"
+    prefix, suffix = STYLES.get(category, DEFAULT_STYLE)
+    return f"{prefix}{p}{suffix}"
 
 
 # ---------------------------------------------------------------------------------------------- AI provider
@@ -201,7 +210,7 @@ def ensure_images(root: Path, site: Site, posts: list[Post], provider=None, rend
         data, kind, prompt = None, None, None
         if want_ai:
             try:
-                prompt = sanitize_prompt(p.raw["image_prompt"])
+                prompt = sanitize_prompt(p.raw["image_prompt"], p.category)
                 data, kind = to_banner_jpeg(provider.generate(prompt)), "ai"
             except Exception as exc:
                 stats["ai_failed"] += 1
