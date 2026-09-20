@@ -1,7 +1,22 @@
 {
+ "ai-generated-content-label-india": {
+  "kind": "ai",
+  "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A young woman at a desk looking closely at a video paused on her laptop screen, one hand on the mouse, evening lamp light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
+  "provider": "cloudflare-flux-1-schnell"
+ },
+ "asian-games-2026-india-day-1": {
+  "kind": "ai",
+  "prompt": "Flat vector editorial illustration, simple shapes, Flat symbols of sport arranged simply - a medal on a ribbon, a shooting target with rings, a cricket bat and ball, a hockey stick and a podium with three steps, warm saffron and deep blue palette, clean uncluttered composition, no text, no letters, no numbers, no logos, no watermark, no people, no faces",
+  "provider": "cloudflare-flux-1-schnell"
+ },
  "better-sleep-habits": {
   "kind": "ai",
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A woman sleeping peacefully in a dimly lit bedroom at night, soft warm lamp glow, tidy calm room, restful quiet scene, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
+  "provider": "cloudflare-flux-1-schnell"
+ },
+ "dengue-prevention-warning-signs": {
+  "kind": "ai",
+  "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A young man emptying water from a flowerpot tray in a balcony, plants and a bucket nearby, bright morning light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
   "provider": "cloudflare-flux-1-schnell"
  },
  "upi-fraud-safety-tips": {
@@ -17,6 +32,16 @@
  "what-is-sip-beginners-guide": {
   "kind": "ai",
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A young woman sitting at a kitchen table in the morning, looking at her phone with a notebook and a cup of tea, planning her monthly savings at home, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
+  "provider": "cloudflare-flux-1-schnell"
+ },
+ "whatsapp-bill-payments-india": {
+  "kind": "ai",
+  "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A middle aged man sitting at home on a sofa looking at his phone while holding a paper electricity bill, warm afternoon light through a window, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
+  "provider": "cloudflare-flux-1-schnell"
+ },
+ "zero-balance-bsbd-account-rules": {
+  "kind": "ai",
+  "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A middle aged woman at a bank counter holding a passbook and a form, a pen in her hand, plain daylight interior, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
   "provider": "cloudflare-flux-1-schnell"
  }
 }
