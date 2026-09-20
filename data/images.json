@@ -9,6 +9,11 @@
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A middle aged man standing outside a shop looking closely and cautiously at a payment message on his phone, alert and careful expression, busy street behind him, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
   "provider": "cloudflare-flux-1-schnell"
  },
+ "upi-mdr-explained": {
+  "kind": "ai",
+  "prompt": "Flat vector editorial illustration, simple shapes, A smartphone showing a payment success tick beside a small shop counter with a QR code stand, a few coins and a stack of notes, digital payments in India, warm saffron and deep blue palette, clean uncluttered composition, no text, no letters, no numbers, no logos, no watermark, no people, no faces",
+  "provider": "cloudflare-flux-1-schnell"
+ },
  "what-is-sip-beginners-guide": {
   "kind": "ai",
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A young woman sitting at a kitchen table in the morning, looking at her phone with a notebook and a cup of tea, planning her monthly savings at home, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
