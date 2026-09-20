@@ -1,13 +1,15 @@
 {% extends "base.html" %}
 {% block head %}
-<script type="application/ld+json">{{ {
+{% set ld = {
   "@context": "https://schema.org", "@type": "BlogPosting", "headline": post.title, "description": post.description,
   "inLanguage": site.language, "datePublished": post.date.isoformat(), "dateModified": post.lastmod.isoformat(),
   "mainEntityOfPage": {"@type": "WebPage", "@id": canonical}, "articleSection": cat.name, "keywords": post.tags | join(", "),
   "wordCount": post.words,
   "author": {"@type": "Organization", "name": site.author, "url": abs_url("/")},
   "publisher": {"@type": "Organization", "name": site.title, "url": abs_url("/")}
-} | tojson }}</script>
+} %}
+{% if post.image %}{% set _ = ld.update({"image": [post.image if post.image.startswith('http') else abs_url(post.image)]}) %}{% endif %}
+<script type="application/ld+json">{{ ld | tojson }}</script>
 <script type="application/ld+json">{{ {
   "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
     {"@type": "ListItem", "position": 1, "name": site.title, "item": abs_url("/")},
@@ -24,6 +26,10 @@
     <h1>{{ post.title }}</h1>
     <p class="lead">{{ post.description }}</p>
   </header>
+  {% if post.image %}
+  <figure class="hero-img"><img src="{{ post.image if post.image.startswith('http') else url(post.image) }}" alt="{{ post.image_alt }}" width="1200" height="630" fetchpriority="high">
+    {% if image_kind(post.slug) == 'ai' %}<figcaption>चित्र: AI ने तयार केलेले, प्रतीकात्मक</figcaption>{% endif %}</figure>
+  {% endif %}
   {% if cat.disclaimer %}<aside class="note" role="note"><strong>महत्त्वाची सूचना:</strong> {{ cat.disclaimer }}</aside>{% endif %}
 
   <div class="body">{{ post.html | safe }}</div>

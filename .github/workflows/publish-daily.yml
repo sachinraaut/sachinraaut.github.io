@@ -38,13 +38,22 @@ jobs:
           fi
       - name: Validate posts
         run: python -m blogtool validate
+      - name: Create post images (free AI model if configured, otherwise designed title cards)
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          google-chrome --version || true
+          python -m blogtool images
       - name: Merge into main
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add static data
+          git diff --cached --quiet || git commit -m "Post images"
           git checkout main
           git pull --ff-only origin main
-          git merge --no-edit "origin/${GITHUB_REF_NAME}"
+          git merge --no-edit "${GITHUB_REF_NAME}"
           git push origin main
           git push origin --delete "${GITHUB_REF_NAME}" || true
       - name: Trigger deploy

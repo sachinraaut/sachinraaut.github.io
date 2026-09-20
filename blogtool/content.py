@@ -90,6 +90,10 @@ class Post:
         return f"/posts/{self.slug}/"
 
     @property
+    def image_alt(self) -> str:
+        return str(self.raw.get("image_alt") or self.title)
+
+    @property
     def lastmod(self) -> datetime:
         return self.updated or self.date
 

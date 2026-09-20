@@ -5,6 +5,8 @@ date: "2026-09-20T07:30:00+05:30"
 category: tech
 slug: upi-fraud-safety-tips
 tags: [UPI, सायबर सुरक्षा, ऑनलाइन फसवणूक, डिजिटल पेमेंट, स्मार्टफोन]
+image_prompt: "A smartphone with a large protective shield and a padlock, a warning triangle and a magnifying glass over a payment screen, digital payment security"
+image_alt: "मोबाइलवर सुरक्षा कवच आणि कुलूप, डिजिटल पेमेंट सुरक्षेचे प्रतीकात्मक चित्र"
 sources:
   - name: "राष्ट्रीय सायबर गुन्हे तक्रार पोर्टल (cybercrime.gov.in)"
     url: "https://cybercrime.gov.in/"

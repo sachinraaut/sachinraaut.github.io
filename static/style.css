@@ -35,3 +35,7 @@ h1{line-height:1.35;font-size:1.9rem;margin:.6em 0 .3em}h2{line-height:1.4}h3{li
 input[type=search]{width:100%;padding:12px 14px;font:inherit;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg)}
 .foot{margin-top:60px;border-top:1px solid var(--line);padding:20px 0 40px;background:var(--card)}.foot p{margin:.3em 0}
 @media (max-width:600px){body{font-size:17px}.hero h1{font-size:1.7rem}h1{font-size:1.6rem}}
+
+.thumb{display:block;width:100%;height:auto;aspect-ratio:1200/630;object-fit:cover;border-radius:10px;margin:0 0 10px;background:var(--line)}
+.hero-img{margin:1.2em 0}.hero-img img{display:block;width:100%;height:auto;aspect-ratio:1200/630;object-fit:cover;border-radius:14px;background:var(--line)}
+.hero-img figcaption{font-size:.8rem;color:var(--muted);margin-top:4px}

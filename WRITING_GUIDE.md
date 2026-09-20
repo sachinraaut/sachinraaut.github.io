@@ -7,8 +7,8 @@ Posts must be accurate, useful, sourced, and SEO-friendly. Accuracy beats speed.
 
 0. **Today's date:** run `TZ=Asia/Kolkata date +%F`. Use that (IST) date for the file names and `date:` fields.
 1. `git pull`, then set up: `python -m venv .venv && .venv/bin/pip install -r requirements.txt` (skip if it exists).
-2. `.venv/bin/python -m blogtool topics` (if a feed is blocked in this environment it is listed under `failed_feeds`; then use
-   WebSearch to find today's top stories in that category instead) writes `topics/today.json`. It has, per category, candidate stories (more outlets = more
+2. Read `data/topics-today.json`: a free GitHub Action fetches it at 04:00 IST (this sandbox cannot reach the news feeds itself).
+   Check its `generated_at`; if it is missing or older than 12 hours, use WebSearch to find today's top stories instead. It has, per category, candidate stories (more outlets = more
    prominent), Google Trends searches for India with direct article URLs, and `recent_posts` (do NOT repeat those topics).
 3. Pick **one topic per category**:
    - `news`: the most significant verifiable development in India or the world today. Trending is good, but skip gossip, rumours,
@@ -38,6 +38,8 @@ date: "YYYY-MM-DDT07:30:00+05:30"
 category: news            # tech | finance | health | news
 slug: english-keywords-here
 tags: [टॅग१, टॅग२, टॅग३]   # 3 to 7
+image_prompt: "A smartphone with a shield and padlock, digital payment security"   # English, see Image rules
+image_alt: "मोबाइलवर सुरक्षा कवच आणि कुलूप दाखवणारे प्रतीकात्मक चित्र"                   # Marathi description
 sources:
   - name: "प्रकाशकाचे नाव: लेखाचे शीर्षक"
     url: "https://publisher.example/the-article"   # the publisher's own URL, never a news.google.com redirect
@@ -47,6 +49,15 @@ Markdown body...
 
 Publish times (IST) so posts appear through the day: `news 07:30`, `tech 12:00`, `finance 17:00`, `health 20:00`.
 Set `date` to those times of the target day. The site publishes each post when its time arrives.
+
+## Image rules (every new post gets `image_prompt` and `image_alt`)
+
+A free AI model (or, when it is unavailable, an automatically designed title card) creates the picture after you push.
+- `image_prompt`: English, 15-300 characters of plain letters, describing a **simple symbolic scene made of objects**
+  (phone, coins, plant, lamp, shield, calendar, medical-free wellness items...). The pipeline adds the style and safety wording.
+- **Never** describe: people or faces, real persons, politicians, brands or logos, flags or religious symbols, text or numbers,
+  violence, injuries, disasters, or medical/body imagery. For news, stay abstract (e.g. "digital payment icons").
+- `image_alt`: 5-160 characters of Marathi describing the picture for screen readers.
 
 ## Quality and SEO checklist
 

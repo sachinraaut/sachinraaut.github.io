@@ -22,10 +22,11 @@
 <meta property="article:section" content="{{ cat.name }}">
 {% for t in post.tags %}<meta property="article:tag" content="{{ t }}">{% endfor %}
 
-{% if post.image %}<meta property="og:image" content="{{ post.image if post.image.startswith('http') else abs_url(post.image) }}">{% endif %}
-
 {% endif %}
-<meta name="twitter:card" content="summary">
+{% set og = post.image if (post is defined and post.image) else default_image %}
+{% if og %}<meta property="og:image" content="{{ og if og.startswith('http') else abs_url(og) }}">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">{% else %}<meta name="twitter:card" content="summary">{% endif %}
 <meta name="theme-color" content="#c2410c">
 <link rel="icon" href="{{ url('/favicon.svg') }}" type="image/svg+xml">
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ url('/rss.xml') }}">

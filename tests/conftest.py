@@ -25,8 +25,11 @@ def make_post(slug="test-post", date="2026-09-20T07:30:00+05:30", category="tech
 @pytest.fixture
 def blog(tmp_path):
     """A throwaway blog folder with the real templates/static/site.json and no posts."""
-    for name in ("templates", "static", "content/pages"):
+    for name in ("templates", "static", "content/pages", "assets"):
         shutil.copytree(ROOT / name, tmp_path / name)
+    # start every test without the project's generated images
+    shutil.rmtree(tmp_path / "static" / "images", ignore_errors=True)
+    (tmp_path / "static" / "og-default.jpg").unlink(missing_ok=True)
     shutil.copy(ROOT / "site.json", tmp_path / "site.json")
     shutil.copy(ROOT / "feeds.json", tmp_path / "feeds.json")
     (tmp_path / "content" / "posts").mkdir(parents=True, exist_ok=True)

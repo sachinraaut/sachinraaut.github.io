@@ -66,6 +66,12 @@ def check_post(post: Post, site: Site) -> list[str]:
     for phrase in RISKY.get(post.category, []):
         if phrase in post.body or phrase in post.title:
             e.append(f"risky claim not allowed in {post.category}: {phrase!r}")
+    prompt = post.raw.get("image_prompt")
+    if prompt is not None and not re.match(r"^[A-Za-z0-9 ,.'\-()]{15,300}$", " ".join(str(prompt).split())):
+        e.append("image_prompt must be 15-300 characters of plain English (letters, digits, , . ' - ( ))")
+    alt = post.raw.get("image_alt")
+    if alt is not None and not 5 <= len(str(alt)) <= 160:
+        e.append("image_alt must be 5-160 characters (Marathi description of the picture)")
     if post.image and not (post.image.startswith("/") or urlparse(post.image).scheme in ("http", "https")):
         e.append("image must be a site path or http(s) URL")
     return e

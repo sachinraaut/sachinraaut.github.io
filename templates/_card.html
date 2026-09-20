@@ -1,4 +1,6 @@
 <article class="card">
+  {% if p.image %}<a href="{{ url(p.url_path) }}" tabindex="-1" aria-hidden="true"><img class="thumb" src="{{ p.image if p.image.startswith('http') else url(p.image) }}" alt="" width="1200" height="630" loading="lazy"></a>{% endif %}
+
   <p class="meta"><a class="chip c-{{ p.category }}" href="{{ url('/category/' ~ p.category ~ '/') }}">{{ categories[p.category].name }}</a>
     <time datetime="{{ p.date.isoformat() }}">{{ p.date | mr_date }}</time></p>
   <h3><a href="{{ url(p.url_path) }}">{{ p.title }}</a></h3>

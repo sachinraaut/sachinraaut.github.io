@@ -17,6 +17,9 @@ def main(argv=None) -> int:
     b.add_argument("--base-url", default=os.environ.get("BASE_URL"))
     v = sub.add_parser("validate", help="check every post against the quality/safety rules")
     v.add_argument("--daily", metavar="YYYY-MM-DD", help="also require one post per category for that date")
+    im = sub.add_parser("images", help="create missing post images (AI if a free key is set, else designed cards)")
+    im.add_argument("--upgrade", action="store_true", help="replace designed cards with AI images where possible")
+    im.add_argument("--site-card", action="store_true", help="also (re)create the default social preview image")
     t = sub.add_parser("topics", help="fetch today's trending topics per category into topics/")
     t.add_argument("--out", default=str(ROOT / "topics" / "today.json"))
     s = sub.add_parser("serve", help="build and preview locally on http://127.0.0.1:8000")
@@ -43,6 +46,16 @@ def main(argv=None) -> int:
         n = len(list((ROOT / "content" / "posts").rglob("*.md")))
         print(f"{n} posts checked, {len(problems)} with problems")
         return 1 if problems else 0
+    elif a.cmd == "images":
+        from .content import load_posts, load_site
+        from .images import CloudflareFlux, ensure_images, make_site_card
+        site = load_site(ROOT)
+        provider = CloudflareFlux.from_env()
+        print("AI provider:", provider.name if provider else "none (CLOUDFLARE_ACCOUNT_ID / CLOUDFLARE_API_TOKEN not set): designed cards only")
+        stats = ensure_images(ROOT, site, load_posts(ROOT, site, include_hidden=True), provider, upgrade=a.upgrade)
+        if a.site_card or not (ROOT / "static" / "og-default.jpg").exists():
+            print("site card:", make_site_card(ROOT, site))
+        print("images:", stats)
     elif a.cmd == "topics":
         from .topics import fetch_all
         path = fetch_all(ROOT, Path(a.out))

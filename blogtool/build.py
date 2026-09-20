@@ -22,13 +22,25 @@ class Builder:
         self.now = now or datetime.now(timezone.utc)
         self.out = out or root / "public"
         self.posts = load_posts(root, self.site, self.now)
+        self._resolve_images()
         self.pages = load_pages(root)
         self.env = Environment(loader=FileSystemLoader(str(root / "templates")),
                                autoescape=select_autoescape(["html", "xml"]), trim_blocks=True, lstrip_blocks=True)
         self.env.globals.update(site=self.site, url=self.url, abs_url=self.abs_url, categories=self.site.categories,
                                 pages=self.pages, now=self.now)
+        self.env.globals["image_kind"] = lambda slug: self.image_kind.get(slug, {}).get("kind", "")
+        self.env.globals["default_image"] = self.default_image
         self.env.filters.update(mr_date=mr.date, mr_num=mr.num, month_year=mr.month_year)
         self.written: list[str] = []
+
+    def _resolve_images(self) -> None:
+        """Use an explicit front-matter `image`, else the generated static/images/posts/<slug>.jpg if it exists."""
+        manifest_file = self.root / "data" / "images.json"
+        self.image_kind = json.loads(manifest_file.read_text(encoding="utf-8")) if manifest_file.exists() else {}
+        for p in self.posts:
+            if not p.image and (self.root / "static" / "images" / "posts" / f"{p.slug}.jpg").exists():
+                p.image = f"/images/posts/{p.slug}.jpg"
+        self.default_image = "/og-default.jpg" if (self.root / "static" / "og-default.jpg").exists() else ""
 
     # -- urls
     def url(self, path: str) -> str:

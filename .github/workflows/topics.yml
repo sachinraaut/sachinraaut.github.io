@@ -1,0 +1,33 @@
+name: Fetch daily topics
+
+# The cloud writer cannot reach the news feeds (its network policy blocks them), so this free GitHub-hosted job
+# fetches them each night and commits the brief for the writer to read at data/topics-today.json.
+on:
+  schedule:
+    - cron: "30 22 * * *"      # 04:00 IST, an hour before the writer runs
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: topics
+  cancel-in-progress: false
+
+jobs:
+  topics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m blogtool topics --out data/topics-today.json
+      - name: Commit the brief
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/topics-today.json
+          git diff --cached --quiet || (git commit -m "Daily topics brief" && git pull --rebase origin main && git push origin main)
