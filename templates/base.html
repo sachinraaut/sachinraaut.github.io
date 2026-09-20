@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="{{ site.language }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page_title }}</title>
+<meta name="description" content="{{ meta_description }}">
+<link rel="canonical" href="{{ canonical }}">
+{% if noindex %}<meta name="robots" content="noindex, follow">{% else %}<meta name="robots" content="index, follow, max-image-preview:large">{% endif %}
+
+{% if site.google_site_verification %}<meta name="google-site-verification" content="{{ site.google_site_verification }}">{% endif %}
+
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:locale" content="{{ site.locale }}">
+<meta property="og:type" content="{% if post is defined %}article{% else %}website{% endif %}">
+<meta property="og:title" content="{{ page_title }}">
+<meta property="og:description" content="{{ meta_description }}">
+<meta property="og:url" content="{{ canonical }}">
+{% if post is defined %}
+<meta property="article:published_time" content="{{ post.date.isoformat() }}">
+<meta property="article:modified_time" content="{{ post.lastmod.isoformat() }}">
+<meta property="article:section" content="{{ cat.name }}">
+{% for t in post.tags %}<meta property="article:tag" content="{{ t }}">{% endfor %}
+
+{% if post.image %}<meta property="og:image" content="{{ post.image if post.image.startswith('http') else abs_url(post.image) }}">{% endif %}
+
+{% endif %}
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#c2410c">
+<link rel="icon" href="{{ url('/favicon.svg') }}" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ url('/rss.xml') }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="{{ url('/style.css') }}">
+{% block head %}{% endblock %}
+</head>
+<body>
+<a class="skip" href="#main">मुख्य मजकुराकडे जा</a>
+<header class="top">
+  <div class="wrap bar">
+    <a class="brand" href="{{ url('/') }}"><span class="logo" aria-hidden="true">म</span>{{ site.title }}</a>
+    <nav aria-label="मुख्य मेनू">
+      {% for slug, c in categories.items() %}<a href="{{ url('/category/' ~ slug ~ '/') }}">{{ c.name }}</a>{% endfor %}
+
+      <a href="{{ url('/search/') }}">शोधा</a>
+    </nav>
+  </div>
+</header>
+<main id="main" class="wrap">
+{% block content %}{% endblock %}
+</main>
+<footer class="foot">
+  <div class="wrap">
+    <p><strong>{{ site.title }}</strong>: {{ site.tagline }}</p>
+    <p class="small">या ब्लॉगवरील लेख AI च्या मदतीने तयार केले जातात आणि शक्य तेथे स्रोतांसह प्रकाशित होतात. चूक आढळल्यास कळवा.</p>
+    <p class="small">
+      <a href="{{ url('/about/') }}">आमच्याबद्दल</a> ·
+      <a href="{{ url('/disclaimer/') }}">अस्वीकरण</a> ·
+      <a href="{{ url('/privacy/') }}">गोपनीयता धोरण</a> ·
+      {% if site.contact_email %}<a href="{{ url('/contact/') }}">संपर्क</a> · {% endif %}
+
+      <a href="{{ url('/archive/') }}">सर्व लेख</a> ·
+      <a href="{{ url('/rss.xml') }}">RSS</a>
+    </p>
+  </div>
+</footer>
+</body>
+</html>

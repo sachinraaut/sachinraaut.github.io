@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block head %}
+<script type="application/ld+json">{{ {"@context": "https://schema.org", "@type": "WebSite", "name": site.title, "url": abs_url("/"), "inLanguage": site.language, "description": site.description} | tojson }}</script>
+{% endblock %}
+{% block content %}
+<section class="hero">
+  <h1>{{ site.title }}</h1>
+  <p>{{ site.tagline }}</p>
+</section>
+{% if posts %}
+<h2 class="sec">ताजे लेख</h2>
+<div class="grid">
+{% for p in posts %}{% include "_card.html" %}{% endfor %}
+</div>
+{% for slug, c in categories.items() %}
+  {% if by_cat.get(slug) %}
+  <h2 class="sec c-{{ slug }}-h"><a href="{{ url('/category/' ~ slug ~ '/') }}">{{ c.name }}</a></h2>
+  <div class="grid">
+  {% for p in by_cat[slug][:3] %}{% include "_card.html" %}{% endfor %}
+  </div>
+  {% endif %}
+{% endfor %}
+<p class="more"><a href="{{ url('/archive/') }}">सर्व {{ total | mr_num }} लेख पाहा →</a></p>
+{% else %}
+<p>लवकरच नवीन लेख येथे प्रकाशित होतील.</p>
+{% endif %}
+{% endblock %}

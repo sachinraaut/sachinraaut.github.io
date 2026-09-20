@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block head %}
+{% if page > 1 %}<link rel="prev" href="{{ abs_url(base if page == 2 else base ~ 'page/' ~ (page - 1) ~ '/') }}">{% endif %}
+
+{% if page < pages %}<link rel="next" href="{{ abs_url(base ~ 'page/' ~ (page + 1) ~ '/') }}">{% endif %}
+
+{% endblock %}
+{% block content %}
+<h1 class="c-{{ cat_slug }}-h">{{ heading }}</h1>
+<p class="lead">{{ intro }}</p>
+{% if posts %}
+<div class="grid">{% for p in posts %}{% include "_card.html" %}{% endfor %}</div>
+{% else %}<p>या विभागात लवकरच लेख येतील.</p>{% endif %}
+
+{% if pages > 1 %}
+<nav class="pager" aria-label="पाने">
+  {% if page > 1 %}<a href="{{ url(base if page == 2 else base ~ 'page/' ~ (page - 1) ~ '/') }}">← नवीन लेख</a>{% endif %}
+  <span>पान {{ page | mr_num }} / {{ pages | mr_num }}</span>
+  {% if page < pages %}<a href="{{ url(base ~ 'page/' ~ (page + 1) ~ '/') }}">जुने लेख →</a>{% endif %}
+</nav>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block head %}
+<script type="application/ld+json">{{ {
+  "@context": "https://schema.org", "@type": "BlogPosting", "headline": post.title, "description": post.description,
+  "inLanguage": site.language, "datePublished": post.date.isoformat(), "dateModified": post.lastmod.isoformat(),
+  "mainEntityOfPage": {"@type": "WebPage", "@id": canonical}, "articleSection": cat.name, "keywords": post.tags | join(", "),
+  "wordCount": post.words,
+  "author": {"@type": "Organization", "name": site.author, "url": abs_url("/")},
+  "publisher": {"@type": "Organization", "name": site.title, "url": abs_url("/")}
+} | tojson }}</script>
+<script type="application/ld+json">{{ {
+  "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": site.title, "item": abs_url("/")},
+    {"@type": "ListItem", "position": 2, "name": cat.name, "item": abs_url("/category/" ~ post.category ~ "/")},
+    {"@type": "ListItem", "position": 3, "name": post.title, "item": canonical}]
+} | tojson }}</script>
+{% endblock %}
+{% block content %}
+<nav class="crumbs" aria-label="मार्ग"><a href="{{ url('/') }}">मुख्यपृष्ठ</a> › <a href="{{ url('/category/' ~ post.category ~ '/') }}">{{ cat.name }}</a></nav>
+<article class="post">
+  <header>
+    <p class="meta"><a class="chip c-{{ post.category }}" href="{{ url('/category/' ~ post.category ~ '/') }}">{{ cat.name }}</a>
+      <time datetime="{{ post.date.isoformat() }}">{{ post.date | mr_date }}</time> · वाचन वेळ: {{ post.minutes | mr_num }} मिनिटे</p>
+    <h1>{{ post.title }}</h1>
+    <p class="lead">{{ post.description }}</p>
+  </header>
+  {% if cat.disclaimer %}<aside class="note" role="note"><strong>महत्त्वाची सूचना:</strong> {{ cat.disclaimer }}</aside>{% endif %}
+
+  <div class="body">{{ post.html | safe }}</div>
+  {% if post.sources %}
+  <section class="sources"><h2>संदर्भ / स्रोत</h2>
+    <ul>{% for s in post.sources %}<li><a href="{{ s.url }}" rel="noopener nofollow" target="_blank">{{ s.name }}</a></li>{% endfor %}</ul>
+  </section>
+  {% endif %}
+  {% if post.tags %}<p class="tags">{% for t in post.tags %}<span>#{{ t }}</span> {% endfor %}</p>{% endif %}
+
+  {% if post.ai_assisted %}<p class="small ai">हा लेख AI च्या मदतीने तयार केला आहे. चूक आढळल्यास कृपया कळवा.</p>{% endif %}
+
+</article>
+{% if related %}
+<section><h2 class="sec">हेही वाचा</h2>
+<div class="grid">{% for p in related %}{% include "_card.html" %}{% endfor %}</div></section>
+{% endif %}
+{% endblock %}

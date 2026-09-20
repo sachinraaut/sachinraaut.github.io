@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>लेख शोधा</h1>
+<form onsubmit="return false" role="search"><input id="q" type="search" placeholder="उदा. UPI, झोप, गुंतवणूक" aria-label="शोध" autofocus></form>
+<ul id="results" class="archive" aria-live="polite"></ul>
+<script>window.SEARCH_INDEX = "{{ url('/search.json') }}";</script>
+<script src="{{ url('/search.js') }}" defer></script>
+{% endblock %}

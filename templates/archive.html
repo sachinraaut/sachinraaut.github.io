@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>सर्व लेख</h1>
+{% for ym, items in months %}
+<h2 class="sec">{{ items[0].date | month_year }}</h2>
+<ul class="archive">{% for p in items %}
+  <li><time datetime="{{ p.date.isoformat() }}">{{ p.date.day | mr_num }}</time>
+      <a href="{{ url(p.url_path) }}">{{ p.title }}</a>
+      <span class="chip c-{{ p.category }}">{{ categories[p.category].name }}</span></li>
+{% endfor %}</ul>
+{% else %}<p>अजून लेख नाहीत.</p>
+{% endfor %}
+{% endblock %}

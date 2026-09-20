@@ -1,0 +1,185 @@
+"""Loading posts and pages from content/ (Markdown with YAML front matter)."""
+from __future__ import annotations
+
+import json
+import re
+from dataclasses import dataclass, field
+from datetime import datetime, timezone, timedelta
+from pathlib import Path
+
+import markdown
+import yaml
+
+from . import mr
+
+FRONT = re.compile(r"\A---\s*\n(.*?)\n---\s*\n?(.*)\Z", re.S)
+
+
+@dataclass
+class Site:
+    title: str
+    tagline: str
+    description: str
+    author: str
+    base_url: str
+    language: str = "mr"
+    locale: str = "mr_IN"
+    timezone_offset: str = "+05:30"
+    contact_email: str = ""
+    google_site_verification: str = ""
+    custom_domain: str = ""
+    posts_per_page: int = 12
+    categories: dict = field(default_factory=dict)
+
+    @property
+    def base_path(self) -> str:
+        """URL path prefix, e.g. '/repo' for project pages, '' for user pages or a custom domain."""
+        from urllib.parse import urlparse
+        return urlparse(self.base_url).path.rstrip("/")
+
+    @property
+    def origin(self) -> str:
+        from urllib.parse import urlparse
+        u = urlparse(self.base_url)
+        return f"{u.scheme}://{u.netloc}"
+
+    def tz(self) -> timezone:
+        sign = -1 if self.timezone_offset.startswith("-") else 1
+        h, m = self.timezone_offset.lstrip("+-").split(":")
+        return timezone(sign * timedelta(hours=int(h), minutes=int(m)))
+
+
+def load_site(root: Path, base_url: str | None = None) -> Site:
+    raw = json.loads((root / "site.json").read_text(encoding="utf-8"))
+    if base_url:
+        raw["base_url"] = base_url
+    if raw.get("custom_domain") and not base_url:
+        raw["base_url"] = f"https://{raw['custom_domain']}"
+    raw["base_url"] = raw["base_url"].rstrip("/")
+    return Site(**raw)
+
+
+@dataclass
+class Post:
+    slug: str
+    title: str
+    description: str
+    date: datetime
+    category: str
+    tags: list
+    sources: list
+    body: str
+    path: Path
+    updated: datetime | None = None
+    draft: bool = False
+    ai_assisted: bool = True
+    image: str = ""
+    html: str = ""
+    raw: dict = field(default_factory=dict)
+
+    @property
+    def words(self) -> int:
+        return mr.word_count(self.body)
+
+    @property
+    def minutes(self) -> int:
+        return mr.reading_minutes(self.body)
+
+    @property
+    def url_path(self) -> str:
+        return f"/posts/{self.slug}/"
+
+    @property
+    def lastmod(self) -> datetime:
+        return self.updated or self.date
+
+
+class ContentError(ValueError):
+    pass
+
+
+PLAIN_SCALARS = re.compile(r"^(title|description|image|slug|category):[ \t]*(?![\"'|>\[{])(.+?)[ \t]*$", re.M)
+
+
+def _autoquote(block: str) -> str:
+    """Quote plain top-level text fields. A ': ' inside an unquoted Marathi title/description is the most common
+    reason AI-written front matter fails to parse (e.g.  title: UPI: फसवणूक टाळा)."""
+    def q(m):
+        return f'{m.group(1)}: "{m.group(2).replace(chr(92), chr(92) * 2).replace(chr(34), chr(92) + chr(34))}"'
+    return PLAIN_SCALARS.sub(q, block)
+
+
+def parse_front(text: str, path: Path | str = "") -> tuple[dict, str]:
+    m = FRONT.match(text)
+    if not m:
+        raise ContentError(f"{path}: missing YAML front matter (--- ... ---)")
+    try:
+        try:
+            meta = yaml.safe_load(m.group(1)) or {}
+        except yaml.YAMLError:
+            meta = yaml.safe_load(_autoquote(m.group(1))) or {}
+    except yaml.YAMLError as exc:
+        raise ContentError(f"{path}: invalid YAML front matter: {exc}") from exc
+    if not isinstance(meta, dict):
+        raise ContentError(f"{path}: front matter must be a mapping")
+    return meta, m.group(2).strip()
+
+
+def _dt(value, site: Site, path) -> datetime:
+    if isinstance(value, datetime):
+        d = value
+    else:
+        try:
+            d = datetime.fromisoformat(str(value))
+        except ValueError as exc:
+            raise ContentError(f"{path}: invalid date {value!r} (use e.g. 2026-09-20T07:30:00+05:30)") from exc
+    return d if d.tzinfo else d.replace(tzinfo=site.tz())
+
+
+def render_markdown(body: str) -> str:
+    md = markdown.Markdown(extensions=["extra", "sane_lists", "smarty"],
+                           extension_configs={"smarty": {"smart_quotes": False}})
+    return md.convert(body)
+
+
+def load_post(path: Path, site: Site) -> Post:
+    meta, body = parse_front(path.read_text(encoding="utf-8"), path)
+    for key in ("title", "description", "date", "category", "slug"):
+        if not meta.get(key):
+            raise ContentError(f"{path}: missing front matter field '{key}'")
+    p = Post(slug=str(meta["slug"]), title=str(meta["title"]).strip(), description=str(meta["description"]).strip(),
+             date=_dt(meta["date"], site, path), category=str(meta["category"]),
+             tags=[str(t) for t in (meta.get("tags") or [])], sources=list(meta.get("sources") or []),
+             body=body, path=path, updated=_dt(meta["updated"], site, path) if meta.get("updated") else None,
+             draft=bool(meta.get("draft", False)), ai_assisted=bool(meta.get("ai_assisted", True)),
+             image=str(meta.get("image", "") or ""), raw=meta)
+    p.html = render_markdown(body)
+    return p
+
+
+def load_posts(root: Path, site: Site, now: datetime | None = None, include_hidden: bool = False) -> list[Post]:
+    """All posts, newest first. Drafts and posts dated in the future are hidden unless include_hidden."""
+    now = now or datetime.now(timezone.utc)
+    posts = [load_post(p, site) for p in sorted((root / "content" / "posts").rglob("*.md"))]
+    if not include_hidden:
+        posts = [p for p in posts if not p.draft and p.date <= now]
+    return sorted(posts, key=lambda p: p.date, reverse=True)
+
+
+@dataclass
+class Page:
+    slug: str
+    title: str
+    description: str
+    html: str
+    body: str
+
+
+def load_pages(root: Path) -> dict[str, Page]:
+    out = {}
+    d = root / "content" / "pages"
+    for path in sorted(d.glob("*.md")) if d.exists() else []:
+        meta, body = parse_front(path.read_text(encoding="utf-8"), path)
+        out[path.stem] = Page(path.stem, str(meta.get("title", path.stem)), str(meta.get("description", "")),
+                              render_markdown(body), body)
+    return out

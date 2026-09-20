@@ -1,0 +1,53 @@
+name: Publish daily posts
+
+# The daily writer (a cloud Claude routine) pushes to a `claude/...` branch. This workflow checks that the branch
+# ONLY adds/changes posts, validates them, merges into main and triggers a deploy. A branch that touches anything
+# else (code, workflows, settings) is rejected and never reaches the live site.
+on:
+  push:
+    branches: ["claude/**"]
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: publish-daily
+  cancel-in-progress: false
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Only content/posts may change
+        run: |
+          git fetch origin main
+          changed=$(git diff --name-only origin/main...HEAD)
+          echo "Changed files:"; echo "$changed"
+          bad=$(echo "$changed" | grep -v '^content/posts/[^/]*\.md$' | grep -v '^$' || true)
+          if [ -n "$bad" ]; then
+            echo "::error::Branch changes files outside content/posts/. Refusing to merge:"; echo "$bad"; exit 1
+          fi
+      - name: Validate posts
+        run: python -m blogtool validate
+      - name: Merge into main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout main
+          git pull --ff-only origin main
+          git merge --no-edit "origin/${GITHUB_REF_NAME}"
+          git push origin main
+          git push origin --delete "${GITHUB_REF_NAME}" || true
+      - name: Trigger deploy
+        run: gh workflow run deploy.yml --ref main
+        env:
+          GH_TOKEN: ${{ github.token }}

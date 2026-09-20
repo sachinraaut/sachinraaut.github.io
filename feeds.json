@@ -1,0 +1,92 @@
+{
+  "note": "Free public feeds only. Edit freely: add/remove feeds per category. 'lang' is informational.",
+  "categories": {
+    "tech": [
+      {
+        "name": "Google News: तंत्रज्ञान (मराठी)",
+        "lang": "mr",
+        "url": "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=mr&gl=IN&ceid=IN:mr"
+      },
+      {
+        "name": "Google News: Technology (India)",
+        "lang": "en",
+        "url": "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=en-IN&gl=IN&ceid=IN:en"
+      },
+      {
+        "name": "The Hindu: Technology",
+        "lang": "en",
+        "url": "https://www.thehindu.com/sci-tech/technology/feeder/default.rss"
+      }
+    ],
+    "finance": [
+      {
+        "name": "Google News: व्यवसाय (मराठी)",
+        "lang": "mr",
+        "url": "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=mr&gl=IN&ceid=IN:mr"
+      },
+      {
+        "name": "Google News: Business (India)",
+        "lang": "en",
+        "url": "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=en-IN&gl=IN&ceid=IN:en"
+      },
+      {
+        "name": "RBI press releases",
+        "lang": "en",
+        "url": "https://www.rbi.org.in/pressreleases_rss.xml"
+      }
+    ],
+    "health": [
+      {
+        "name": "Google News: आरोग्य (मराठी)",
+        "lang": "mr",
+        "url": "https://news.google.com/rss/headlines/section/topic/HEALTH?hl=mr&gl=IN&ceid=IN:mr"
+      },
+      {
+        "name": "Google News: Health (India)",
+        "lang": "en",
+        "url": "https://news.google.com/rss/headlines/section/topic/HEALTH?hl=en-IN&gl=IN&ceid=IN:en"
+      }
+    ],
+    "news": [
+      {
+        "name": "Google News: भारत (मराठी)",
+        "lang": "mr",
+        "url": "https://news.google.com/rss?hl=mr&gl=IN&ceid=IN:mr"
+      },
+      {
+        "name": "Google News: जग (मराठी)",
+        "lang": "mr",
+        "url": "https://news.google.com/rss/headlines/section/topic/WORLD?hl=mr&gl=IN&ceid=IN:mr"
+      },
+      {
+        "name": "ABP माझा",
+        "lang": "mr",
+        "url": "https://marathi.abplive.com/home/feed"
+      },
+      {
+        "name": "PIB (Govt. of India)",
+        "lang": "en",
+        "url": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3"
+      }
+    ]
+  },
+  "trends": {
+    "name": "Google Trends: India",
+    "url": "https://trends.google.com/trending/rss?geo=IN"
+  },
+  "max_age_hours": 48,
+  "per_category": 15,
+  "exclude_sources": [
+    "Cureus",
+    "PubMed",
+    "Medscape",
+    "ScienceDirect",
+    "Frontiers",
+    "MDPI",
+    "Nature",
+    "BMC",
+    "Wiley Online Library",
+    "Oxford Academic",
+    "Springer"
+  ]
+}
