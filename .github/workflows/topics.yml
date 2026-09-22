@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: topics
@@ -31,3 +32,9 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/topics-today.json
           git diff --cached --quiet || (git commit -m "Daily topics brief" && git pull --rebase origin main && git push origin main)
+      - name: Rebuild the site
+        # A push made with GITHUB_TOKEN does not trigger other workflows, so the commit above would otherwise
+        # never rebuild the site. Dispatching deploy.yml gives one guaranteed build a day.
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref main

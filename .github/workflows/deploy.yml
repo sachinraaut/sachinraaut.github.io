@@ -4,7 +4,14 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: "20 * * * *"        # hourly: publishes posts whose scheduled time has arrived
+    # Posts are future-dated (WRITING_GUIDE publish times) and only go live on a build that runs after their
+    # time. GitHub runs scheduled workflows best-effort and drops many under load - the hourly entry alone
+    # fired about once every four hours - so each publish slot gets its own entry a few minutes after it.
+    - cron: "5 2 * * *"         # 07:35 IST, just after the 07:30 technology slot
+    - cron: "35 6 * * *"        # 12:05 IST, just after the 12:00 ai slot
+    - cron: "35 11 * * *"       # 17:05 IST, just after the 17:00 finance slot
+    - cron: "35 14 * * *"       # 20:05 IST, just after the 20:00 health slot
+    - cron: "20 * * * *"        # hourly backstop: publishes posts whose scheduled time has arrived
   workflow_dispatch:
 
 permissions:
