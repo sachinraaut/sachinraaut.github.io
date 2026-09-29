@@ -17,6 +17,12 @@ on:
     types: [completed]
   workflow_dispatch:
     inputs:
+      mode:
+        description: "publish, or diagnose to find out which credential is wrong"
+        required: false
+        default: "publish"
+        type: choice
+        options: [publish, diagnose]
       only:
         description: "comma-separated slugs (blank = every post not yet on Blogger)"
         required: false
@@ -71,8 +77,16 @@ jobs:
             --blog-url "https://marathinazar.blogspot.com" --out migration/out
           mv migration/out/posts.json migration/out/posts-pinned-links.json
 
+      - name: Diagnose credentials
+        if: steps.creds.outputs.ready == 'true' && github.event.inputs.mode == 'diagnose'
+        env:
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+        run: python migration/publish_blogger.py --diagnose
+
       - name: Publish to Blogger
-        if: steps.creds.outputs.ready == 'true'
+        if: steps.creds.outputs.ready == 'true' && github.event.inputs.mode != 'diagnose'
         env:
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
           BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}

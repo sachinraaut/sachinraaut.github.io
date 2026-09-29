@@ -114,6 +114,92 @@ def access_token() -> str:
 DEFAULT_BLOG_ID = "6343443919394120759"
 
 
+def diagnose() -> None:
+    """Work out WHICH credential is wrong, without printing any of them.
+
+    `unauthorized_client` does not say whether the client pair or the refresh token is at fault, so
+    this probes them separately: a deliberately invalid refresh token sent with a VALID client pair
+    comes back `invalid_grant`, while a bad client pair comes back `invalid_client`/
+    `unauthorized_client` regardless of the token. That one extra request splits the two cases.
+    """
+    import urllib.error
+
+    cid = os.environ.get("BLOGGER_CLIENT_ID", "")
+    sec = os.environ.get("BLOGGER_CLIENT_SECRET", "")
+    rt = os.environ.get("BLOGGER_REFRESH_TOKEN", "")
+
+    def shape(name, value, want_prefix=None, want_suffix=None):
+        if not value:
+            print(f"  {name}: MISSING")
+            return
+        notes = [f"{len(value)} chars"]
+        if value != value.strip():
+            notes.append("HAS LEADING/TRAILING WHITESPACE - re-paste it")
+        if want_prefix and not value.startswith(want_prefix):
+            notes.append(f"does NOT start with {want_prefix!r}")
+        if want_suffix and not value.endswith(want_suffix):
+            notes.append(f"does NOT end with {want_suffix!r}")
+        print(f"  {name}: " + "; ".join(notes))
+
+    print("Shape of each secret (values themselves are never printed):")
+    shape("BLOGGER_CLIENT_ID", cid, want_suffix=".apps.googleusercontent.com")
+    shape("BLOGGER_CLIENT_SECRET", sec, want_prefix="GOCSPX-")
+    shape("BLOGGER_REFRESH_TOKEN", rt, want_prefix="1//")
+
+    # The three values people paste by mistake are all instantly recognisable.
+    if rt.startswith("ya29."):
+        print("\n  !! BLOGGER_REFRESH_TOKEN is an ACCESS token, not a refresh token.")
+        print("     In the Playground response, copy the \"refresh_token\" line, not \"access_token\".")
+    elif rt.startswith("4/"):
+        print("\n  !! BLOGGER_REFRESH_TOKEN is an AUTHORIZATION CODE, not a refresh token.")
+        print("     You copied it from Step 1. Click 'Exchange authorization code for tokens' first.")
+
+    def probe(token):
+        data = urllib.parse.urlencode({
+            "client_id": cid, "client_secret": sec,
+            "refresh_token": token, "grant_type": "refresh_token"}).encode()
+        req = urllib.request.Request(TOKEN_URL, data=data, method="POST",
+                                     headers={"Content-Type": "application/x-www-form-urlencoded"})
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                json.loads(r.read().decode())
+                return "OK"
+        except urllib.error.HTTPError as e:
+            try:
+                return json.loads(e.read().decode()).get("error", f"http_{e.code}")
+            except Exception:
+                return f"http_{e.code}"
+
+    print("\nProbing Google's token endpoint:")
+    real = probe(rt)
+    print(f"  with your refresh token      -> {real}")
+    if real == "OK":
+        print("\nVERDICT: all three are correct. Re-run the publish.")
+        return
+    fake = probe("1//0-definitely-not-a-real-token")
+    print(f"  with a deliberately bad one  -> {fake}")
+
+    print("\nVERDICT:")
+    if fake in ("invalid_client", "unauthorized_client"):
+        print("  The CLIENT ID + CLIENT SECRET pair is rejected on its own, so the refresh token is")
+        print("  not the problem. They are almost certainly from two DIFFERENT OAuth clients, or the")
+        print("  client was deleted. Open one client, use 'Add secret', and copy the id and the new")
+        print("  secret from that same page.")
+    elif fake == "invalid_grant":
+        print("  The client id + secret pair is GOOD -- Google accepted them and only rejected the")
+        print("  dummy token. So BLOGGER_REFRESH_TOKEN is the wrong value.")
+        if real == "unauthorized_client":
+            print("  Getting 'unauthorized_client' for your real token means it was issued to a")
+            print("  DIFFERENT client: the OAuth Playground was used without ticking 'Use your own")
+            print("  OAuth credentials' BEFORE authorizing, so the token belongs to Google's demo")
+            print("  client. Only BLOGGER_REFRESH_TOKEN needs replacing.")
+        elif real == "invalid_grant":
+            print("  Your token is expired or revoked. If the consent screen is still in 'Testing',")
+            print("  tokens die 7 days after consent -- publish the app on the Audience page first.")
+    else:
+        print(f"  Unexpected: real={real}, control={fake}. Check the Blogger API is enabled.")
+
+
 def blog_id(token: str, blog_url: str) -> str:
     if os.environ.get("BLOGGER_BLOG_ID"):
         return os.environ["BLOGGER_BLOG_ID"]
@@ -220,7 +306,13 @@ def main() -> None:
     ap.add_argument("--pause", type=float, default=5.0,
                     help="seconds between posts; Blogger throttles bursts of post creation")
     ap.add_argument("--dry-run", action="store_true", help="print the plan, touch no network")
+    ap.add_argument("--diagnose", action="store_true",
+                    help="work out which credential is wrong; prints no secret values")
     args = ap.parse_args()
+
+    if args.diagnose:
+        diagnose()
+        return
 
     recs = json.loads(Path(args.posts).read_text(encoding="utf-8"))
     if args.only:
