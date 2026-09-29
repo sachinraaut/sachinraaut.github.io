@@ -77,12 +77,35 @@ def access_token() -> str:
     for k in ("BLOGGER_CLIENT_ID", "BLOGGER_CLIENT_SECRET", "BLOGGER_REFRESH_TOKEN"):
         if not os.environ.get(k):
             raise SystemExit(f"missing environment variable {k} (see migration/README.md)")
-    out = _req(TOKEN_URL, method="POST", form={
-        "client_id": os.environ["BLOGGER_CLIENT_ID"],
-        "client_secret": os.environ["BLOGGER_CLIENT_SECRET"],
-        "refresh_token": os.environ["BLOGGER_REFRESH_TOKEN"],
-        "grant_type": "refresh_token",
-    })
+    try:
+        out = _req(TOKEN_URL, method="POST", form={
+            "client_id": os.environ["BLOGGER_CLIENT_ID"],
+            "client_secret": os.environ["BLOGGER_CLIENT_SECRET"],
+            "refresh_token": os.environ["BLOGGER_REFRESH_TOKEN"],
+            "grant_type": "refresh_token",
+        })
+    except SystemExit as exc:
+        # The two ways this realistically fails both look cryptic, so name the actual cause.
+        msg = str(exc)
+        if "unauthorized_client" in msg:
+            raise SystemExit(
+                f"{msg}\n\n"
+                "unauthorized_client means the refresh token was NOT issued to this client id and\n"
+                "secret. The usual causes:\n"
+                "  * the token came from the OAuth Playground WITHOUT ticking 'Use your own OAuth\n"
+                "    credentials' first, so it belongs to Google's demo client;\n"
+                "  * the client id and the client secret are from two different OAuth clients.\n"
+                "Fix: redo the Playground flow with your own credentials ticked BEFORE authorizing,\n"
+                "then update all three BLOGGER_* secrets from that one client in one go."
+            ) from None
+        if "invalid_grant" in msg:
+            raise SystemExit(
+                f"{msg}\n\n"
+                "invalid_grant means the refresh token was revoked or expired. If the OAuth consent\n"
+                "screen is still in 'Testing', Google expires tokens 7 days after consent -- publish\n"
+                "the app on the Audience page, then mint a new refresh token."
+            ) from None
+        raise
     return out["access_token"]
 
 
