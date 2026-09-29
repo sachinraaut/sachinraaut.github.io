@@ -89,11 +89,19 @@ service account cannot do. You need a user refresh token.
 
 1. [Google Cloud console](https://console.cloud.google.com/) → new project.
 2. Enable the **Blogger API v3**.
-3. OAuth consent screen: User type **External**.
+3. **Google Auth Platform** (this replaced "OAuth consent screen"; direct link
+   https://console.cloud.google.com/auth/audience ) → **Audience** page → User type **External**.
    **Set publishing status to "In Production."** Left in "Testing", refresh tokens die after 7 days
    and the daily job breaks every week with `invalid_grant`. Production does *not* require Google
    verification for a single user — you just see an "unverified app" warning once.
-4. Credentials → **OAuth client ID** → type **Desktop app**. Note the client ID and secret.
+4. **Clients** page → *Create client* → type **Web application**.
+   Under **Authorized redirect URIs** add exactly:
+   `https://developers.google.com/oauthplayground`
+   Not "Desktop app": the OAuth Playground sends you back to that URL, and only a Web
+   application client lets you register it. A Desktop client fails with
+   `Error 400: redirect_uri_mismatch`.
+   Copy the **Client ID** and **Client secret** shown after creating it (re-openable any time
+   from the Clients page).
 5. Get a refresh token once, authorising with
    `scope=https://www.googleapis.com/auth/blogger`, `access_type=offline`, `prompt=consent`.
    [OAuth Playground](https://developers.google.com/oauthplayground/) works: gear icon → "Use your own
