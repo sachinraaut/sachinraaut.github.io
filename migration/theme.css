@@ -1,0 +1,38 @@
+/* मराठी नजर — paste into Blogger: Theme > Customize > Advanced > Add CSS.
+   Every construct below is ALSO carried as an inline style= on the element itself, so posts look
+   right even before this is pasted in. This file exists because Blogger has been reported to strip
+   style= attributes on publish; if that happens, these class rules keep the posts readable. */
+
+.post-body { line-height: 1.75; }
+.post-body h2 { font-size: 1.2rem; margin: 1.6em 0 .5em; }
+
+/* callout boxes (!!! note in the Markdown source) */
+.mn-note { border: 1px solid #d7dbe0; border-left: 4px solid #1d4ed8; border-radius: 8px;
+           padding: 12px 16px; margin: 20px 0; background: rgba(29,78,216,.04); }
+.mn-note-title { margin: 0 0 6px; font-weight: 700; }
+
+/* the automatic per-category disclaimer (finance, health, news) */
+.mn-disclaimer { border: 1px solid #e6d9a8; border-radius: 8px; padding: 12px 16px; margin: 20px 0;
+                 background: rgba(234,179,8,.08); font-size: .95em; }
+
+/* 17 of the posts contain a table; most Blogger themes ship no table borders at all */
+.mn-table { border-collapse: collapse; width: 100%; margin: 20px 0; font-size: .97em; }
+.mn-table th, .mn-table td { border: 1px solid #d7dbe0; padding: 8px 10px; text-align: left; }
+.mn-table th { background: rgba(0,0,0,.04); font-weight: 700; }
+/* narrow screens: let a wide table scroll instead of breaking the layout */
+@media (max-width: 600px) { .mn-table { display: block; overflow-x: auto; } }
+
+.mn-pros { border: 1px solid #bbf7d0; border-radius: 8px; padding: 12px 16px; margin: 0 0 12px;
+           background: rgba(21,128,61,.05); }
+.mn-cons { border: 1px solid #fecaca; border-radius: 8px; padding: 12px 16px; margin: 0;
+           background: rgba(220,38,38,.05); }
+.mn-pros h2, .mn-cons h2 { margin-top: 0; }
+
+.mn-faq { margin: 8px 0; }
+.mn-faq-q { cursor: pointer; font-weight: 700; }
+
+.mn-hero { margin: 0 0 20px; }
+.mn-img { max-width: 100%; height: auto; border-radius: 10px; }
+.mn-caption { font-size: .88em; color: #666; margin: 6px 0 0; }
+.mn-small { font-size: .9em; color: #555; }
+.mn-sources { word-break: break-word; }

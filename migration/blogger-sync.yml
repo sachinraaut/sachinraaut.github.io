@@ -1,0 +1,53 @@
+# PROPOSED — not installed. Copy to .github/workflows/blogger-sync.yml to enable.
+#
+# Publishes newly merged posts to Blogger. Runs after Deploy finishes, because the post bodies
+# reference hero images at sachinraaut.github.io that do not exist until GitHub Pages has deployed.
+#
+# Requires four repository secrets:
+#   BLOGGER_CLIENT_ID  BLOGGER_CLIENT_SECRET  BLOGGER_REFRESH_TOKEN  BLOGGER_BLOG_ID
+#
+# Idempotent: publish_blogger.py reconciles against the blog before posting, so slugs already there
+# are skipped and a re-run after a failure resumes cleanly.
+name: Sync posts to Blogger
+
+on:
+  workflow_run:
+    workflows: ["Deploy"]          # must match deploy.yml's `name:`
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "comma-separated slugs (blank = every post not yet on Blogger)"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+concurrency:
+  group: blogger-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    # Do not push a half-built site's posts to Blogger.
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+
+      - name: Convert posts to Blogger HTML
+        run: python migration/to_blogger.py --blog-url "https://marathinazar.blogspot.com"
+
+      - name: Publish to Blogger
+        env:
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+          BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
+        run: python migration/publish_blogger.py --pause 8 --only "${{ github.event.inputs.only }}"
