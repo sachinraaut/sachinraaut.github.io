@@ -39,12 +39,21 @@ Sources: [permalink locked after publish](https://support.google.com/blogger/thr
 | `publish_blogger.py` | Blogger API v3 publisher. Used for both the migration and the daily job. |
 | `theme.css` | Paste into Theme → Customize → Advanced → Add CSS. |
 | `blogger-sync.yml` | **Proposed** GitHub Actions workflow. Not installed — see "Ongoing posting". |
-| `out/posts.json` | All 41 posts converted. |
-| `out/blogger-import.xml` | All 41 as Atom (fallback path). |
-| `out/blogger-import-TRIAL.xml` | First 2 posts only, for the trial import. |
+| `build_all.py` | Regenerates every artefact below in one go. |
 | `out/preview.html` | Visual preview of 3 representative posts. |
 
-Regenerate everything: `.venv/bin/python migration/to_blogger.py && .venv/bin/python migration/build_atom.py`
+Each artefact comes in two variants, differing only in where the 66 internal
+post-to-post links point:
+
+| Variant | Internal links point at | Use when |
+|---|---|---|
+| `…-pinned-links` / `blogger-import-pinned.xml` | `marathinazar.blogspot.com/2026/09/<slug>.html` | the permalink really is `<slug>` — i.e. the API route, or Custom Permalink set by hand on each draft |
+| `…-safe-links` / `blogger-import-safe.xml` | the existing `sachinraaut.github.io/posts/<slug>/` | **plain XML import.** Always correct, because the old site stays live anyway |
+| `blogger-import-trial.xml` | (safe variant, first 2 posts) | the trial import |
+
+If you are not sure, use **safe**. Nothing in it can break.
+
+Regenerate everything: `.venv/bin/python migration/build_all.py`
 
 ---
 
@@ -113,7 +122,7 @@ stopped. `--pause` matters — Blogger has an undocumented per-blog post-creatio
 `403 quotaExceeded`, reportedly around 100 posts in a short window, and 41 is close enough to respect
 it. The two posts whose publish time has not arrived are **scheduled**, not published early.
 
-**Fallback if the API route fails:** import `out/blogger-import-TRIAL.xml` via Settings → Import &
+**Fallback if the API route fails:** import `out/blogger-import-trial.xml` via Settings → Import &
 back up → Import content with auto-publish **OFF**, and see what slugs the two drafts get. The XML
 carries a `<link rel='alternate'>` with the intended permalink, but nothing documents that Blogger
 honours it. Also note the `app:draft` namespace ambiguity: a real Blogger export uses

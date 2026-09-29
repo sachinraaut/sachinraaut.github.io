@@ -42,7 +42,10 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: Convert posts to Blogger HTML
-        run: python migration/to_blogger.py --blog-url "https://marathinazar.blogspot.com"
+        run: |
+          python migration/to_blogger.py --link-mode blogger \
+            --blog-url "https://marathinazar.blogspot.com" --out migration/out
+          mv migration/out/posts.json migration/out/posts-pinned-links.json
 
       - name: Publish to Blogger
         env:

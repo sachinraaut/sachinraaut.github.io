@@ -181,7 +181,9 @@ def publish_one(token: str, bid: str, rec: dict, state: dict, pause: float, dry:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--posts", default=str(ROOT / "migration" / "out" / "posts.json"))
+    ap.add_argument("--posts",
+                    default=str(ROOT / "migration" / "out" / "posts-pinned-links.json"),
+                    help="this route pins permalinks, so the pinned-links variant is correct")
     ap.add_argument("--blog-url", default="https://marathinazar.blogspot.com")
     ap.add_argument("--only", default="", help="comma-separated slugs (the daily job passes today's)")
     ap.add_argument("--trial", type=int, default=0, help="only the first N posts -- use 1 first")
