@@ -94,7 +94,7 @@ if __name__ == "__main__":
     ap.add_argument("--posts",
                     default=str(ROOT / "migration" / "out" / "posts-safe-links.json"))
     ap.add_argument("--out", default=str(ROOT / "migration" / "out" / "blogger-import-safe.xml"))
-    ap.add_argument("--blog-id", default="1111111111111111111",
+    ap.add_argument("--blog-id", default="6343443919394120759",
                     help="destination blog's numeric id; a placeholder is fine, Blogger reassigns "
                          "post ids on import (unconfirmed -- another reason to run --limit 2 first)")
     ap.add_argument("--blog-url", default="https://marathinazar.blogspot.com")

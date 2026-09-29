@@ -86,9 +86,16 @@ def access_token() -> str:
     return out["access_token"]
 
 
+# marathinazar.blogspot.com, read off the post-editor URL during the trial import.
+# Not a secret -- a Blogger blog id appears in the public page source of the blog itself.
+DEFAULT_BLOG_ID = "6343443919394120759"
+
+
 def blog_id(token: str, blog_url: str) -> str:
     if os.environ.get("BLOGGER_BLOG_ID"):
         return os.environ["BLOGGER_BLOG_ID"]
+    if DEFAULT_BLOG_ID:
+        return DEFAULT_BLOG_ID
     q = urllib.parse.urlencode({"url": blog_url})
     return _req(f"{API}/blogs/byurl?{q}", token=token)["id"]
 
