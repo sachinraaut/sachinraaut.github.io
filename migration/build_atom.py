@@ -101,10 +101,15 @@ if __name__ == "__main__":
     ap.add_argument("--blog-title", default="मराठी नजर")
     ap.add_argument("--author", default="मराठी नजर")
     ap.add_argument("--limit", type=int, default=0, help="only the first N posts (use 2 for a trial)")
+    ap.add_argument("--date", default="", help="only posts published on this YYYY-MM-DD (IST)")
     ap.add_argument("--no-draft", action="store_true", help="do NOT mark entries as drafts (risky)")
     args = ap.parse_args()
 
     recs = json.loads(Path(args.posts).read_text(encoding="utf-8"))
+    if args.date:
+        recs = [r for r in recs if r["published"].startswith(args.date)]
+        if not recs:
+            raise SystemExit(f"no posts dated {args.date}")
     if args.limit:
         recs = recs[: args.limit]
     xml = build(recs, args.blog_id, args.author, args.blog_title,

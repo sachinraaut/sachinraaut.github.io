@@ -151,7 +151,8 @@ def labels_for(post, site) -> list[str]:
     return out
 
 
-def collect(blog_url: str, image_host: str, link_mode: str = "blogger", now: dt.datetime | None = None):
+def collect(blog_url: str, image_host: str, link_mode: str = "blogger", now: dt.datetime | None = None,
+            url_map: dict | None = None):
     """One record per post, oldest first.
 
     link_mode decides what an internal `../slug/` link points at:
@@ -172,11 +173,22 @@ def collect(blog_url: str, image_host: str, link_mode: str = "blogger", now: dt.
                    key=lambda p: p.date)
     permalink = {p.slug: f"/{p.date:%Y}/{p.date:%m}/{p.slug}.html" for p in posts}
 
+    by_slug = {p.slug: p for p in posts}
+
     def resolve(slug: str) -> str:
+        old_site = f"https://sachinraaut.github.io/posts/{slug}/"
         if slug not in permalink:  # a `related:` typo would already have failed validation
-            return f"https://sachinraaut.github.io/posts/{slug}/"
-        return (f"{blog_url}{permalink[slug]}" if link_mode == "blogger"
-                else f"https://sachinraaut.github.io/posts/{slug}/")
+            return old_site
+        # Blogger assigns permalinks itself, so a URL derived from the slug is only a guess. When
+        # the live blog has been read, use the URL it actually reports for that post's title.
+        if url_map:
+            live = url_map.get(by_slug[slug].title.strip())
+            if live:
+                return live
+            # Not on the blog yet (or titled differently there): the GitHub Pages copy stays live
+            # to serve redirects, so linking there is always correct, never a 404.
+            return old_site
+        return f"{blog_url}{permalink[slug]}" if link_mode == "blogger" else old_site
 
     records = []
     for p in posts:
@@ -207,10 +219,14 @@ if __name__ == "__main__":
     ap.add_argument("--image-host", default="https://sachinraaut.github.io",
                     help="absolute https origin the post images are served from")
     ap.add_argument("--link-mode", choices=["blogger", "old-site"], default="blogger")
+    ap.add_argument("--url-map", default="",
+                    help="blog-urls.json from fetch_blog_urls.py; when given, internal links use "
+                         "the URLs the live blog actually reports instead of guessing from slugs")
     ap.add_argument("--out", default=str(ROOT / "migration" / "out"))
     args = ap.parse_args()
 
-    recs = collect(args.blog_url, args.image_host, args.link_mode)
+    umap = json.loads(Path(args.url_map).read_text(encoding="utf-8")) if args.url_map else None
+    recs = collect(args.blog_url, args.image_host, args.link_mode, url_map=umap)
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
     (out / "posts.json").write_text(json.dumps(recs, ensure_ascii=False, indent=2), encoding="utf-8")
