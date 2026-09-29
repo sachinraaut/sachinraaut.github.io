@@ -1,5 +1,21 @@
 # मराठी नजर → Blogger migration
 
+## Status
+
+- [x] Blog created — `marathinazar.blogspot.com`, blog id `6343443919394120759`
+- [x] Trial import verified: **original post dates survive the import** (a 20 Sept post stayed
+      20 Sept) and the post formatting — tables, callout boxes, FAQ accordion — renders correctly,
+      so the inline styles were not stripped and `theme.css` is not needed
+- [x] `.github/workflows/blogger-sync.yml` installed on `main`. It runs after "Build and deploy"
+      and currently exits cleanly because no credentials are set, so it cannot fail the Actions tab
+- [ ] **Three repository secrets** — the only thing left, see "Step 2" below
+- [ ] Migrate the 41 posts (one manual workflow run, once the secrets exist)
+- [ ] Redirect stubs on the old site, GA4, Search Console
+
+Chosen route: the **API**, not the XML import. The importer cannot pin a post's slug, and Blogger
+freezes the permalink at first publish — so an imported post would keep a `blog-post_3044.html` URL
+forever. Delete the two trial drafts before the migration run; the script recreates them properly.
+
 Everything needed to move the 41 posts from `sachinraaut.github.io` to `marathinazar.blogspot.com`
 and to keep publishing there daily.
 
@@ -176,13 +192,16 @@ The writer routine pushes a `claude/…` branch; `publish-daily.yml` validates i
 merges to `main`; `deploy.yml` builds Pages. The Blogger sync has to come **after** that, because the
 post bodies reference images at `sachinraaut.github.io` that do not exist until Pages deploys.
 
-`blogger-sync.yml` in this directory does that — it triggers on Deploy completing. **I have not
-installed it.** Installing means adding a file under `.github/workflows/`, which is your call, and it
-needs four repo secrets first:
+`.github/workflows/blogger-sync.yml` does that. It is installed and triggers on
+**"Build and deploy"** completing — note that is the workflow's actual name; `"Deploy"` would never
+have matched. It needs three repo secrets:
 
 ```
-BLOGGER_CLIENT_ID  BLOGGER_CLIENT_SECRET  BLOGGER_REFRESH_TOKEN  BLOGGER_BLOG_ID
+BLOGGER_CLIENT_ID  BLOGGER_CLIENT_SECRET  BLOGGER_REFRESH_TOKEN
 ```
+
+`BLOGGER_BLOG_ID` is not needed — the id is baked into `publish_blogger.py`. Until the refresh token
+exists the workflow exits cleanly at its first step, so it stays green while you set this up.
 
 It publishes 4 posts a day (`daily_categories` is technology, ai, finance, health), each taking 3 API
 calls, and it is idempotent — already-published slugs are skipped, so a re-run is harmless.
