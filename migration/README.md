@@ -100,13 +100,18 @@ service account cannot do. You need a user refresh token.
    Not "Desktop app": the OAuth Playground sends you back to that URL, and only a Web
    application client lets you register it. A Desktop client fails with
    `Error 400: redirect_uri_mismatch`.
-   Copy the **Client ID** and **Client secret** shown after creating it (re-openable any time
-   from the Clients page).
-5. Get a refresh token once, authorising with
+   Copy the **Client ID** and **Client secret** from the dialog shown immediately after creating
+   it. The secret is displayed **once only** and cannot be retrieved later — if you lose it, open
+   the client from the Clients page and use **Add secret** to mint a new one.
+5. In the OAuth Playground, tick **"Use your own OAuth credentials"** (gear icon) and paste both
+   values BEFORE authorizing. Skipping this silently uses Google's own demo client instead: the
+   authorization still appears to succeed, but the refresh token it returns belongs to that demo
+   client, is revoked after 24 hours, and will not work with your client id and secret.
+6. Get a refresh token once, authorising with
    `scope=https://www.googleapis.com/auth/blogger`, `access_type=offline`, `prompt=consent`.
    [OAuth Playground](https://developers.google.com/oauthplayground/) works: gear icon → "Use your own
    OAuth credentials" → paste client ID/secret → authorise that scope → exchange for tokens.
-6. Keep `client_id`, `client_secret`, `refresh_token`.
+7. Keep `client_id`, `client_secret`, `refresh_token`.
 
 ## Step 3 — trial with ONE post
 
