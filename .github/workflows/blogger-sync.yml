@@ -1,0 +1,83 @@
+# Publishes posts to Blogger (marathinazar.blogspot.com) after they go live on the site.
+#
+# Runs after "Build and deploy" finishes, never before: the post bodies reference hero images at
+# sachinraaut.github.io, which do not exist until GitHub Pages has deployed them.
+#
+# Needs three repository secrets. Until BLOGGER_REFRESH_TOKEN is set, this workflow exits cleanly
+# without doing anything, so installing it ahead of the credentials cannot turn the Actions tab red:
+#   BLOGGER_CLIENT_ID  BLOGGER_CLIENT_SECRET  BLOGGER_REFRESH_TOKEN
+#
+# Idempotent by design: publish_blogger.py asks Blogger which posts already exist before doing
+# anything, so re-running is harmless and a half-finished run resumes where it stopped.
+name: Sync posts to Blogger
+
+on:
+  workflow_run:
+    workflows: ["Build and deploy"]
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "comma-separated slugs (blank = every post not yet on Blogger)"
+        required: false
+        default: ""
+      pause:
+        description: "seconds between posts (Blogger throttles bursts)"
+        required: false
+        default: "8"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: blogger-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    # Never push a half-built site's posts to Blogger.
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check credentials are configured
+        id: creds
+        env:
+          TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+        run: |
+          if [ -z "$TOKEN" ]; then
+            echo "BLOGGER_REFRESH_TOKEN is not set - nothing to do yet."
+            echo "Add the three BLOGGER_* secrets to enable Blogger publishing."
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.creds.outputs.ready == 'true'
+
+      - uses: actions/setup-python@v5
+        if: steps.creds.outputs.ready == 'true'
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        if: steps.creds.outputs.ready == 'true'
+        run: pip install -r requirements.txt
+
+      - name: Convert posts to Blogger HTML
+        if: steps.creds.outputs.ready == 'true'
+        run: |
+          python migration/to_blogger.py --link-mode blogger \
+            --blog-url "https://marathinazar.blogspot.com" --out migration/out
+          mv migration/out/posts.json migration/out/posts-pinned-links.json
+
+      - name: Publish to Blogger
+        if: steps.creds.outputs.ready == 'true'
+        env:
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+        run: |
+          python migration/publish_blogger.py \
+            --pause "${{ github.event.inputs.pause || '8' }}" \
+            --only "${{ github.event.inputs.only }}"
