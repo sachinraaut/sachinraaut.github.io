@@ -141,6 +141,18 @@ def diagnose() -> None:
             notes.append(f"does NOT end with {want_suffix!r}")
         print(f"  {name}: " + "; ".join(notes))
 
+    # An OAuth *client id* is public -- Google embeds it in page source for Sign-In -- so showing
+    # enough of it to identify which client it is leaks nothing. The client SECRET never appears.
+    # This exists because GitHub secrets are write-only: without it there is no way to tell which
+    # of several OAuth clients the stored id belongs to.
+    if cid:
+        head = cid.split("-", 1)
+        proj = head[0]
+        rest = head[1][:8] if len(head) > 1 else ""
+        print(f"Stored client id identifies as:  {proj}-{rest}...apps.googleusercontent.com")
+        print("  ^ find THIS client in https://console.cloud.google.com/auth/clients")
+        print("    and use it -- and only it -- in the OAuth Playground.\n")
+
     print("Shape of each secret (values themselves are never printed):")
     shape("BLOGGER_CLIENT_ID", cid, want_suffix=".apps.googleusercontent.com")
     shape("BLOGGER_CLIENT_SECRET", sec, want_prefix="GOCSPX-")
