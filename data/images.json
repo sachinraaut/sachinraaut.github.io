@@ -29,6 +29,11 @@
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, Two colleagues at a small office desk looking at one laptop screen together while one of them types, daylight from a side window, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
   "provider": "cloudflare-flux-1-schnell"
  },
+ "chatgpt-virtual-try-on-clothes-guide": {
+  "kind": "ai",
+  "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A young woman standing beside an open wardrobe holding her phone up to take a full length photo of herself, soft window light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
+  "provider": "cloudflare-flux-1-schnell"
+ },
  "chewing-tobacco-india-burden-study": {
   "kind": "ai",
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A middle aged man sitting on a bench outside a small shop talking on his phone, afternoon light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
@@ -149,6 +154,11 @@
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A person washing their hands under a running tap at a kitchen sink, bright daylight through a window, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
   "provider": "cloudflare-flux-1-schnell"
  },
+ "rbi-deposit-interest-rate-rules-october-2026": {
+  "kind": "ai",
+  "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A middle aged woman at a bank counter reading a deposit receipt while a staff member points at a printed rate chart, indoor daylight, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
+  "provider": "cloudflare-flux-1-schnell"
+ },
  "rbi-deposit-rate-rules-october-2026": {
   "kind": "ai",
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A middle aged couple at a home dining table looking at a laptop with a bank passbook and a cup of tea beside it, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
@@ -195,6 +205,11 @@
  "sebi-nomination-rules-demat-mutual-fund": {
   "kind": "ai",
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A middle aged couple sitting at a table filling in a printed form together, a pen and a folder of papers, calm daylight, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
+  "provider": "cloudflare-flux-1-schnell"
+ },
+ "sim-binding-rule-messaging-apps-india": {
+  "kind": "ai",
+  "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A middle aged man at a small mobile shop counter holding a smartphone in one hand and a SIM card tray in the other, daylight, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
   "provider": "cloudflare-flux-1-schnell"
  },
  "small-savings-rates-october-december-2026": {
@@ -270,6 +285,11 @@
  "whatsapp-username-feature-india": {
   "kind": "ai",
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A young man sitting near a window looking at a chat app on his phone, morning light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
+  "provider": "cloudflare-flux-1-schnell"
+ },
+ "who-life-expectancy-healthy-years-2026": {
+  "kind": "ai",
+  "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, An older couple walking slowly along a park path in the morning while a young man jogs past them, soft sunlight, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
   "provider": "cloudflare-flux-1-schnell"
  },
  "who-physical-activity-150-minutes": {
