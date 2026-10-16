@@ -4,6 +4,11 @@
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A young woman at a desk looking closely at a video paused on her laptop screen, one hand on the mouse, evening lamp light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
   "provider": "cloudflare-flux-1-schnell"
  },
+ "android-advanced-protection-6-features": {
+  "kind": "ai",
+  "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A middle aged man on a sofa checking security settings on his phone, warm evening lamp light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
+  "provider": "cloudflare-flux-1-schnell"
+ },
  "android-developer-verification-sideloading-india": {
   "kind": "ai",
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A young man sitting near a window at home looking closely at his phone while installing an app, soft morning light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
@@ -47,6 +52,11 @@
  "cbdt-tax-audit-itr-due-date-extension-2026": {
   "kind": "ai",
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A middle aged shopkeeper at a small counter going through account books and a calculator in the evening, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
+  "provider": "cloudflare-flux-1-schnell"
+ },
+ "chatgpt-chrome-extension-tabs-work-mode": {
+  "kind": "ai",
+  "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A young woman at a desk with a laptop open to several browser tabs, afternoon light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
   "provider": "cloudflare-flux-1-schnell"
  },
  "chatgpt-gemini-data-privacy-settings": {
@@ -440,6 +450,11 @@
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A middle aged man standing outside a shop looking closely and cautiously at a payment message on his phone, alert and careful expression, busy street behind him, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
   "provider": "cloudflare-flux-1-schnell"
  },
+ "upi-mdr-deferred-after-diwali-2026": {
+  "kind": "ai",
+  "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A shopkeeper at a small counter beside a QR code stand handing back change, daylight, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
+  "provider": "cloudflare-flux-1-schnell"
+ },
  "upi-mdr-explained": {
   "kind": "ai",
   "prompt": "Flat vector editorial illustration, simple shapes, A smartphone showing a payment success tick beside a small shop counter with a QR code stand, a few coins and a stack of notes, digital payments in India, warm saffron and deep blue palette, clean uncluttered composition, no text, no letters, no numbers, no logos, no watermark, no people, no faces",
@@ -543,6 +558,11 @@
  "world-bank-wdr-2026-ai-developing-countries": {
   "kind": "ai",
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A farmer standing in a field holding a basic phone to his ear with crops around him, early morning light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
+  "provider": "cloudflare-flux-1-schnell"
+ },
+ "young-adult-stroke-rates-doubled-study": {
+  "kind": "ai",
+  "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A young man walking briskly on a quiet neighbourhood road in the morning light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
   "provider": "cloudflare-flux-1-schnell"
  },
  "zero-balance-bsbd-account-rules": {
