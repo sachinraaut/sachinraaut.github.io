@@ -1,4 +1,9 @@
 {
+ "aadhaar-app-address-update-face-authentication": {
+  "kind": "ai",
+  "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A middle aged woman sitting on a chair at home holding her phone with a paper document in her other hand, soft daylight, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
+  "provider": "cloudflare-flux-1-schnell"
+ },
  "ai-edited-photos-false-memories-mit-study": {
   "kind": "ai",
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A young woman holding an old family photograph in her hands beside a laptop on a table, soft window light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
@@ -67,6 +72,11 @@
  "cbdt-tax-audit-itr-due-date-extension-2026": {
   "kind": "ai",
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A middle aged shopkeeper at a small counter going through account books and a calculator in the evening, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
+  "provider": "cloudflare-flux-1-schnell"
+ },
+ "cert-in-advisory-ai-agents-attack-vectors": {
+  "kind": "ai",
+  "prompt": "Flat vector editorial illustration, simple shapes, A flat icon style arrangement of a padlock, a server cabinet and a key joined by dotted lines on a plain background, warm saffron and deep blue palette, clean uncluttered composition, no text, no letters, no numbers, no logos, no watermark, no people, no faces",
   "provider": "cloudflare-flux-1-schnell"
  },
  "chatgpt-chrome-extension-tabs-work-mode": {
@@ -139,6 +149,11 @@
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A middle aged woman holding a bank passbook at a counter inside a small bank branch, daylight, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
   "provider": "cloudflare-flux-1-schnell"
  },
+ "diet-quality-epigenetic-aging-study": {
+  "kind": "ai",
+  "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A middle aged woman washing fresh vegetables at a kitchen sink with a bowl of fruit on the counter, morning light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
+  "provider": "cloudflare-flux-1-schnell"
+ },
  "early-menopause-who-research-gap": {
   "kind": "ai",
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A middle aged woman sitting on a chair near a window with a cup of tea, calm evening light at home, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
@@ -207,6 +222,11 @@
  "gemini-notebook-review-slides-video-overviews": {
   "kind": "ai",
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A young woman at a desk with a laptop open, reviewing printed notes with a pencil, warm afternoon light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
+  "provider": "cloudflare-flux-1-schnell"
+ },
+ "gemini-personal-intelligence-android-auto": {
+  "kind": "ai",
+  "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A young man sitting in the driver seat of a parked car looking at the dashboard screen, morning light through the windscreen, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
   "provider": "cloudflare-flux-1-schnell"
  },
  "global-pain-study-nature-medicine-2026": {
@@ -409,6 +429,11 @@
  },
  "rbi-gold-loan-rules-ltv-2026": {
   "kind": "card"
+ },
+ "rbi-mpc-minutes-october-2026-calibrated-tightening": {
+  "kind": "ai",
+  "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A middle aged man at a table with a bank passbook and a calculator, checking his phone, afternoon light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
+  "provider": "cloudflare-flux-1-schnell"
  },
  "rbi-mpc-october-2026-repo-rate-emi": {
   "kind": "ai",
