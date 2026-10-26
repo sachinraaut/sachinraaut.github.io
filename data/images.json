@@ -164,6 +164,11 @@
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A middle aged woman walking briskly on a neighbourhood footpath in the early evening, trees along the road, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
   "provider": "cloudflare-flux-1-schnell"
  },
+ "daily-steps-alzheimers-tau-study": {
+  "kind": "ai",
+  "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, An older man and an older woman walking together on a park path in the morning, trees on both sides, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
+  "provider": "cloudflare-flux-1-schnell"
+ },
  "dengue-prevention-warning-signs": {
   "kind": "ai",
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A young man emptying water from a flowerpot tray in a balcony, plants and a bucket nearby, bright morning light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
@@ -357,6 +362,11 @@
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A middle aged woman at a vegetable stall checking a handwritten shopping list, morning market light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
   "provider": "cloudflare-flux-1-schnell"
  },
+ "india-smartphone-market-q3-2026-counterpoint": {
+  "kind": "ai",
+  "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A young man at a small mobile shop counter looking at two phones with a shopkeeper standing behind, morning light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
+  "provider": "cloudflare-flux-1-schnell"
+ },
  "infection-attributable-cancers-iarc-study-2026": {
   "kind": "ai",
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A middle aged woman talking with a health worker across a small table at a local clinic, daylight through a window, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
@@ -442,6 +452,11 @@
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A young woman at a desk in a small home office looking at a laptop screen with a notebook and a cup of tea, morning light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
   "provider": "cloudflare-flux-1-schnell"
  },
+ "openai-gpt-6-1-terra-launch-pricing": {
+  "kind": "ai",
+  "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A young woman at a desk at home typing on a laptop with a notebook and a cup beside her, afternoon light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
+  "provider": "cloudflare-flux-1-schnell"
+ },
  "originos-7-india-rollout-timeline": {
   "kind": "ai",
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A young man sitting on a sofa at home looking at his smartphone, a cup of tea on the table beside him, soft morning light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
@@ -450,6 +465,11 @@
  "pension-benefit-card-scam-i4c-warning": {
   "kind": "ai",
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, An elderly man sitting on a sofa looking at an advertisement on his phone while a young woman beside him points at the screen, daylight through a window, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
+  "provider": "cloudflare-flux-1-schnell"
+ },
+ "ppf-account-rules-guide-2026": {
+  "kind": "ai",
+  "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A middle aged man at a kitchen table with a passbook and a pen filling a form, evening light from a window, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
   "provider": "cloudflare-flux-1-schnell"
  },
  "qdenga-dengue-vaccine-india-explained": {
