@@ -194,6 +194,11 @@
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A middle aged woman sitting on a chair near a window with a cup of tea, calm evening light at home, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
   "provider": "cloudflare-flux-1-schnell"
  },
+ "education-dementia-risk-pnas-study": {
+  "kind": "ai",
+  "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, An older woman reading a book at a table near a window with a notebook and spectacles, morning light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
+  "provider": "cloudflare-flux-1-schnell"
+ },
  "emudhra-certificate-keys-cert-in-advisory": {
   "kind": "ai",
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A middle aged man at a desk looking closely at a laptop screen with a puzzled expression, afternoon light from a window, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
@@ -267,6 +272,11 @@
  "gemini-personal-intelligence-android-auto": {
   "kind": "ai",
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A young man sitting in the driver seat of a parked car looking at the dashboard screen, morning light through the windscreen, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
+  "provider": "cloudflare-flux-1-schnell"
+ },
+ "gemini-small-business-hub-brand-style": {
+  "kind": "ai",
+  "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A young woman in a small shop using a laptop and a phone at the billing counter with shelves behind her, afternoon light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
   "provider": "cloudflare-flux-1-schnell"
  },
  "global-pain-study-nature-medicine-2026": {
@@ -377,6 +387,11 @@
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A young man sitting on a sofa looking at an advertisement on his phone with a doubtful expression, evening lamp light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
   "provider": "cloudflare-flux-1-schnell"
  },
+ "ios-27-2-update-siri-memory-features": {
+  "kind": "ai",
+  "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A middle aged man sitting on a sofa updating his phone while holding a cup of tea, evening light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
+  "provider": "cloudflare-flux-1-schnell"
+ },
  "irdai-insurance-distribution-commission-reform-2026": {
   "kind": "ai",
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A middle aged couple at a dining table at home reading printed papers together with a pen and a calculator, afternoon light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
@@ -385,6 +400,11 @@
  "itr-u-updated-return-48-months-guide": {
   "kind": "ai",
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A middle aged man at a home desk with a laptop and a folder of papers, pen in hand, evening lamp light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
+  "provider": "cloudflare-flux-1-schnell"
+ },
+ "jeevan-pramaan-life-certificate-november-2026": {
+  "kind": "ai",
+  "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, An elderly man sitting at home holding a phone at arms length while his daughter helps him, soft morning light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
   "provider": "cloudflare-flux-1-schnell"
  },
  "lancet-commission-17-health-threats-india": {
