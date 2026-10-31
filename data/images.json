@@ -189,6 +189,11 @@
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A woman placing a glass of water and a thermometer on a bedside table beside a neatly made bed, soft evening lamp light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
   "provider": "cloudflare-flux-1-schnell"
  },
+ "depa-ai-training-handbook-meity": {
+  "kind": "ai",
+  "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A middle aged woman at a hospital reception desk handing over a form, daylight from a window, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
+  "provider": "cloudflare-flux-1-schnell"
+ },
  "dicgc-deposit-insurance-5-lakh": {
   "kind": "ai",
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A middle aged woman holding a bank passbook at a counter inside a small bank branch, daylight, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
@@ -532,6 +537,11 @@
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, An elderly man sitting on a sofa looking at an advertisement on his phone while a young woman beside him points at the screen, daylight through a window, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
   "provider": "cloudflare-flux-1-schnell"
  },
+ "phonepe-appstore-indus-rebrand-india": {
+  "kind": "ai",
+  "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A young man sitting on a bus seat looking at apps on his phone, afternoon light through the window, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
+  "provider": "cloudflare-flux-1-schnell"
+ },
  "ppf-account-rules-guide-2026": {
   "kind": "ai",
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A middle aged man at a kitchen table with a passbook and a pen filling a form, evening light from a window, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
@@ -620,6 +630,11 @@
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A middle aged man at a home desk with a bank passbook and a phone, writing something in a notebook, evening lamp light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
   "provider": "cloudflare-flux-1-schnell"
  },
+ "reset-remission-type-2-diabetes-trial": {
+  "kind": "ai",
+  "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A young man lacing up trainers beside a yoga mat in a living room, morning light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
+  "provider": "cloudflare-flux-1-schnell"
+ },
  "samsung-one-ui-9-update-india": {
   "kind": "ai",
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A young man sitting on a bed looking at his phone while a software update installs, plain bedroom, soft morning light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
@@ -663,6 +678,11 @@
  "sebi-swp-stp-demat-mutual-fund-units": {
   "kind": "ai",
   "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A middle aged woman at a dining table with a laptop and a printed statement, writing in a notebook, evening light, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
+  "provider": "cloudflare-flux-1-schnell"
+ },
+ "sgb-2021-22-series-vii-premature-redemption": {
+  "kind": "ai",
+  "prompt": "Candid documentary photograph, natural daylight, shallow depth of field, 35mm lens, A middle aged man at a bank counter reading a printed statement, soft daylight indoors, photorealistic, everyday Indian setting, warm natural colours, no text, no letters, no numbers, no logos, no brand names, no watermark, ordinary anonymous people only, no celebrities, no politicians, no public figures, no medical procedures, no injuries",
   "provider": "cloudflare-flux-1-schnell"
  },
  "sim-binding-rule-messaging-apps-india": {
