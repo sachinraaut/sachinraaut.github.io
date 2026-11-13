@@ -1,234 +1,339 @@
 {
- "generated_at": "2026-11-12T03:10:37+00:00",
+ "generated_at": "2026-11-13T02:43:44+00:00",
  "categories": {
   "technology": [
    {
-    "headline": "Qualcomm to cut jobs worldwide in performance-focused layoffs, internal memo shows",
+    "headline": "Widespread outage hits Microsoft apps",
     "lang": "en",
     "coverage": 1,
     "sources": [
      "The Hindu: Technology"
     ],
-    "published": "2026-11-12T08:17:29+05:30",
+    "published": "2026-11-13T07:16:34+05:30",
     "links": [
      {
       "source": "The Hindu: Technology",
-      "url": "https://www.thehindu.com/sci-tech/technology/qualcomm-to-cut-jobs-worldwide-in-performance-focused-layoffs-internal-memo-shows/article71606101.ece"
+      "url": "https://www.thehindu.com/sci-tech/technology/internet/widespread-outage-hits-microsoft-apps/article71695400.ece"
      }
     ]
    },
    {
-    "headline": "Nvidia preparing to oust CEO Jensen Huang: U.S. media",
+    "headline": "How to Play GTA VI—Buy Take-Two Stock",
     "lang": "en",
     "coverage": 1,
     "sources": [
-     "The Hindu: Technology"
+     "Barron's"
     ],
-    "published": "2026-11-12T07:54:18+05:30",
+    "published": "2026-11-13T01:35:00+00:00",
     "links": [
      {
-      "source": "The Hindu: Technology",
-      "url": "https://www.thehindu.com/news/international/nvidia-preparing-to-oust-ceo-jensen-huang-us-media/article71692138.ece"
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNOWFTeDFSR3B3TUM2ejJ0aEYwU3lHbTdqYlprU0NOZHVndVFYSklhZ1JJM0JSVmt2TUhtVDdSQlFaNEdneE1yNkJzVUhnYnFZXzh1MUNJY0E2eDZqWENwb0U3UV9DcU9HQ0FWX1ZKLWNtVmtaVjBSTDRrT2hZNGJER0hSWTRDa2s?oc=5"
      }
     ]
    },
    {
-    "headline": "How Nvidia CEO Jensen Huang's extramarital affair could cause collateral damage in Washington",
+    "headline": "Google DeepMind Introduces AlphaProof Code for Verifying Complex Software at Depth",
     "lang": "en",
     "coverage": 1,
     "sources": [
-     "The Hindu: Technology"
+     "HPCwire"
     ],
-    "published": "2026-11-12T07:44:24+05:30",
+    "published": "2026-11-13T01:30:00+00:00",
     "links": [
      {
-      "source": "The Hindu: Technology",
-      "url": "https://www.thehindu.com/news/international/how-nvidia-ceo-jensen-huangs-extramarital-affair-could-cause-collateral-damage-in-washington/article71688529.ece"
+      "source": "HPCwire",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVzkxU29lczBKRWJXd1hhbmVSbFhEaEdYcS1lX0NUU1hkX2JkUlZGUnczX1g4dXR5ZDNwWkpKcm5Kb2dzSTEzMFA1bGMtRjNxY0szY2M5ZEJaS2JLdGVBQXRYS0ZMdlZnRmtuUUhuTWk5QkdQNFRRYzFwMzdXS2NYaUc0X3ZaaW1QaklTSWhicWNnRmhxdVRGRFR5NVVlVVZxS0staEgxbU40aVZnYTBoWVBEd3dNN3Q3QWFXRktTQXBoQTA?oc=5"
      }
     ]
    },
    {
-    "headline": "Who is Jensen Huang and how the timeline of spy scandal unfolded",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "The Hindu: Technology"
-    ],
-    "published": "2026-11-12T07:05:51+05:30",
-    "links": [
-     {
-      "source": "The Hindu: Technology",
-      "url": "https://www.thehindu.com/news/international/who-is-nvidia-ceo-jensen-huang-what-we-know-about-alleged-chinese-spy-scandal/article71689414.ece"
-     }
-    ]
-   },
-   {
-    "headline": "Success Story : हजारो-कोटींच्या कंपनीचे मालक, पण वास्तव्य छोट्या खेडेगावात! साधेपणातील श्रीमंती, कोण आहेत श्रीधर वेम्बू?",
+    "headline": "5 चुका करणे आजच थांबवा, तुमचे लाईटबिल निम्म्यावर येईल! मोबाईल आणि स्मार्ट गॅझेट्सद्वारे लगेच तपासा काही टेक्निकल गोष्टी",
     "lang": "mr",
     "coverage": 1,
     "sources": [
      "Maharashtra Times"
     ],
-    "published": "2026-11-12T02:02:23+00:00",
+    "published": "2026-11-13T00:30:00+00:00",
     "links": [
      {
       "source": "Maharashtra Times",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNSDhhVVJkdS0xdUxidmk4MlAwSUdtVHRmQ2hSTzgyelA3aFhtRWhkVDh2cFpBck8ycUZqX3Uyb1lsbnBObXNQQVIwdVdtaDFRSzFRNGl0Sk1UOFNWLU9TMm1XZzFoc25RTTh6ZnVJMEs3TE0yT2dCWng4Q1NTR2gtbGhtMG1lT05nTXVCNERBNmZYQk5xVHhKd094MHJMQ0N2dHlZX3RwZy1ESUEyb1BCSlZEU2JGNHZBOWdiTjAzVDllcUJ0VTBPQ21zOEhjdW9UTm94SFd3LWM5ZEpQMkZ3WWZn0gHnAUFVX3lxTFBPQ3hQS3Z0ZnhZd1BwYWl5RFFoUkRkcXNpZlpqZTNoSVBITzZFQV9VOWhFQzhSaldDdFNzWXpYZ1dpbzdqUTZPd241R2lXc05vU1ZSUGRTOUotVm5IZmVnNWFIUmpGaFFDZ1YwSFlxQ1JWR1NaWG1teElhVmhDTjBUQXlmWl9JWFJDeFE5TXphbkRjeFFicWVNNGVCY21ERE4zeFVrVnRBWmtFdnJCNk40RURIRmlGWGpnc0pSd2MwRE80ZzB6cDdjbmhvbEhfZTZYN3d6cEM4VHRfTHE3X2ZocjZHQ3dkOA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNdHlOQkNLVnRnOVluamhpQlhiSjBXTnhTcEJmQ25CemE2d2tWWU45SlFJX2lDclE5RHVtVHcyT0tqQk03a05LNmU3eEhJSjAzbmF0LUNqb0F5SU94dVRKRzZUTlVqNXoxakZ2YzVOX1lpRW9zdEZldGJRSnVvZGRnbHlFQ0RrXzdmZ1RQN2tlZFk0djYydEQxV1U4bE93MUZ3d3JMdm9RSE5fZXA3VmxqeFVDcGpzNmNRaXVGZENMVHRTNlhZSDlpVDhDZFdGdjhoWlgxVHpxcTZPZk9pcGl6S0xqOXctWUxCZDBuTzhER3F4Vno3WHNKZ2xHUDh1YUFaWFVGcldZRmNlT181WVhqU0p5Z1I0X2ZYRUZKTlljVdIBpAJBVV95cUxNMEl6bHVhcGUyZkItYVctRE5UVzB6WERud3BmTFlvT0l2VXdyd3Ryd3NyUVktalhMakxVZUUtZ05zVVdJRzBmWmUydGV4V1BKT25Ib3hOcFN5QmxaUjVGR29xd0dxZFNodU9SaUF5LXQ3LUM0R1N5cmpkNTNrYkI3SFd2UUpzM0k2ZUhPZDRLQzE4V2JveEsxaTYzOFVpOS1GS2l2Tm9RY04xdGZyczNhRzk1aFBGWmhHcjNRYWhUaVJhcUNIaW9HR1BRYkp4YzlvdjVNVGV5OHZNbjd0a1phYk8tYWRYZzJQeHRqaXBSc3U3d18tN2FpYkpEOEVwNEFTNWtaUUxsNGRJRGRQUUFxSEtZWGVMejFIbmxvYWFURS1TMHNm?oc=5"
      }
     ]
    },
    {
-    "headline": "Don't Ignore iOS 27.2.1: Your iPhone Gets iMessage, AirPlay Security Fixes",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "PCMag"
-    ],
-    "published": "2026-11-12T01:48:36+00:00",
-    "links": [
-     {
-      "source": "PCMag",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNM09XVDYtYXA3emJVZEVlSFlXZ0cxdUlmckYxQXdyeTgxb2JwZVFHcWNybHo3b1l4YWcyb0I1YkZQUXZMTlJOOVp3NWc4dlBnR0FfZ3BPVER6S0FGY2lING5qYjNTaGNUUE1ZWF9GekJRMzkyYWlTU2lIVUMwN21HWXY2Z0NGVVhCUE1HTkRUdmx5WWgwMUhsS09tMG4?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "Google MVNO service brings back multinetwork capability",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "SDxCentral"
-    ],
-    "published": "2026-11-11T23:26:15+00:00",
-    "links": [
-     {
-      "source": "SDxCentral",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOODRmOFRVbmEyMGxmTmRPQUJLUUdJd2x3c05ZY1NHNEtKVzV6M0xYajVUMFZ1QjhtcHFPVDBGOFViREc3aExDWGFTZ2h6UkVmcWtmR2J2WUFOMXZUSHFZamFKOC1fUWhVV1NGU3JRREFpQ2FjYjNxcjkwWGFacHFXem9qUHp4R0ZrMFpXYm0yc1NaS0k?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "GTA VI Is Days Away: Don't Expect GTA V-Style Returns From Take-Two Stock at 5.7 Times Sales",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "Yahoo Finance"
-    ],
-    "published": "2026-11-11T22:31:02+00:00",
-    "links": [
-     {
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcXF1LUN6REhOUmJFZVNfbUFQczhLdHZaZ2ZGM3RfTWtuZjdFV05BTEJVdmMybU5JN1otV0JEQVJRRE1Memo5NnBuRWQ0V1Bma2RCUVBEMG1iT2RwNl9Cd2NYVzlkQWoyS0J0NmVxdnVXZnJlcVdCeG9LYVQ0cE1zLVhCUXhtMm1VaVMwWjZvTQ?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "Ultrathin pipes solve space constraints on platforms",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "Tech Xplore"
-    ],
-    "published": "2026-11-11T22:20:06+00:00",
-    "links": [
-     {
-      "source": "Tech Xplore",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRGMtcUlYQVhBMVZqcGFhOTR3bGxSVVJLMktQQXJDY21qNFY3emFWaVNuV2ZyR1I0UXBKR1A1V1ExZHVubkJKZUxOUzJDd2UtMkRBdFJjbkM1TVJHWEh1RHBHQXd5R3llejVCbGo3NVVZQlVmYkdodWh5RWc0UXFVd2o4dnpJUkVxWm95Vg?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "Japan's anime and video game industries have grown substantially through the strength of the private sector. Government intervention could end up doing more harm than good.",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "Japan Today"
-    ],
-    "published": "2026-11-11T21:33:14+00:00",
-    "links": [
-     {
-      "source": "Japan Today",
-      "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxNTkdqN0JwNGZSVlJiSHZqOTRYRnllNE9qcFFMQkNxcXE5NGNINVFZalF5NG5xaEpJYURubHR2UFpwTTc4enBERGlNU1dvSWJXMmxDaFVEZ05kNmxxWVJXUTFBYkR3UW4xODZBUkVCblFSRTdQdUFzN0hRLVBpa3g2bVhtX0gxQjVfRlRDRElzVFdoMWFYQnJUaHFTWVA3REJfbEpQclp6STJJU0lzNEFHQktaV0FUV21XV0pwS0FNY1FNc0FIYjdFZjUzMWJ6SW56QVRMSzJBNF8tcDlOcmRjempMMVR3V1YybFhxVlhhVHJnUkNDVjQ0MlRsaU1EMDRZdm9KLTVXVWRUTHVXQ1MwRmVSdGg1aENMMEE0bTRQaUxyNVNkT3d3R1ZGbVlDMEFmTGN4R0pZSGNMcnNHVkZPNg?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "Ultrasound and AI turn off-the-shelf smartwatch into full-body tracker without cameras",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "Tech Xplore"
-    ],
-    "published": "2026-11-11T21:20:04+00:00",
-    "links": [
-     {
-      "source": "Tech Xplore",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMmV3OWJLeTE3Yk9qU3lsYWx6YUVwWGpWOUo3ZDFhYWpsd2JlSURKdjM4SWdVSHY1NWFYcFFwUkxyUW9xZVFHbHI0eHhFRVF0aFRXUGFYRTFHRGFLV0FzUks4cVhQSHVET0JTX3RlbDdBZGZndXR6YWtzUVNHaFlfdTRR?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "Prix Pascal: If AI writes your book, are you still a writer?",
+    "headline": "‘No one in Dallas wants this’ | U.S. data centre boom fuels concerns over water shortage",
     "lang": "en",
     "coverage": 1,
     "sources": [
      "The Hindu: Technology"
     ],
-    "published": "2026-11-11T21:20:01+05:30",
+    "published": "2026-11-12T22:47:49+05:30",
     "links": [
      {
       "source": "The Hindu: Technology",
-      "url": "https://www.thehindu.com/books/prix-pascal-ai-writing-creativity-literature/article71690192.ece"
+      "url": "https://www.thehindu.com/society/ai-data-centre-boom-usa-water-electricity-concerns-protests/article71669428.ece"
      }
     ]
    },
    {
-    "headline": "Drug ads can subtly sway AI medical treatment recommendations",
+    "headline": "Apple iPhone Duo, one month in: I'm never going back to the Pro",
     "lang": "en",
     "coverage": 1,
     "sources": [
-     "News-Medical"
+     "Mashable"
     ],
-    "published": "2026-11-11T20:20:00+00:00",
+    "published": "2026-11-12T22:35:10+00:00",
     "links": [
      {
-      "source": "News-Medical",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeC1iM1BDa3c3X3ZpbjduN1VRclhvZTBVNVM1QUozTDlyc1hObjBUdU9sU3NQdE4yOEEzc3VEYmxFYXl4R3o1Z3g2Z05tR2s1X2RLbnRSUVlUaHlVaDdEQ2F0WW9GSmVlb0tiUl9RcEJYSHVjODJCTlFRVkZwU0tEZFNxYS1PZkpYejBRNktFYm5rUXJiUlVSY0Z1Y3ptY1prRWNkSDZabUZNal9wQkE?oc=5"
+      "source": "Mashable",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE51WGF6c050dkpGUnJHNWJ2R1Z4aUFRSzNTYmlHZlBjQTJ6bWk2Q0ktdU1lcEVZRjlMaVoyU3RQZ2h6Y3VHc0t0MlRjVDBwelVrQXNrTWlfTFpUeHlxZGZPZWFBM0ZUSmhm?oc=5"
      }
     ]
    },
    {
-    "headline": "Microsoft November 2026 Patch Tuesday Fixes Record 1,200+ Flaws Including Actively Exploited Zero-Day",
+    "headline": "Watch: Jensen Huang resigns as Nvidia CEO amid affair with alleged Chinese spy | Above the Fold | Nov 12, 2026",
     "lang": "en",
     "coverage": 1,
     "sources": [
-     "LinkedIn"
+     "The Hindu: Technology"
     ],
-    "published": "2026-11-11T20:00:06+00:00",
+    "published": "2026-11-12T22:34:33+05:30",
     "links": [
      {
-      "source": "LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSzhjVmNHeVB3aWJWdUF4Q0FJTnRRQnhCMFVUS0x4MXROOEVpdEdrdExZTDF5Sm90akJCTmlNRjlTM3pQWlBUX0N2NHRLblppN29oSlFhcGdWWWtrUTI0cjB3eWpWTDFqbjRidlYtM2tKb1BmT1hCUmZSV01mTXlZYlg5cEtNYWE5aUJJRWZpTFM?oc=5"
+      "source": "The Hindu: Technology",
+      "url": "https://www.thehindu.com/videos/shows/watch-jensen-huang-resigns-as-nvidia-ceo-amid-affair-with-alleged-chinese-spy-above-the-fold-nov-12-2026/article71695054.ece"
      }
     ]
    },
    {
-    "headline": "Half of GTA VI Gamers May Call In Sick. One Tech Giant Is Giving Workers a Free Day Instead",
+    "headline": "Mapping oxygen in graphene oxide could unlock better materials",
     "lang": "en",
     "coverage": 1,
     "sources": [
-     "Inc.com"
+     "Phys.org"
     ],
-    "published": "2026-11-11T18:48:22+00:00",
+    "published": "2026-11-12T22:30:01+00:00",
     "links": [
      {
-      "source": "Inc.com",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPc3hJVnpWUFlJQnNLYzNmLVN0U01RZV9FNm02UkRWcldzX0pxbjgyZmR2c2ttMUlja0lxclkzQkhkckI5eU12U2FDbGx2M2cyT0RqTFB3dnRJY2o1ckRZeVVtcjJCVEdxZUdMOFlQMkxFbTJSNF9rUnRqX1NWU1F4TXZFZzhGcGdnb3kxaFJoWHVMMnJfUUJOVUZKNnhybDBmNzlJbXBjaUFYbVZOOGpsRV9HOFk5SVo3YnpmWFZGTG9SSXNrRFJtOWl5YVhhLW8?oc=5"
+      "source": "Phys.org",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1SYUIydkpQVFpYYm9LSkVLMUl2amxtOU53b21wSVhWLVo2a0NjenZvaEpmWDd4REdERWFuRHJ6aW9QVGNCVXdyckNQZzhYZy13V04xcDRFQUhsRmlwemU0VDBSWjUweWhPVWtrS0JwUXJwT0pC?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "Fairphone 6+ gets its first US carrier partner in Boost Mobile - GSMArena.com news",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "GSMArena.com"
+    ],
+    "published": "2026-11-12T21:49:02+00:00",
+    "links": [
+     {
+      "source": "GSMArena.com",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcTBzQjJMcmNIZ2lHM0xqTTk4YmhtY0V5bjFXcHlHVW5TOG1ieV9RUDBBdjkzbmJrbWthbERoTE5rY3Q0a3NfcnFFUkhKNkJqSWRYWVhvZ2hNSlBVRjk2S3pkMDFRN2RMcmptcU9CUnl3aVFJRElKVTc2UXRZYllkY3l0SHctWGVfdjNmWGcxUE40eGEtcDRFN1NHVkM1UGZCNUh30gGfAUFVX3lxTE8zVUY3XzBwZUpOcWdRSVZReDNTRG43MGxCU0VVSF8xaEJBM3lYS3VQeUxidmlPcWhQVm1vQU92QmdMN1ZBMll2RHpxUmk3d1dQR3ZxcmRnTEp3YUtOZm9QelM1empHTGc3U3J1TDI4RllnVmtkX2xJdUlZZ3E2b3U2UUdRekJleWliOTNEQjM5TTI3YXFkTWxuaDFwcHJxYw?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "Google’s Gemini 4 coding agent now switches models mid-task — and finishes 19% faster",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "The New Stack"
+    ],
+    "published": "2026-11-12T21:27:43+00:00",
+    "links": [
+     {
+      "source": "The New Stack",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE85Y0gwZDlYeWZiV0FEVFNWZzhHcjlfMXBfQWxqZ1ljYTEycThUUlg4U0RWYWhnV3QtcmVJU21pSnR4SFViSWdDX0FkemhXT2JQZTM4TG9FQ0lsYUNhOFotYmFVcjg?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "Nvidia CEO Jensen Huang resigns amid spy scandal",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "The Hindu: Technology"
+    ],
+    "published": "2026-11-12T21:26:59+05:30",
+    "links": [
+     {
+      "source": "The Hindu: Technology",
+      "url": "https://www.thehindu.com/news/international/nvidia-ceo-jensen-huang-resigns-amid-scandal/article71694271.ece"
+     }
+    ]
+   },
+   {
+    "headline": "Black Friday iPhone Deals: Up To $1,200 Off The iPhone Duo And iPhone 18 Pro",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "Forbes"
+    ],
+    "published": "2026-11-12T21:20:26+00:00",
+    "links": [
+     {
+      "source": "Forbes",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWXNmV05aWGcwMU95YzR4bFVwLXR1V29BYnRwM05LTGZOejVVYlVMVVhUSmlpaGNxalcwbmRGbC16U1lKaVBydjlwMDF1MS1GbTdYUDBjTFFxVnZJUS1xaW9teFVFVVZ5cE5LS2I1X001cU9NaDZhQjFVQ09vZUd0QzlZYlVoZ0FLRnhrcVRwaHU0VEUy?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "Today’s NYT Strands Hints, Spangram and Answers for Friday, Nov. 13, #985",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "CNET"
+    ],
+    "published": "2026-11-12T21:00:11+00:00",
+    "links": [
+     {
+      "source": "CNET",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYVdNTU1IYkZYSlgwWlJ1czg4SVM3MjlfazduLVRXWk5FTzE5VUpQNEo4SzIxcFM0dUdCMVNsQzc5c3lJRkdqaUY5NUV4NUgtQkdGenVNT0ptd012NWdpMEZWVlBINWVTSUl5Z0lYSy11cFVUR212b1BfVnRrUk5IWkpMNG5FdEthV0ZVN1BJT0xDbV9ybVE?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "OpenAI launches security products, tells orgs they’re doomed if they don’t use them",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "The Register"
+    ],
+    "published": "2026-11-12T20:48:45+00:00",
+    "links": [
+     {
+      "source": "The Register",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWlRDS0FrQTVoOWtIT1JsRnJScy1vVzVGRnJOakd0bkllUHdTNkhJVzd3OWZ0X2FDb1g3cG1YOVM4Q1I0TW5tWGpBd21URFFaTDVkS1NNaVVxX19MVTY0dFlFZ055VVR2OWJNSkd2MXZ6NXBoMTVldGNEakNJbEd0TnAxa1loV1FWcjByWGpWVmpvc2o5VmJsR3Jlb0Q1QXBkcWtTVXg4ZHpETktma3R0Y3pVUEZPOE1meEdwS2R4NU96MUJiS0lDQnJ1NXZPTzMxdVE?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "‘Unlike Anything Else’: As ‘GTA 6’ Approaches, the Gaming Industry Braces the World for Its Pop Culture Takeover",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "Variety"
+    ],
+    "published": "2026-11-12T20:36:00+00:00",
+    "links": [
+     {
+      "source": "Variety",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVWx6NElrYi1Ka0pJM194cUpNLW1BYnNjX3R1TzE4OVdKdlcxVnQ2cGMtZm41SjNqS1ZjYVUtLW5vVGtrZXVKZWpiNEQ3am9lWFlCdzc5ckNua01ObUppZVJIVUdsVlR2YllFUWVHaUxqakVSaThWcFJodUZSZlFNVEdqenhtbTVBbVk0c0F4SDk?oc=5"
      }
     ]
    }
   ],
   "ai": [
+   {
+    "headline": "New age Joshua in Bihar: Christian missionaries turn to artificial intelligence for Digital Evangelisation",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "Organiser"
+    ],
+    "published": "2026-11-12T13:33:29+00:00",
+    "links": [
+     {
+      "source": "Organiser",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPZnNndkNLaDQ3U09WZmw3aHRMOVBSbGladzZvQnJDSU5EYkVUNUVrQzZ3UmoxOFpDNDJLbHNNRWNveTlfY1hsaDNnOFZZNElzbXZXREJrNWxOdjFJenladUJlOUJwcl9yS2lHenUzNk9LYUdoRWZ6eXpsaEJTa2ZqOFdrWTkwUWJXUGN3QzdYVzk5OEM4dUh2NDhuZklaODhiZ0pIVVI5RWpFQ1VTQzk3blMtbEJlR0NSWkZqQTUyb1NxQi1obkFuZ0l2Z1BNUWtoVDk0SldpeW9UWEs3SWNWYnZsRGtEUElXRmRNRlo5b3PSAfYBQVVfeXFMTW82RXZqUHZqRkRXalMxcVZPRlFIM0didHBBRFV6SkpWY2ZMZnU3eTZNQ0RBTzlTNkpGamY3ZEhqS2J0R0lGd2lwU3p1RDdoOHVtUk5yd2xYU2F0cXVuZmtBTmo0dDVvLTRwOVdyRFEzaERwcHkxX2V4NnBFV0tnc2lySUpfYkN6d1AzQzItMnRuOU5iUFRfTlhzc1NyaWtMOVllcmw2eE1hNlRfLW5kU2gyRDh3aDF0R0syUmlkZWJHU0lCMS1qUlV1UjAxdDJxWU9va1JKQzR3VHlJNTVBcjc2ZUQ0R244ZlJ1Vl9TR3RkYTluTzlR?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "OpenAI to process API data, run AI inference locally for Indian companies",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "Business Standard"
+    ],
+    "published": "2026-11-12T13:05:01+00:00",
+    "links": [
+     {
+      "source": "Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQSjYwT1lnR1JJMlRscWNzeklSaTFDR2RHZmJndGtmX3BsUlhEZkZJQXMwclhWNnNQekRoYVZOMTRlR1VEQ2FSalFJVWZ1RmhWZkxtaHRmMDJqTndtUXVHRDlOSnhDYjFQX1R2U1h4c2xYZU9USTU1YmVMSG1lNWlxeXNJSVFVQVJzQUsyN2NTWmc2M3FKSFVGUWVNWU0wZWJlazZUWmV2QzcyaWlnUFdZelpReUt0bXBzVVNvbS1KNHZ2SVh6UVdlMndsV2lfNFFWc0FPeWk1OTRRQXktVjhObXI0YkE4RnkwM0p0bk1UU3k4eWPSAfgBQVVfeXFMTURQTC10SzUweXNKUjlDbXNhNWNIZVZRRWROUXNjWTNWQnVvQ2dVUVNRMmN3dmh5QmhhNGxWTEpSN0NsUmJUcXRJV1U1aThxMlFPWVZzbGYxY2s3OWdVd0NJdUIyOTYyWElVeUs0REdsMUFsRWJ3d254VVl3TGJxZEZNMy04cFVialhJNWJsblNzQUhRZjNzT3hMR0VzN0ludkhuc0NWbWdBeV9sYWVjTmh3OU9IRUZrR3ZqV1FyWk9NbXpxWTJWSXpMQVotQ2NFTG9OWHlVUHRKRTFoU01HTkFRRFFoZmlQS0RROVJOeHAyU1F2WWFDTHY?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "Meta's Muse India launch a priority for next year: Country head Arun Srinivas",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "Moneycontrol.com"
+    ],
+    "published": "2026-11-12T12:19:21+00:00",
+    "links": [
+     {
+      "source": "Moneycontrol.com",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPVEhURlh2SGgxa1dENl82aDJmVERSdmRjYzM0Y1EzeGtIV1hjR0VrQ0hPdFI0bnI1X29md1doc0t5YVhoWmVnVXlkV200aEk4MGg1dU5hVFBGRGltazBGUE41VklqTFBiWHFndVRBV3dvajBGR043ZTdtS2ljWDFiNmZTN1lXMHJ0SGxXSEczQWVHVHRUNXhMX1ZYSFFfNnllRTZWS3V2OXVXWDdYRk4zVGVNLXlLTlFMaDA4Z0dycjlkWGVVclJIeEFNRmlHekZ2ZWo5NmdsTzRhdmRCVDZ0cWdjM05VZ9IB6wFBVV95cUxNUE04cmlzVWM1X2VIcTRZNjVrTmszbDRPb2ZvZWVCQ3JENjZObDlWYlRQRHBRdndzby1mdzVUcHNvUkkzZ0lvUWhGdWIyWUZXUmFxVWtwS3dJc1RGLUFaZDd5c05uX1FhbDVDZHBWUzlRN3FSckJISG9XdFZYcnhkc1djYzlOb2JIYjJKRTBlelRtM2J6MXJZMmYwUXFtcEw0bGJXa3o4bjJ4QWtiT1JDOGxZZUxpUDg4VXVDUzRfUEZQR3lOWlhYcWtFTW5YSkU4TnpCVnVnb0ZIMmRuYzFNQ3NDOWhCcmltTzQw?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "OpenAI to process AI requests in India to meet data localisation needs",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "Business Standard"
+    ],
+    "published": "2026-11-12T09:29:13+00:00",
+    "links": [
+     {
+      "source": "Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNWkd2REtMN2Y4MzBuTm5OMF9RX2FPZVR6YmVMUzFBd2JJd2lvTHk4ZXdXVHp5NG43R1RSa3UzSWxCU19lLWM3UGxLdDluRWRSTEdMZWtCeGk0UDZhTlpxYUtMZzhXZWZuSi1Oc1VVbno2WFdmSTlObVpnOVE3NmhwSmhOeWl6RlY0NXR3RzJraWlpLU9qTmIxalRuYWJ6emRPU0lWMTZBUDFpbklpMXpyVmtfOU1xR01WZWVMY0p4R3ZfMi10ejQwalNCSWlsTHQzSldtSGduSmQ1X25qYUtmc3laN1BWTDJqU01sbUxGYk_SAfYBQVVfeXFMT0hLb3ZwT1UweHNWVkVkOUFHdjNhMHF6NHY3M2x6cmFpdEpqMFd6TUE2NS1lOVh6a0MwUkdZRXBIZHNOeENoYjdoakMycDk5VlIxd2ozbzByQ0lIOHpOeWhmcmVKT2ZuYWhuWTByT0NTWGZESmFBaU5Scjl4bmxvRV83UlFncmV0M1ZMWU9DLVdVRktqZU5XcS1sbG9sQndpWUZWM0hXZTVHTU93SHRnajVORUJmaThUbWViRUJ3VFJhd0dXYk1fYWdFWlNxLXZiY01LZG9rRkRtbTJ4Q0VDTzdzdDlfS1p0TlRZZDR0WTBfcExoeUp3?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "HSBC Hurun Global Indians List 2026: Pichai, Nadella lead rankings as 200 Indian-led firms hit $15 trillion",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "Business Today"
+    ],
+    "published": "2026-11-12T09:12:00+00:00",
+    "links": [
+     {
+      "source": "Business Today",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNYzhFcFJLMER4NWFJWGlYQXNrT3hXY2lLRTI1dnI1cmxYalNsdHFIX0J5dWVQUWM4Z203LVNwZjktdzF2ejBWNFYzaDZ3S1VFeUo4bHhkVWxCdDFpU2liSHF2cGU1cGJvV3VWNE5HQmJPNWFhcVlMMkFxeVRfUUxVcjFWZlc5TFhvU3dmTkJHVFBJOGVsVWZhWnBpdmxsYUxlV2w5VjN1QW9aN21vUURjdmlqUERZV2tLakZvS3Y3VXRwb1FSR2ViSDhFMEhVLUtSY1FyZE1xLXE1eW9zd19vSVVDNzVXazZJdE01SUQwM2xiaDVCcmdiWGZZb0pWQdIBgwJBVV95cUxQZGp4d1V2ZDlLSEkyWEE5WGM0NV9NaURKNmNlVXNhMXk4WWZZQ0V4alJjQ0JQRWNiVXdjZFhyMkRYYVVYRDBvY2xqWEtyZUo3VDUwY0lsZWJFMFlqWWlGd3NybE9rWGpjYmlmTW1BckxWV3k0a0Q5YWFSWmFuNzgtTVFjdUhmaFNhZ09WNWFiSExrX1hHcVJZcnFrWGMzRzNMeTc2WEhqbHVVM3d2TmZpY0ZwVEY5WUREYzRPQ3BNQU5tS09pRzZCcGZER1g5d0JZSEdRV3gzUnpjZ3B2RlNUd2E1cnA2cU9QTV9KTlh1Njc0VXNidnItMDRfNDBiaEI2UTFB?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "Meta plans serious India payments push under Kunal Shah, says country head Arun Srinivas",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "Moneycontrol.com"
+    ],
+    "published": "2026-11-12T06:30:44+00:00",
+    "links": [
+     {
+      "source": "Moneycontrol.com",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPRVplVjVDYWVHaC1aU0hnaHFibWdscTRvV2tJWU1CN1A3R2p1TEFybWdwMEN1SjVaQTI5cUE0bC1QRGVMVFBLY3ctSGNsbS1rX3BZWjYybjZKYXcyMDdoMVM5dklobUZpbDVwSzM1eG1CVGJlbGstNTFvMTk1QkZxUWdBMnU2bTRJa2stTkkwTVlPTVdoODR1U3htNUttMzd4VGpqVWhZNlNvbkRhLXFjdXJtVk5ZZVN6b1J6bVF0alRTSDNoRTFfemNKbVRyQW1yQjJlaFFuV19GR2hjaEdvcUt4QWZpVFFsNDBKbTVpNDZIWklm0gH6AUFVX3lxTE1iNHktaFl2N3hHYzRxdEhMTVBiVzhBZTNxQ25nc1ZUa2JwT0pUWGpFT3lWTmNrS0RIYlFMa2h6RXMtOVBvUXBTX0RNMXFJWVZsc3BId1pWTTlmZG53V2dzYU9SeHNMYlZpbHZHOGpXQkxiaFZsNE1Ra28wNUJsaXRTd3JHNnZRRkpZMmFuWFpCSlJ4VlFBUXZ2WVFBUnRRckozUTQ2cTV6RHVtMW5jMmFXaVZOQnh0SWRFNkJiX2hDcXRYc24wNTNoVjFpX1VMUkpIc0Q3TVNIREhlaGwzeXZ2eE9NbUtPWVEzSDRsUzhtZUVUUm9zZzgwS1E?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "India Among AI Rising Contenders in BCG Rankings; Talent Outpacing Computing Power",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "Convergence Now"
+    ],
+    "published": "2026-11-12T06:26:37+00:00",
+    "links": [
+     {
+      "source": "Convergence Now",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNd1haSDg1c1owYVliMmk4UVB6UW1tN3BHNzRVczJrMjNtZHRBT2l1LTdUaFhCUmJUZERUdVdmbHlHU0hQa1dFZmxUZ0xMOEh4VzFjODJyUjdSTFA5RzBRakZjVDFWNk5TUkpDelFENE00Yzl5eUJsYTdmU3FRY2JnZTV4LVFyQmVwUGwydmJZbVlUbmt0c3dfQ0ZYMEpDV3pVaHlsZkJlWmlmV1J1VS1HR05OdjNKYTlab2lmaTlJMmRQS05WQTlvX3dnYXdleE8zbFFZRw?oc=5"
+     }
+    ]
+   },
    {
     "headline": "India ranked an 'AI Rising Contender' by BCG, built on talent rather than compute",
     "lang": "en",
@@ -256,21 +361,6 @@
      {
       "source": "Livemint",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaHpMaGpadVdTTExfZ0Q3WExOWkJvLWxXOTdJQWxQeWZyYkh5dXptUzlpendjaGZ3SmhheEFrbEVNekQwWTB3c0Jnbzc4VXVXQUN1LS1sMUUwbXZpYjhWTWZZV3NiTW52SFVzd1RSOUEwVndva3BLTE45UmRGX1pWV3BvVEtqR0lDUDVOSXQxMTFtQXE3ci02a3EzdTh5S3NUX1I0VEdhb1dnNkM4Y0Fvc3JfMjQwX1Ex0gG-AUFVX3lxTE1tU2x0M2JwOGhNcGNkM2FVOEZIRlBEOEM2eWI3SUtSZW9qRG1RR21UWnFWUERSRE5qT2FCcU9jOF9YYm1PZEQzdVp4azlEaTJpV1JpdmVZMFdoRElRSHJ5QlU4eGpzWFVXVzRIOEU5eHYybk4yYWQtOXdsOGFoa2k3bFh3OU4tcmdkQ1dJcngzWnF6U3lPbXFWdFJlaURrYTYxRGFmUm5RY1NadnJHS0RBSW5YTEVHOS1fR1pUcUE?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "Reverse AI trade drives foreign inflows back to India but rising US inflation poses challenge: Ajay Bagga",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "The Economic Times"
-    ],
-    "published": "2026-11-11T09:22:38+00:00",
-    "links": [
-     {
-      "source": "The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQbldrNnZUOW83ZkZ6alA2UkZCSHVkWUxVbUVVbGkwaTlWbTQ5Mm5xdGRZZmJTZ1oxekxUYnk4RU9YR0o0MWRWY0M1alVjbGN3VkN1S25LdG5uQnBZUUtHTmdzaTgwWUhUZXVVdTFUT21WN1ppM1JPTUZLM3YwOF9rYTF5Z1Y3ZlZBTG1PU1ZHTURyMmJMSGtITVJQN0JSMEhRa1I4NmN1R1Vsc0RQaHNQTHZqSjU4akhGZHdxaTkzTXlwRmhCQ3RNQjhTRG5BOTg1TFBRMlpJUXVFcTJSMkFzTTdFZUVHMi1pZ2JPTldKYVhYOHZSTWViNWZ2YldWVDBvczVSVlFGeHZnNk16MW03bl9wZ2o0QdIBmwJBVV95cUxOTWxzeGwzY1Z3R00za1YwMkxmM21tS2F6eVlmdjBFcFhuTGh5ZldIMG16dmYxU21xcWtqSTItOUh4dEJ3U2R0SzREM0ZtZ2FXQ1B1YzB5V0RJWF82OHF1MnRTSE9LeGFhT1g0T3V1MnpVeGtPOFVXSXVVWHo2Qk5oTFliSG1uQ0p1anNJV3VkeDgwTHRlZ1c2MTRYM0dyaTlVZEtTSVg4R1JkbkNsMHQ4WloyRmxtUmpDZnMxZmRqWlZ1d01kQzQxNkhXVXRUU2FDNEpHSmtkR1JkS1pIMl9obDhRdE1YNjN0ZXkwMzNTRzRKYWVadnJLTE50bXpkVXp0U2kzT1JLaV9QMXgyRFlKdU96alJWWWNfdkNB?oc=5"
      }
     ]
    },
@@ -318,306 +408,235 @@
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORDVvb3JSMlFnVE81NVl4Vy1oWUkweVJ5dmNjNGJQdTRENE5Db1Z3dTNiMXlldHlGUW9xTmpJRDItWDF6ZExUVUhrRUtVNy1rZVgzaVc3LWFoMjd3M0otd05INE41N0hhcW9oRjY4Umg5Zk1CNXM0ejdnb2Y1LXM5enhyc0NsTjFsN0NpczRWdGNQOEVCNFpreW9TWkhxWnRYWFhIcmh0MThBaVpocEpBTkNfSzlmSEZyYk85R2NadnJpX2Vm0gHSAUFVX3lxTE92Q2I2UzBrekRjYzI0VDhHWlV0RkxwRHJjdXZwY3JwZndBSlhsQWN6YmdGSXl5YVhvcnNKMHllNW11VXJ6WHNmMTFaWVI1YXhnX2JRMTdXbng2YkdDMHM3WlNhbTZQa0JueGEySUtncHBEZS1NcW5mcWJfc2VKY0M5dTFWUUJKWFZqbWVSQ05IcFlGaHZMSVZOdFdPQ0d3WUd4MjI1NG5ILXdKbGhReUpJdmYyYzJUekxlNXNSQlZxWnRtZUY2SktSbEJyMDJZQm1FQQ?oc=5"
      }
     ]
-   },
-   {
-    "headline": "Dun & Bradstreet sees AI opportunities rising in India, but workforce readiness lags",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "Livemint"
-    ],
-    "published": "2026-11-11T00:30:58+00:00",
-    "links": [
-     {
-      "source": "Livemint",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPWnRaZ2xrbXlyWmhRbjFoWi1WWEVrVGR5UGkzSWxaQkJrOXgwV3NPbUU4Rm83VllGQnp2Q0x5aWkwRUFINFVNNHVPR2VjcC13WFRuWFVZY2lqNDB5RUJhNm53TDNWWk02MFVSajFnNWQ1RktDNGwtbVBpeTBVY0ZpSEY5b2xPOVh0aERWeW8yZHZOZ19kUGZlZ05BaDZrTTRGeXNmakJiZ2RyaGhCeVBHc2M1OHk4Rmdidm9MQXVLOE5fR1E2SThOR0pQOVdrTzBzbVd4NnZEX0RRbnhMSWkyS29hM1lUczhIc1dGaUtYdjE3UWZFSkhR0gH8AUFVX3lxTE96SVpGeEhfREhDWXZJcWtqOWNKM29ub3pXMm9iRmZoLWV2bDNreEZXbXhLYVNoME5HNEhTMFlIUktfWTl4eldsblViSXMxS1duTUVEeHQwRnBubDVVOEFTNGdXUkFpdlBGdHdYMUlHV1JTWHhfQjVVYjhxUTJpb0VMeGM5TkQ4YWJJcEZqWWNIeDJJUDZUWmVHa0VWZGlRLWhUcjF6UVFHUFJSeWg2R29rV1lVd2FRVzhxZDZYQWVQOFVuT3BGdVNQZEFPT0M5TzBNQUwybGlhRWM4ZjYzd0RLRi1oOVJvM3lGeUVDeEcwX1IyS29aRERmRndnTw?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "Australia's Qantas Airways to cut 850 jobs as AI takes off, back-office work shifts to India",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "ET Infra"
-    ],
-    "published": "2026-11-10T20:04:46+00:00",
-    "links": [
-     {
-      "source": "ET Infra",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNTktETU9wbHFLb1I1RTVwVWpacXJzeFVfQmxxOUZZVS1FVWNJdWhYNndnZC11SjhTcjdmZDV5bmhqVURFaWJLVzEyOVB3SUZDTFZKR0NhUy1NSmJmc0hocS1HNmd0YzdLM1Ixa1MzZUNYbWFNbm52NTgyZHFsWHJ4TkRqRlFYUDdFaHlLNGN0YTRCXzZKZTJ0ODB4LUhWVE53YWNHczhoRnJLUmlFVHVCZWpNSC0wWkpkYXdwQk1qT2xaakxKTWxzU0hZaVhZX0JkVWdkYzZ3OUxndmlyZURYWmNwREhZOVZIbmZQSlVR0gHyAUFVX3lxTE5RWVF6Z085RFhnaG9lUE96OGVIR2NLOXJTbmlvS2o1YVgzVUo3UTFzNW8xVHB2eVFlZ3VZMWRpLWQ4YTF6VjdhVjV0ckZmMkE4RFUyN0JubzlHOGFoZGxjWU1VdE5wMkd6MUV6OVN1OEE5UzdnWF9pUDZDU3RXdDZtVjQwVHkzUnlSaUxVMUoyUkY0NmJielIwNXJVNkk4d1ppcWRZSDN6MTJvTjFnSjl4WWtsdUFfUFJRMkliNXFnU1VveG5oY0dFRERYWm9iTVlKSFJpdmlnQTMta0Z2WW1lMVJtbVJkWWNqSFlIY3doX3FB?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "India not a refuge but 'compelling' AI opportunity: Anand Mahindra",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "Business Standard"
-    ],
-    "published": "2026-11-10T16:21:42+00:00",
-    "links": [
-     {
-      "source": "Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNS1DWWJsbGxVdENSTVJLbmx0UEs5NXdrWTlLNnhSMUZkWEZDeHB4UTVqTUtuSjhfSWt0NWN2bUVmTnlWeUpnVXlNb0MxaUM5TmRZZ0tOWlZBNmktWWt2OGV4TW10TGRNQldqS2xnU0FCeGdpbFZhcWhUX1ZpSThhX2t6M3BWcmJKcUVDc3pMMjVDVWoycHNlUHRjQkR6em0yVG10aDFfci1QcThyYm5abFdoMDYwQ0oyQWZUS0xRMlZ2Tl9VVVIydDNYenR1U1ZVZDQyajAxZ3BsbW1VXzZOdlVWZWVTZUHSAewBQVVfeXFMTV9SVDhzMWhka2xNYnFlNXpzdFdxVDZQS1lBU0tQWFQzaUg4cHJvU0RGNHV5VHFyeDMwdk1hTzNRQmRxdTNlUkNoa3J2aHdHQ2hqdzlyUnhzbGNzUXlhaUpWcTV1cFo2OTZCcF91SEdlaXhKY05qYVRmMVBhRWRqVy13amlFUjdUdnN1dE50N01ISW5DOFZ3US1CbWdkRHhFLU5PUUhFZjdrM1BWWVpIYmhaTXU2dXVpbGJSYXowUmk5RW5qV2phd2VPWEEtMU5Oak0xSXBNRk1mRXZGeXBKb0xMQjhSaWI5TzBYejk?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "Sarvam’s next big bet: Can India’s AI challenger become a global full-stack player?",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "Business Today"
-    ],
-    "published": "2026-11-10T11:09:22+00:00",
-    "links": [
-     {
-      "source": "Business Today",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOX2xDdm9WeS1GV2R2SEVyOUZYY3NGY00xRjgwVTk1TlZPem5rTk4wUzJNNC1zSnVreXlOZUtoaWpRY1FUbHhWVDR0Z1h2RjVMM3BLYTNWd1pndG1tRGNhMlZYcWNzYlhpZ2o2TUptakpDZVEwUGQtWnhaUWVHazQxcm1Gb0RJTUFVUGZ6a002MW9zNEZMdkI4ZGs0Ujh2TDdYcEJNeUFUeDJILWhESDR3WmhhQmZTcDJKbEk3bE9rNU1nRklhbGN3OWpwX1dfNk5pRkVUMkhsQjd2MHZkblNUa2RqVDFpYVhncHlWUnc2dG5pNFVxZHJrenVaONIBgAJBVV95cUxNdUZ3WjFCdGtIMFR6OWZ5UlZRM1NvU1RjbTFGWE5RQ3ExVVlqZl80eHdFWDA3TUV6LVRMcEU0eVVBZ1B0VXN3V2V6OEdGa1FxQ01PbTB5LUdLZGJmNEI3dDZ5ZllZMjhzQzVOc09paDlWUm9GTk1sOVFHMy1MTXJUYXREUmxZMWVnbFA0bFhjbHN2bGF4aXBlSkJYTGZQV2hXSGV6MEs3TFZwZnMxMFV1WHVpVFRNQmRKVDZ6X1FkMmUyWmxIekh1alQ2TmdNM2JabXpGRTdTZm5qQWdHUkFUWnkzZFJtbGJZaVdncUU5dU5NUnhYM3hFU0RiSjVvQkZh?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "Meta Muse AI May Soon Arrive In India, And We Already Know How Much It Could Cost",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "Gizbot"
-    ],
-    "published": "2026-11-10T05:06:18+00:00",
-    "links": [
-     {
-      "source": "Gizbot",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVmlZUFhpWFpaMXBOc2QxQ2hjR2czakhCUDg5SUZSUEItWUZ4YTBPcEx6b014N1BLRVh6OEhHbHRlSkpfOXlXSjJjWnBsT1VadDZxNS0wV1BHRmJZdzdrMlRiZVZMUF8yQWNnLWdGd0swMDVEckw3aHY5VWx2OG5vLXBuSzM2M3MtM0VYYWh1UGMtY3FONFRKeHdsNmpiR2hqTlhpblh5MGdSdWh4bmx3dHpkUE1NZHhrUUk0RmdDZmJnN2lwZXFjYVBsbWM3bzJ2d09HTDBn?oc=5"
-     }
-    ]
    }
   ],
   "finance": [
    {
-    "headline": "शेअर बाजाराची ७७२ अंकांची झेप; निफ्टी नऊ महिन्यांच्या उच्चांकी पातळीवर",
+    "headline": "Success Story : 25 लाख ते 1.25 लाख कोटी; स्वप्नांसाठी अमेरिकेतल्या नोकरीवर सोडलं पाणी, भारताच्या आयवेअर ब्रँडची कहाणी",
     "lang": "mr",
     "coverage": 1,
     "sources": [
-     "Lokmat.com"
+     "Maharashtra Times"
     ],
-    "published": "2026-11-12T02:37:00+00:00",
+    "published": "2026-11-13T02:21:30+00:00",
     "links": [
      {
-      "source": "Lokmat.com",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMmJQYUpzWHk2bkk0ZjZ2UWlxTGJUWHlKYnlkNVVyOHd2bDNTaWlISE9PcnA5TTQxTnRBcHJneGNuU0VPQjd6NGxZVHlXWWhsS2VYZEw1R2pNWE10bTlWX1FHM1h2OWQyZjdjVnc4UjFQejljdWhLb3Z4cmYwaDc5SFFrMl9WLWZfVkZGZWdKY043dVRZX2NSdmhGQlprSC1rNkhrMk5n0gG2AUFVX3lxTFBMejBJXzltaHVEVkFBOUk0eTAzZGZ6eUJmWTU4ekdyU2RPb2ZRdXlIaDZsaVRDSEMzcGEtaEV2RWROQ2V0czVTY0F6Yl90VVFEdm05MjM2Y1MyYWZhZFJtTDhNRFhFNzlHdWY3RGhydktIN0tIX1V0MWVaT3dCQ1VPWDZqZ0VFMlF3YXF5MXROYmhvRWhtT0FxaVFXUlg0U3BaemxaWjhSOFo1VmxUeFFzVFo1U0N3?oc=5"
+      "source": "Maharashtra Times",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRm1UV0w5U3dINlViRGx6WWNNWldGSGRWZmNwaG95R3NmVWUzVF9TY0xudEJUdWVqYTZyWnNYV3lkaEJ0ZVF0M3FaVFVJeTMxTHVlejNoeFJKOVRLRmlzbnNJaUxUUWVleEZQM0x4cmg1M0Fkd1QwNmEyNC1NdjVnRmNlM01IdUdZNU5EOFU4dmlVT0hoa3VkdVVqOXJYWmhNRllfczFVSnRDVFoxeG44alc0ay1XSDNqXzNISXU1SWRQb1pKM01sallSd9IB0AFBVV95cUxPUGFzS1ZwR1RHS2ZqcWx5Z0JtYXNnMUJlZE5tdUkzck1lRU5nZnkwV1NuR1I0STdPdzQ1UG5YUjhjS1ZOR1JvTndwWGczRW04UF9Bd2g3V1RfMDZ6WEhscnRGUVo1MVdrd3RubXFoYmZZYml2Qjc3Qng4aTVfdG1iTHZXS3liazE2TGgtamZQbGJ0TDN1OUtoeDlZTWZ1REowc1p6YXV4TGRSQy13UU40Y2RzbENSRkF4UFBieHBuaUdNdmY4LUVMYWhkRUNTSWl3?oc=5"
      }
     ]
    },
    {
-    "headline": "बँक अकाउंटशिवाय ₹50,000 पर्यंत NEFT करू शकणार: ₹10,000 पर्यंत थेट कॅश ट्रान्सफर करू शकणार, RBI ची नवीन मनी ...",
-    "lang": "mr",
-    "coverage": 1,
-    "sources": [
-     "Divya Marathi"
-    ],
-    "published": "2026-11-12T01:41:40+00:00",
-    "links": [
-     {
-      "source": "Divya Marathi",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWGlSMHZseWVRdV9xUWFQMVJMekRpUFdoT3JQbXRtQjIzV0REbHB2bUFpeS1BdzRsS3NwaVdQYVkyMHUtb1V3ZDROM1JPWmNWZTh4Y1NSTWgyQ3J1dTJZLXAwdGZCMmZ6dTV0Qk9CUmVJN2s0WkFNdUEzczRHdkJiZ3pFQkNJaDVSbW10d091U2tQY051NUtwMi0yZTFNS29iaDdnajZkbFBXM2NwWXhiWVh3XzJfLU1vemVGbFM1eHRaZnl4ekFqWnJ30gHPAUFVX3lxTE1KSndtYjVXZUMxeHpMWWVCci1LdTRfaWpBUU15YU5fbGctSFJGdl9zaGtVVTl3RDBnSmtiUUNNUERvc2d4bTlpdk9wYmRkYnZkb2lUbFRVSWU2OWhZcjl6bXpNSE5oSk9Qb0x4MUJGcWI2UmJyS0U5V0JPMUpSR21JYVJpeGFnM2VtQTJ0Qlk1MVdSRVNHUjVINFJYNG1jcmh3UmNKeloxUVg0b2JqT1FQN2lHTjVGNTNqQ1Q2NS1NMDlBOUZKRWE1UjRZMjBYdw?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "Nvidia preparing to oust CEO Jensen Huang: U.S. media",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "The Hindu"
-    ],
-    "published": "2026-11-12T01:26:02+00:00",
-    "links": [
-     {
-      "source": "The Hindu",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWXdFOU1qZ1djZTNTVjVxZWxCVVM5Y2FQNVpMQVdKQmhnUTZybGRUSTAtdTF0eHZPSXh5cVZJTzZPZE16SlN0aktKNURmYkZ0LUo3aEYxS2FkWXZWM2owNGZKUU9ud3NkTl93cXBPaDE0ZzZhUGZTS240TGlPTmFYNENwanhuTmNUQW5LN0JkUUhUek1TTDZlXzdkaGdjT1FXLXVBM0JBWC1mTWNnNmRBdTZOczTSAbsBQVVfeXFMUFBWbnRRbmJKZC1tTXM3UENiUXdyQ2hBRW9qYnBOU3JGUk5NQkJDTjBxR2ZVVlMwMENHY18tTjIxbkE1cVgwYUM3ZnpLbm82THFaLTlNSGEtZFNiZWRZbmk5bXZEOTdLLXdfeVJTRjFsNl9SUDQ4R0o3eUwtZV9BTnAtSWZDenIzQVlnTVhIQkxPTWJfM29RcDhGNmxQOHFCaUpJQmU3OGNmWGM0NWNfR1VjVWxLZXRHMlB4aw?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "Stock market outlook today, 12 Nov: Sensex, Nifty prediction - DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "Livemint"
-    ],
-    "published": "2026-11-12T01:15:59+00:00",
-    "links": [
-     {
-      "source": "Livemint",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOZGkyZUJibHBlNGFOR3l3U0NCWUxqLWdySXhqNmRseXB5SnY0ZldhSTl2azlqNm9JbWRHbmhyYWJGWTlQdnlSZ2ExOVh6Vi1iTEU5eW1wS09IMFhWS3dBRmN6V0FIdVRCM3BOZzlxaF9meFhXa0VIdmI5TzZvb3BYTzdTQ1ItS0FlUDliR19hRzZOSmNCdlRDSWRWel9DS2JGYzRfRkxxTy1yZnRPcGFGNUJvSFhpSW5JeUQxZkRreG5lanZtTFpUcTJ3Q19ZM2IxeEtGdTdRLTZtcjZZQloydm5USlNpQm1kTVV4NUhSeEJITzRTV0xVYVZteTlCb0xsak5CYw?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "Personal Finance: पाण्याला येणार सोन्याचा भाव? 'या' व्यवसायांमध्ये दडली आहे मोठी संधी!",
-    "lang": "mr",
-    "coverage": 1,
-    "sources": [
-     "MumbaiTak"
-    ],
-    "published": "2026-11-12T00:30:10+00:00",
-    "links": [
-     {
-      "source": "MumbaiTak",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNdk42RGpPNVZGZ28wdG9DR2IyUjgwOEpCNHEwR3picDZOUWF0OEx1RmhzeE0xUERTRThJVFF4MkM3VE5zMFhQbGJZQUx4UHRkbU0xRFFtSFVVbXEyNjZ6V2dBdlVIaV9vVEkzRF9EV0p3V25MRXA1MS1rUjJvSnliNkgteDR1QWhOM0thcXZzLWZVYmRENnpWUjltbjN1dl83aWoxWmVFb0c2WnZiMTA4OVp4enhlenkzdW93bmpvLS1Wb2pvR0NuYXJESW85OUYtcUxITTBIYkdLbzN0V2FrVE5jd24ta3ZmZWfSAeoBQVVfeXFMTXZONkRqTzVWRmdvMHRvQ0diMlI4MDhKQjRxMEd6YnA2TlFhdDhMdUZoc3hNMVBEU0U4SVRReDJDN1ROczBYUGxiWUFMeFB0ZG1NMURRbUhVVW1xMjY2eldnQXZVSGlfb1RJM0RfRFdKd1duTEVwNTEta1Iyb0p5YjZILXg0dUFoTjNLYXF2cy1mVWJkRDZ6VlI5bW4zdXZfN2lqMVplRW9HNlp2YjEwODlaeHp4ZXp5M3Vvd25qby0tVm9qb0dDbmFyRElvOTlGLXFMSE0wSGJHS28zdFdha1ROY3duLWt2ZmVn?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "महागाईमुळे डिसेंबरमध्ये RBI वाढवणार का EMI? RBI EMI Hike",
-    "lang": "mr",
-    "coverage": 1,
-    "sources": [
-     "Maharashtra Desha महाराष्ट्र देशा"
-    ],
-    "published": "2026-11-11T23:00:15+00:00",
-    "links": [
-     {
-      "source": "Maharashtra Desha महाराष्ट्र देशा",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9NTVBaYzNPMDFQUVdlb21SOHZYY05UYW9NLU5LOHFqal9CRmJWWDdCVm0zeDNoZVlsUU1JRW9GVWI4OUQyM1RfNjRHXzhub2RqSG9IX2tMaEVyTnpkSm1mWW9yUWpQa3JpWlNUQkdn?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "Green energy push helped India save $100bn over last 15 yrs: IEA",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "The Times of India"
-    ],
-    "published": "2026-11-11T19:07:00+00:00",
-    "links": [
-     {
-      "source": "The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQdXJCQk5sM2RXbTZTQ0lMR2c5VTI1YmJ2aG1mcmNyX0JVeVplWDdQSmxabVkydDBXRWVaN2pmNUZ0Z19QTk56Si1rVFp6aFNaTU5nNV9VZ2g4TFZ4QXdpRFQtVnNxZDYzdTlHNk9UWGdIenhiVGJEbFR1Nl9WUGhvRjRiTHJfek9oM0dRb3FrY1p0NGVZQ2I4QVFHWlpnUzliRmNGTHlFblNUVm1fa0wxWXlfaDdUZkp3MXJvcm56T0E4aHQ2bWs4MUJ3?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "AWS gives developers a free local stand-in for its cloud, built from scratch by AI agents",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "GeekWire"
-    ],
-    "published": "2026-11-11T18:51:56+00:00",
-    "links": [
-     {
-      "source": "GeekWire",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObk95bFN4Zjg5OVdqUGNDenV6WlYteUZGc2l0V241elh4WDViNkZ3NzhMX1hfWlJqTm13RTlKLTZkRVhqRHF6ZWgwQWFoLVpsRVdxZ3JmbmRaemxIdG4zN0hwWkNTQnk2ZG9mVmVVR1VjV1l2Rm9MN0JfVE9VUmJSSUFHQWFELWIybGN3OC1VSEw3TExVQ29CZ1Q5QUtRMjVaY3AwOFdXeWZyeXZVN3haUEQ1cnpiOVVhTFUw?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "तुम्हांला सातबारा उताऱ्यावरील चुकलेलं नाव बदलण्याची प्रक्रिया माहितीय का..?",
-    "lang": "mr",
-    "coverage": 1,
-    "sources": [
-     "Politics News on Sarkarnama"
-    ],
-    "published": "2026-11-11T18:26:56+00:00",
-    "links": [
-     {
-      "source": "Politics News on Sarkarnama",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWDlhQ3VBZUViZ1pjTTdjWG1yNWFUZDlveUJSUjJ5ZkVXbWNLa2FzRHIxam83WktqTjlZLTBqa2JoTkM5QzFpZ0RkQ0s3OGtsN3lhdk1BYkIyLTEwV21kc3BWN1F6RmZza2ZPZ3ZLd2hjNkx4amNFZGZBdEtRU3MyLVhZNzBEVmVPN1o0T1Y5OVA0MjI1N20tTUNVYUNTZzFmQVdRRWJndEN5TmdQZnBxVDVWV3hYaVU5UkxSVHYzejPSAcABQVVfeXFMT1g5YUN1QWVFYmdaY003Y1htcjVhVGQ5b3lCUlIyeWZFV21jS2thc0RyMWpvN1pLak45WS0wamtiaE5DOUMxaWdEZENLNzhrbDd5YXZNQWJCMi0xMFdtZHNwVjdRekZmc2tmT2d2S3doYzZMeGpjRWRmQXRLUVNzMi1YWTcwRFZlTzdaNE9WOTlQNDIyNTdtLU1DVWFDU2cxZkFXUUViZ3RDeU5nUGZwcVQ1Vld4WGlVOVJMUlR2M3oz?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "Conversion/Switch of Government of India Securities",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "RBI press releases"
-    ],
-    "published": "2026-11-11T18:10:00+00:00",
-    "links": [
-     {
-      "source": "RBI press releases",
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63958"
-     }
-    ]
-   },
-   {
-    "headline": "Meta head of infrastructure will leave and be succeeded by former AWS cloud exec",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "CNBC"
-    ],
-    "published": "2026-11-11T18:05:23+00:00",
-    "links": [
-     {
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWll1dG4yczlHeUtxcVFLakxSZFRlRUF1ZWtoeG9oVDBfSkwyd0Z3emJrX3RybGx3SHk1MGJVbm15ZG9GcEEyZXBJbmFRdDlWN0RvcEhEZ1hMdzl6NmVfd0FOMGZ5QldERG1IYk1fTkdzcDhFTFRia1h2YUMzSG9JNk5n?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "Reserve Money and Money Supply for the fortnight ended on October 31, 2026",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "RBI press releases"
-    ],
-    "published": "2026-11-11T17:25:00+00:00",
-    "links": [
-     {
-      "source": "RBI press releases",
-      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63957"
-     }
-    ]
-   },
-   {
-    "headline": "पंधरा महिन्यांतच महागड्या फोल्डेबल फोनचा डिस्प्ले आणि बॅटरी ठप्प; ग्राहकाला १.७७ लाख रुपयांची भरपाई देण्याचे ग्राहक मंचाचे आदेश",
-    "lang": "mr",
-    "coverage": 1,
-    "sources": [
-     "Loksatta"
-    ],
-    "published": "2026-11-11T17:00:00+00:00",
-    "links": [
-     {
-      "source": "Loksatta",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZE1QMmQxWW9jYUxKUVd6emV3SkpYVnRoR0Y4T2QxYmE4UHFaM3hXNl9VcUVGQUZ0dXZzSGhGVm9ESVBzNjNNYmE1cktxelBLc3piODN1dkdHcVlISUg3RG1VMHNUd29EVVBuUl9faUlTVmtUNXUxaG1EanpqSi1KYTZIdVRzM1FSZExRR2ExSmk1eFR3VHRpU0JNU2JKZUhYRVJkOUVxSmw0SnpRZWhoV05NdGRHOWRzV1NYMTlqMlA4ajJoanlYRzBUMW1QUGZR0gHXAUFVX3lxTE1QNEZqZEFhdnQ2cFl2dkdEaWlGS2dGaVE4TFphVlFveTVRZm82MW9vTTdDc3JHT2tkaFVMM2xpeHNsU0dCcWF3emMwRUNmdlQ5ZFFUc0pNMVo2cmlmdjIzOVNCSHI5ZGM5NnBvUkRFaEgyS2ZkRFBMbzdWTHhLMGZmX3FuXzZVLTN0SVl6ZkhTNGk4OGs5WVF6dC0xeFd1Sm1WeE1lOVJaUjVianQ3U3c4Y2xkWTZCSzZPd3RWS01oSVlmcjJqVHFoZVdCSF9LWXJpYXV5eVRj?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "Loan EMI: ५ लाखांचे कर्ज घेण्यापूर्वी हा हिशेब पाहा! वाचतील ७१ हजार रुपये",
+    "headline": "Satara: झेडपी स्वीकृत सदस्यपदासाठी इच्छुकांची मोर्चेबांधणी",
     "lang": "mr",
     "coverage": 1,
     "sources": [
      "Dainik Prabhat"
     ],
-    "published": "2026-11-11T16:51:00+00:00",
+    "published": "2026-11-13T02:08:00+00:00",
     "links": [
      {
       "source": "Dainik Prabhat",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNN1AyREl6U0lWZ2tkWkdwZUN0Sk9hYnY0RWZTQ05sWmtQWkxHaksyXzh0djBheEFoRmhjc0ZWbFZySU5GaXpyTEhpRTE3SHhFaUJNT2N5V2p4SzFhdTFzSGZWeGRpdXdLSGRMbmFxQVYtaWhLXy1oc1Z5MXNwOXdyajBmTQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZVJCbDVXU0FlMDhrcnl1ejI0ZlpaRDctV0NLUmM2cG9mM3h5OTRvZXdqcFdCTmM3cEZNRVJibFpYMjJwTE1QSnlxUzI0UDR1YWNvRnNINVJKcEd1aXhsR0huZnpjLTVFbEFOVHpoVWhqeWpBbmJFWW9oUkQzOHA1YXdHVmRFSXNzQk5xWnp3eGdjbXZLQjUxSFVn?oc=5"
      }
     ]
    },
    {
-    "headline": "Best Selling Compact SUV: भारतातील कॉम्पॅक्ट एसयूव्ही मार्केटचा राजा कोण?",
+    "headline": "आयडीबीआय बँकेत जागतिक स्तरावरील सर्वोत्तम बँक बनण्याची क्षमता: फेअरफॅक्स",
     "lang": "mr",
     "coverage": 1,
     "sources": [
-     "Asianet News Marathi"
+     "Loksatta"
     ],
-    "published": "2026-11-11T16:40:23+00:00",
+    "published": "2026-11-13T01:49:44+00:00",
     "links": [
      {
-      "source": "Asianet News Marathi",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNRF9VLVRfZUNHRUp2cVcyMUp6dEVLa3hkbTQzQlpGaThUNlRJQmJ4djFlZlRqOExwMFljZy1xXzRrWUtrakd0a1VpbEMyWGo3UVpwNlBIUTdxZUVHR1J0ckY4SWU2TjI4bmdxamU0MUppd1RCX1k3YXF4bU5XWDRyc0JKR1N0U3JDU1NWRlRXcFA5MENmOEFCZXlPQ0dLUFkyOE9qZzFOcmZ2ZjJQRXNRQ2VBYWFROFFFUnIySzlab2VnY3h3c2JyZmV2YS01UnZkUkJ0YS1PZGJtdjZiQ1lYY9IB5gFBVV95cUxOeW5LZWJ4aFZxakZkVWhjY1VQTjd2dFNmZEptdVY2emlJdGdXQW5aRWU5MmVqb1FDOFp3TXA0VnJaTXVjUGdvR2tOQjJudGg1OWg4OFJXaWwxVG0wZVhfNUlVazZ0X0dUU0Q1Vm9jcmR4aGRRUWZILW4tYURYY1VjQWJraV9BNjlTdm5yUUNKME5HT2N3ck9SancycTgyRUZ0UG84bThIZ1hxbGhPU0VUdThjVG95N1ZWQ05fUUY3Ukg4VUVfUF9YVEwyYmV5Q19FQ3F6dTJIUFB2clcyblA4cUFWMHJ5dw?oc=5"
+      "source": "Loksatta",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWVJFR0JwMzIzMlFPeFkxQ2xZSWRrMnpoZ19pMkZaOFF6WWFKaldyME1GZ1VzTDdMS01KM0kzQTQwN0VfRlNmNU1ua0poM3RJVXU1MmU3VUlLQWVOTVBKckdkSWJfXzJzX0l2SkZmdW5HeHFtX2lLT044SU5oWk5SeE44cmZJYXFGUXlvNE5JUmVWLTZGTTQxTVhqeEMxdEhYYTFaaGQ1blIwTzY2cFh3cndHdmF2VWVfS2hBNkZLd3rSAccBQVVfeXFMTmV4NUhEV090a2d5MnNvaVJxYlN3dVJFNm1KRkQwV1V6NDJRVFZJMjB1eTc4SE1KTHdxWDdhcW15T1F6dGdPMXdMb3hEUDVFSzlTS1dKS29pbW9GMlp5NS1GTWtCdG9pZlF0a3BDVS1LbkZSd3BicE56dUFuUmdrLXhDb3J2c2gyQ3lFSjhHTUlXbG9VVXZiWloxQkQtWTV5NFhWRTdKc3RSczlCNVpkcE1LWll5TDFuR2J2Ym1uQXlNZTNjdnloNA?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "एआयमुळे भारतीय आयटी क्षेत्रातील नोकऱ्या धोक्यात? ‘मूडीज’च्या अहवालात मोठा खुलासा; वाढत्या सार्वजनिक कर्जाबाबतही गंभीर इशारा",
+    "lang": "mr",
+    "coverage": 1,
+    "sources": [
+     "Loksatta"
+    ],
+    "published": "2026-11-13T01:30:48+00:00",
+    "links": [
+     {
+      "source": "Loksatta",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYzNiRVl5Tl8xQnd4YTlJVGZwSUVKQjQ4SzQyVHFtR3FlUDNxMGNnMzcyaE52U0J3c3l6em5sVm5Zb0RTRUJCY1Vod0I2OEV2NVVscW44b1h2VlJFVnRVdThHQ19HbG9Gckw3dUZwMENlbnhId05Yamdsc3h6ek85UGRHcXpOSFVQOG9IVzVzU21tLXdmYTdEem82dkd3X3JXd0RvMDdVc2FCRl9vU2NmRURZRXBmT1p5RENnNTBR0gHEAUFVX3lxTFA0SHI5TVlHSDdDWW5nZlNDRWRGRGw1ZmZYZERUVjdDVUROcC00UU1LTnQyVXNQZkNrNlg3RzNLeFhreXFQNl80cHlPdXIxbWtmWWJqNFA3UVBPSzJZRHBac3huZXE1TURNRVcyZTh2QjBvWVZieGJHS2FSWl85SnRhVTlwMzl1SDRUanZQVE1kemFmSjNqejNnY1ZBUTZ4dnJhMnNFZlhnRXRxVXQ5b2c4ZFRnM0JTU3ZhcGRRWThCWEFJU0M?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "मुंबई विमानतळावर प्रवाशाची तपासणी; सामानात काहीच नव्हतं, शेवटी अंतर्वस्त्रात आढळलं मेण अन्..धक्कादायक खुलासा",
+    "lang": "mr",
+    "coverage": 1,
+    "sources": [
+     "News18 Marathi"
+    ],
+    "published": "2026-11-13T01:20:00+00:00",
+    "links": [
+     {
+      "source": "News18 Marathi",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMXlyWFM1bW5qZ1pCdHMxRTNDU3ZPaHRBbHJnUHhYT2NMZV8yLUV5NXZIZDRFNUlVOEZkZm5jdkpZbFhsNkNsSnhaRV9vT0MxYmpfVk9XLVNvRGxYV1gwdWM0dUhPblhPTkZZOVF5dlZic2UyN3llTFUxcWk3MHhoWEQ2dGxESlBMNEFERlNSc0hQdUF6WDhTYkRudUxYMXlGT3hqeDVJR3d3RWFDLVQ1MHE2dV9Qam9JeHl1SUxGR3RBS0FIUEdNS3lmNXBFazVp?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "लग्नासाठी सोनं घेताय? घडणावळ 8 टक्के की 500 रुपये प्रतिग्रॅम? सराफ एकूण किंमत नेमकी कशी लावतात?",
+    "lang": "mr",
+    "coverage": 1,
+    "sources": [
+     "The Economic Times Marathi"
+    ],
+    "published": "2026-11-13T00:57:32+00:00",
+    "links": [
+     {
+      "source": "The Economic Times Marathi",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZ1R6WWo4S3ZqOHlHdnd6T1RaUkZmcmN1WlgwZmlSZ2xkaEdxTnRrRmRhQ2NNbktJQTRXaWJiT0NqZE5aWTdjSTZQeHlnWWt0aVdmTklISUJQbnZEVzVPNm5FQWtUaDFtNTJDbk4tSnlNY2NpblpBN0NwUW1TWG56N0JRaUtMcFp4VGZzM2x1cWlXTmZyRWJpRWxSTjFVVjdQcXlOQTBickk2MU1BemJlS29ZSS05Y0ZLS3NfXzNPX1JXMktEaXdxbVQwTjYxVDlP0gHWAUFVX3lxTE9TeU40cDByVkxUc1FLREpMZmVJa2dRcXdQbFM1d1pQU0JlaHM4NXVIWEprWmk5cmlpTjZER2x5SERKWUlRcDY4UzEtaGw2V1JwcGZnVmJUeHhLZndTdEhmcjNJTzhvMWNiOU1aTF9YVHhRXzZPVGdhNTAxenJ4T3Z4cTRMVDMxZ0dFcFZTUjVoT0FPLXh6clJ4MXRlQmFDWVlOZjVJaTdVSlQzYndESGF0RTB4b2J2VnRoVEJXWUdmR21qVXpmMlB5R051eUtYZnFzbk5sNWc?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "एलआयसी, अदाणी ग्रीन अन् मीशोची झेप! ‘MSCI’ निर्देशांकात ४ भारतीय कंपन्यांचा समावेश; परदेशी गुंतवणूक वाढणार?",
+    "lang": "mr",
+    "coverage": 1,
+    "sources": [
+     "Loksatta"
+    ],
+    "published": "2026-11-13T00:42:32+00:00",
+    "links": [
+     {
+      "source": "Loksatta",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNQVlpdVJpUU03T29zcUYzaGVsblh5WWRFcVZpRlJIMFlsSm5wcG15S0lzSFlSSUlMdDFlakFxdS1HYUV4N1hYakZEaVBGNGs0bVVUWEZ2UlJlMkVacHQ2d3dnZDZDdFBoWUV3TEMxWUNQM3NNRmg1OVM4c21HOWV6dnV4ZTlycW5hZzFHNlc1QXA4NlRpa2RObXAxLUViamJCNzlnb0hLb25aSFJmWTFrZjBjZ19nalhBWlJ1dHRrYUtmQVdQa01GMU5Sc0dtVDdXdmZyTDhQeTl1Z9IB4AFBVV95cUxPOUNPMl9LQkZpSVdqQTBUMXdCUk9XQmZmZHcyN1ZDWWtWOFd3VVhIMjItak1FekxTMFprNm1MNjlfbkF1dTJwZGJNWm5McnkxMmVOVmpkazN1Z1k0N2c3RHZ6bGpWOG1lMVlyMk92Qm5sbW1VV0JCMzZtV2NYMkVYdHhYeTJxNmIxSmpZdG41Yng1dW1GUWVGeHh5b2dCN0ZqUVdSUm5NVDBqc0tCc3ZLVk9rV2VCSTUxUHg1dWpZRmZoWDctMDM5VEphU1FoNml4emVvLV9nOTE1VExGVERkcQ?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "Outlook email outage affects users around the world",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "The National"
+    ],
+    "published": "2026-11-13T00:32:22+00:00",
+    "links": [
+     {
+      "source": "The National",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcWttRlZJYUo3ZHJnRTlhZHFBUTZYVGs2UWQxWFRwOFVuUHZFcUIxOWdJVnhkamFIREVtQ3U1ZDFrWFV2RlkxNkFxMW9MWG43Y1VlZFFmS2JCTUhPY1d4Rm51cDdEUkVsdlVkNFlkWEhJMzMtQ0dlel9QYnNoODYwODY5UmtPVE10YUlxNHdKbGpwUVpwY3VrSw?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "Personal Finance: दोन-तीन मित्रांनी मिळून जमीन खरेदी करावी का? कमी पैशात मोठी गुंतवणूक पण...",
+    "lang": "mr",
+    "coverage": 1,
+    "sources": [
+     "MumbaiTak"
+    ],
+    "published": "2026-11-13T00:30:10+00:00",
+    "links": [
+     {
+      "source": "MumbaiTak",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPOFBRWGpEY2o1VjR3NlJrV1JlRWJVNEZHZGRnYVFiU1dsWkZkZXBfYnhkODhvcFFKOWNGLTRhNzFhQVpqaTRmaGFsa3QwLWdOWW5XYXZ3NUN4eldsbFdpcHJ6YzFKWFBQNWg5aTVPa0FJQm9zZXBxaWFhcWVmeG9vbG5MWFFXMEVmazdZYzhlUmZnTHdLbWs4SlBiZlo1cmtRZS1JLVR5Q29ZWmxPdHlMSGRMTUVJWVI2Z2o5NXc0SUxnMEp0TGk5azRsV3NFQdIBzgFBVV95cUxPOFBRWGpEY2o1VjR3NlJrV1JlRWJVNEZHZGRnYVFiU1dsWkZkZXBfYnhkODhvcFFKOWNGLTRhNzFhQVpqaTRmaGFsa3QwLWdOWW5XYXZ3NUN4eldsbFdpcHJ6YzFKWFBQNWg5aTVPa0FJQm9zZXBxaWFhcWVmeG9vbG5MWFFXMEVmazdZYzhlUmZnTHdLbWs4SlBiZlo1cmtRZS1JLVR5Q29ZWmxPdHlMSGRMTUVJWVI2Z2o5NXc0SUxnMEp0TGk5azRsV3NFQQ?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "5 चुका करणे आजच थांबवा, तुमचे लाईटबिल निम्म्यावर येईल! मोबाईल आणि स्मार्ट गॅझेट्सद्वारे लगेच तपासा काही टेक्निकल गोष्टी",
+    "lang": "mr",
+    "coverage": 1,
+    "sources": [
+     "Maharashtra Times"
+    ],
+    "published": "2026-11-13T00:30:00+00:00",
+    "links": [
+     {
+      "source": "Maharashtra Times",
+      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNdHlOQkNLVnRnOVluamhpQlhiSjBXTnhTcEJmQ25CemE2d2tWWU45SlFJX2lDclE5RHVtVHcyT0tqQk03a05LNmU3eEhJSjAzbmF0LUNqb0F5SU94dVRKRzZUTlVqNXoxakZ2YzVOX1lpRW9zdEZldGJRSnVvZGRnbHlFQ0RrXzdmZ1RQN2tlZFk0djYydEQxV1U4bE93MUZ3d3JMdm9RSE5fZXA3VmxqeFVDcGpzNmNRaXVGZENMVHRTNlhZSDlpVDhDZFdGdjhoWlgxVHpxcTZPZk9pcGl6S0xqOXctWUxCZDBuTzhER3F4Vno3WHNKZ2xHUDh1YUFaWFVGcldZRmNlT181WVhqU0p5Z1I0X2ZYRUZKTlljVdIBpAJBVV95cUxNMEl6bHVhcGUyZkItYVctRE5UVzB6WERud3BmTFlvT0l2VXdyd3Ryd3NyUVktalhMakxVZUUtZ05zVVdJRzBmWmUydGV4V1BKT25Ib3hOcFN5QmxaUjVGR29xd0dxZFNodU9SaUF5LXQ3LUM0R1N5cmpkNTNrYkI3SFd2UUpzM0k2ZUhPZDRLQzE4V2JveEsxaTYzOFVpOS1GS2l2Tm9RY04xdGZyczNhRzk1aFBGWmhHcjNRYWhUaVJhcUNIaW9HR1BRYkp4YzlvdjVNVGV5OHZNbjd0a1phYk8tYWRYZzJQeHRqaXBSc3U3d18tN2FpYkpEOEVwNEFTNWtaUUxsNGRJRGRQUUFxSEtZWGVMejFIbmxvYWFURS1TMHNm?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "Oil Prices Squeezed Between Peace Hopes and Iran Escalation Risk",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "Crude Oil Prices Today | OilPrice.com"
+    ],
+    "published": "2026-11-13T00:00:00+00:00",
+    "links": [
+     {
+      "source": "Crude Oil Prices Today | OilPrice.com",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNM0RqMFB6MmQ4MFljd1BtenFxS0dPUjN4RnhCWmVTTExzdnU3OVF3a0lZMWVXelZIaGFDcHpoalhJUlRzb2pRanNOUEo0N1FpUWs3bmVlRXZmRTBnelBnaXR3RU5fQkgyX0lHR1gzOFdJTjdiX0xOaEJnWUloaUtrNEZqTW9TRXBwaElncDdoMFg2OXpWMVA0cXM0UUNlOEZBa3Z6M1YtUlBEWTTSAbABQVVfeXFMTS15d096QzhvbGtwLUUwQjVsLWNTbTdSak5nMVVtdl9waGhSUHRWQUtJU0hrQW15cEU3VWY5Y3RPS2RDN3o2OEVkS0VuVW1wekx6d19FcVROQVVRQlRjRXpEa0ZNVkhJeDQ5UTRRX2NvbjhZNUEzenlGUmpJXzdMTVQtMzNJdFdGaEJnVExabHIzVGVvN1hHRGZiX3BiZ1NMaC1UbzdUNDhYa3pSc0xNZUQ?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "Cisco Systems Raises Outlook On Soaring Revenue, Profit",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "WSJ"
+    ],
+    "published": "2026-11-12T21:50:00+00:00",
+    "links": [
+     {
+      "source": "WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQTRuMDVUbmcxcFZPVzJ0UnM5SkxEUTJwQ0h2ZF9ZTVF0d3BoZXM0TFhvdWdqcTg2VWFlZE1CTnVDYWhISFZ6cTAzVTdsY1pyZjJYYU5PdmNOWGxWOUttRXhjdkx1emN3NTI0X0JOLVN3bE12ck5ubkJQVWN6R1NUaHhhTTBUX0l1OTVFNGkyWWRNRS1qRGZIZ0Rmc3dDN053LWQw?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "Exclusive | Affordablity Is Key To AI Success In India: Peak XV's Rajan Anandan",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "NDTV"
+    ],
+    "published": "2026-11-12T19:12:56+00:00",
+    "links": [
+     {
+      "source": "NDTV",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUEExZl9PODUzSzBJdW1XRkpnS3B5SERpYWNtc1VGbFhjclNIMmNRZUlQTC02VHhxbzVCdHVjSkNYSV9pLW9ic0NybzRlSmQxNFdseHA5TVdPdEw4U0d5V29tLWNqS0QwMXcwRHVKRTRLbXVMNjVmUGxIMEdBS19hdlAyWjM5Q2lYUFcwOXVydVUzakVteEVFczRFRHBIRWxXV3QzS0Fwd1JyaGxUUlk5Vi1hcUw5SWJKeW5LbdIBxAFBVV95cUxObGpNM0pCY3g3clNUWlNRWWlCNUl4dkdCalpGZzJ1d3U3Q0ZCdk5tcmppYXhyOW9Nb2trUXFvZnhKVXd1bzRNTzNybkZpRWRxNGcyRV9oaUd3ZnVZWlowcGpOak9rWTdzTEN2M0RxOWZDeTRRblN1UlEtMmNydW5pLUVGN3h5eUJ5bXlDQ2tnQm1nSlY2clJRUmNjbXgxUFNab3hhTEpHWkFkd0VrZlEwMDg5Z0xqQ3VKMHU3SXdvelJEVkRC?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "How Three Engineers Turned A Denny's Breakfast Table Into An Nvidia Empire",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "NDTV"
+    ],
+    "published": "2026-11-12T19:05:23+00:00",
+    "links": [
+     {
+      "source": "NDTV",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNN1R1U1UydkllR1A0NDlTVGRMWGhidUtCUHVMbkwxRC1JRnlTWUtfVnpTYTA1eTkta2cydXM2UnN0Ym5WMHVMWDFNQndQX01wRk5YdUNVQVJseTV5N09USHQ2UXZCSVJHcXdqNTN5Z1dKVjVHNlZkeElPZk90OGZxd0NUblZRalRKalQtSW5Hb01nMUJKZVhSbjE5dXNVOXlGRkRtTVpXam9PVnJZZHREUGdVWnlHaktmaWJuMkdIUVJMd1I1OGfSAc4BQVVfeXFMT0V3UHlWOXhrUUxRb05hQTk1V2lzYWU2RTd1RTJxT0F6QkVTdjNfd0F5VFhXNU1vUzNkWW1Jc0xWXzZVSnE5QW1FRDEzYmlqS2kyNmVXbDRsN1hfNG1SLVlCUjdKQnVlQVZyYl8xbTBsNEhxUzNSd2tJZy1sS1JWMnBNN09VTzdsRlVXamlkUU1SckdOOU1oREsxNzh4a0ZrbDYyTkFQcXNleGlROGxmcmVhS1k3ZHFKRGNXS01HdllzZF9PX3ZhYWFvdk9PSlE?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "RBI to conduct 3-day Variable Rate Reverse Repo (VRRR) auction under LAF on November 13, 2026",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "RBI press releases"
+    ],
+    "published": "2026-11-12T19:05:00+00:00",
+    "links": [
+     {
+      "source": "RBI press releases",
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63965"
+     },
+     {
+      "source": "RBI press releases",
+      "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63960"
      }
     ]
    }
@@ -626,12 +645,11 @@
    {
     "headline": "SEBI order for compliance",
     "lang": "en",
-    "coverage": 4,
+    "coverage": 3,
     "sources": [
      "Release Order dated November 06, 2026 issued under RC No. 9229 of 2026 drawn against Rakeshbhai K Pandya in the matter of Trading activity in the scrip of ANI Integrated Services Limited",
      "Release Order dated November 06, 2026 issued under RC No. 9230 of 2026 drawn against Sonalben Amitbhai Khalas in the matter of Trading activity in the scrip of ANI Integrated Services Limited",
-     "Release Order dated November 06, 2026 issued under RC No. 9267 of 2026 drawn against S S TRADERS (Prop. Mr. Marvadi Parsotambhai) in the matter of Trading activity in the scrip of ANI Integrated Services Limited",
-     "Release Order for Recovery Certificate No. 9227 of 2026 against Lataben Narotambhai Rangi (PAN: AYRPR7467F) in the matter of trading activity in the scrip of ANI Integrated Services Limited."
+     "Release Order dated November 06, 2026 issued under RC No. 9267 of 2026 drawn against S S TRADERS (Prop. Mr. Marvadi Parsotambhai) in the matter of Trading activity in the scrip of ANI Integrated Services Limited"
     ],
     "published": null,
     "links": [
@@ -646,51 +664,26 @@
      {
       "source": "Release Order dated November 06, 2026 issued under RC No. 9230 of 2026 drawn against Sonalben Amitbhai Khalas in the matter of Trading activity in the scrip of ANI Integrated Services Limited",
       "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/sebi-order-for-compliance-release-order-dated-november-06-2026-issued-under-rc-no-9230-of-2026-drawn-against-sonalben-amitbhai-khalas-in-the-matter-of-trading-activity-in-the-scrip-of-ani-integrat-_105675.html"
-     },
-     {
-      "source": "Release Order for Recovery Certificate No. 9227 of 2026 against Lataben Narotambhai Rangi (PAN: AYRPR7467F) in the matter of trading activity in the scrip of ANI Integrated Services Limited.",
-      "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/sebi-order-for-compliance-release-order-for-recovery-certificate-no-9227-of-2026-against-lataben-narotambhai-rangi-pan-ayrpr7467f-in-the-matter-of-trading-activity-in-the-scrip-of-ani-integrated-_105668.html"
      }
     ]
    },
    {
-    "headline": "Stock markets end higher; Sensex, Nifty jump nearly 1 per cent",
-    "lang": "en",
-    "coverage": 3,
-    "sources": [
-     "Deccan Herald",
-     "The Hindu",
-     "The Tribune"
-    ],
-    "published": "2026-11-11T11:39:49+00:00",
-    "links": [
-     {
-      "source": "The Tribune",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPS1lvT0lCeHAwSHM1SlYzQXppRDg0eU9vSDVFZlc4SnBlNkJocE8wbEMwdkNsSVM2STZoUjMwMmRGSUdQSjdJT21Sb0FwUExSb2V4eGltNUhLYzFVNF90dHFySzFueEVZWFBJZElmMmE2NmVmTUtTOFd1S0l6eHZBNDRJcEJsbGdENmU3M0FXTmNBR2h2ZGJXcFhQMV9LM2szR1dDRnRZc9IBqwFBVV95cUxQVzljZ195WUVzdmNyLTBLVHZ0UGg0dExWbjlfYlhJRGowdzB5Qlpld3J4Ukt4N2hBdWRvaGFERlFqZHlPeHRibG5pMUhWUFZuS0dRSDJXU1hoUUV1dWVuODMtSGtrZTFaUGtKamsxelBxN1daNFV5SHlfOWQ2VkFsdnZfVko5NjJNcVRGMHpabjlYcGRUcUVJUGZFX0tVN2dHWnJNQTcxUWJYYnM?oc=5"
-     },
-     {
-      "source": "The Hindu",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNakU4aG82THd3Z01GTHRJQVEweW9FUXJnM3NIZFVKN1dNRkxBU1g2VTBydnFBejcwVHl4Q1pubk13a056ZVFqUVBHalBWb1ljQ2xUT0steXZXdEhkUlFwWTJSdFR6Yy11a1BpeDhaXzVBSkt5UDJxd0ZpaDNtenNKVFFRa2wyWDItQlppcE5EUXZJeGM2dVZDMmxLVVdJV3JEMXBVNTdNSTJhcm9UNUNXdC1wV251QmpsNTRuWlEyNXI3VTFoMXhV0gHOAUFVX3lxTE1qVlQ5R3RrQl9qMHN3V1FYaG1lWktMUkdoMmFyLXZHUlYyWkhQVWt1eWg2RFF5R1BtaVNNUlRCMnU4bWFXdEYweWlleGRmRVpVQ1ZkbjhLLTdLZzNVSVJhZnJjWlFPVDVIUDRVcWNTTGFKTklpdlU2V3VTbzBndFkzYWJMTEQwU08yc2Njb0lacGpfYmhXSE5JSjF2VE5Sak9vRjV5eTNNRXBaLWVpS09pMmljNkdoQjNOY0VrR053SjlxaDA0V3JCZEViRU5n?oc=5"
-     },
-     {
-      "source": "Deccan Herald",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNd3pROUMxOV9KOFBiVUpHVmZhN3BlU3h0cjM5SndvdmlSZjdYa3hkT2F1aG9Yb2dFSEpTaU1LSUZIZUZVeVVyREFDY0dHcTRNRFRUZ0VfdWtHbkhVc2ozQmVJWUt0cG9mMVphdWhIZDh4TkU2R2cxT2prMlRTbW9qd3FrTWdtQUQ3cDQxdkM1bnZsMjd3QmUtd21RazNoZUVNSHplSXNOT1Q?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "Stock market outlook today, 12 Nov: Sensex, Nifty prediction - DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
+    "headline": "Stock market outlook today, 13 Nov: Sensex, Nifty prediction - DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
     "lang": "en",
     "coverage": 2,
     "sources": [
      "Livemint",
      "TradingView"
     ],
-    "published": "2026-11-12T01:15:59+00:00",
+    "published": "2026-11-13T01:45:36+00:00",
     "links": [
      {
       "source": "Livemint",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOZGkyZUJibHBlNGFOR3l3U0NCWUxqLWdySXhqNmRseXB5SnY0ZldhSTl2azlqNm9JbWRHbmhyYWJGWTlQdnlSZ2ExOVh6Vi1iTEU5eW1wS09IMFhWS3dBRmN6V0FIdVRCM3BOZzlxaF9meFhXa0VIdmI5TzZvb3BYTzdTQ1ItS0FlUDliR19hRzZOSmNCdlRDSWRWel9DS2JGYzRfRkxxTy1yZnRPcGFGNUJvSFhpSW5JeUQxZkRreG5lanZtTFpUcTJ3Q19ZM2IxeEtGdTdRLTZtcjZZQloydm5USlNpQm1kTVV4NUhSeEJITzRTV0xVYVZteTlCb0xsak5CY9IBigJBVV95cUxNemJwUGVpY3MyNGI4am1kVG9zbHo5eC1oTDBydG5JWjhuU0pzazNyblF4alVZa3RMb3ZYWGQtelozbFE1NDN6dEQ3Y1Z3ZFR6b2lsSGpZNU4tdWJ1UjNySll1eHZwakRQSjZNaVF1RTFQU0d6em1lZjZtcmRENGozM2lIbjQ2MTN2SmtqUmRpTHpnMzlRNFNKWjU2YjY2ZEVhcE12STl4M1M2cTFXemNoaXRMS25ETFpPSW5wUVVET0xvVmhpNXlHQ2prR1NyaUEzNzJvamtJRkpwbklEdl91b0RJYkJYSXppSVVEd3ZxUmk3MkxwaEZVdzl2Zm9meE5CR3pYQUtpa3hwdw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQb29vTkxNTHVRRmtGUDJmcjVJZmx5MEVtLXNuaGtfUHVYazVyQ1lRNDNKV0VZelQtOENaV1ZZLWoxRTQ0ME56SjdOeGQ4UUlpRzYtSXFleGd5NHJRVDQ3dUR3SlR3R0s3TGpzRVc2ODNWWFFzS1VUMmM0LTZxeXNnNUpCbm5TakhiekRBQXFnR3E5T0xIWWRsdzdBZ1lNU3g1WWNETlhnald3WTA4YzB6VlFaZkxocXFpQjgyY0pHSTU3QzhYSi1OQXdSX2NTZGtmQWpVVHRndDdobGpCVkV2N1hBaS1EcE1EYVB0T0phWmtwN3p5aVNjd2NySDNud3haYkZaVNIBigJBVV95cUxQaHNZRlk1RVF5eFA4dVEzdlBOcWFSNTdMU193ZXg0TTZhaUpfVlE5eU1DMExuc1gyQUo5VFhPREdjQXVqd29wUVZOUk55ejJ5N3hFQ0RDSjF5SWhUNmE2RWdXV1BkV2ZFWU5jazdjWFFOVGdOTWZzQ1JtMWRWZExqNmZVTnRNeTdkcWQ5Wi1ydmtiTEl6S3kwbWhxbDlscEJ3V3ZfTXloQWZuQWxtZHVZb3V4UTB0ODdrNzMzZG1qTjRJcUprWXNuanB3RUtBNmdXXzRPX2JxLXZ6V0Vqa1BIaFdKWGIwcVhLTC1QaVFIc18zRjljNzNfaElhbVJQRlcyWUZqQXM5ZVp5dw?oc=5"
+     },
+     {
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOa0NZcURrQ3I3cmF2d1dpY3c5LUNHa0xwTlVrX2xTSGtJc19yLXd3MDJzSGRTU0ZZMVJ0WVpkdlRVV2I2bkdNRHBYRDBENjRHTVB6eVNjSlJEUC03b1pWLU9VclZJZzkyVzdXMFlfb05vZmJtTDkyUHV2bDVrcWVtcno4VnM2OUpTY25MRHNJbTh3LW5XREJ4SWVZaVFZU2RwR0ZIRzdEMkJ1WTdYNDVPd0JyeDA3YTZsQnl4NVdyM19xdXg3TWlMZERidGNTb0xldzdaSDVraVQ1dlJQdWwwSDJvZGRkODhZQW8waVVnc1VnUnNXYVFnYUpn?oc=5"
      },
      {
       "source": "TradingView",
@@ -699,22 +692,62 @@
     ]
    },
    {
-    "headline": "Stock markets surge in early trade; Sensex jumps 1,097 points",
+    "headline": "Indian Stocks Close Higher as Realty and Banking Gains Lift Sensex, Nifty",
+    "lang": "en",
+    "coverage": 2,
+    "sources": [
+     "INDIA New England News",
+     "India News Network"
+    ],
+    "published": "2026-11-12T16:42:06+00:00",
+    "links": [
+     {
+      "source": "INDIA New England News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSGFCTzJ0UzBpdmVNcE9GMmhjaWQzZ1I0Y0NfWmRnRFdxNFhRaFFOR2RCZF9haWxrQ05aTXBLdkNRMjhCMTVYNE1mV1p6LWdqd1gtNVpuVWxhUFVkTEpnVGtjYmZGTXo1VTVSSWd3TEJmcFNRZGNWdXphUUY4cVBTWGVTMUJnaFI1WmQ1NDdLQWc2bW05OFQyNC13b3JxZGlVWW00?oc=5"
+     },
+     {
+      "source": "India News Network",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPS1V4RkVSVTZ2S3FfTmlfYTM4NTJ0NFFQc3djMC16MHVoMDE3RGVWVVREYTRnZTdDX3hpNDJZQVpZN01nRFdBWWxmbnFuQk1Ba0NIeEoyME1wdXhSRUdOcS16Zi1zTlZpbG1IOEFpdzhidVMxaGtXY3h3cHF0aW5WOEtNT2ZKZ2pHNjM0X2dsWm5TMjVHdTlnNm9pREl6dw?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "Markets extend gains for 3rd day; Sensex ends above 81,900 on FII inflows, lower crude oil",
+    "lang": "en",
+    "coverage": 2,
+    "sources": [
+     "Rediff",
+     "The Hindu"
+    ],
+    "published": "2026-11-12T11:21:46+00:00",
+    "links": [
+     {
+      "source": "The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeHFJTmJGMmFUZktBT0dCVURQWTA1Vy1oZUpHS3U3cVFhV0E3NmtUZkJia3FiUV9sMzJpVVpkeWZjWTJzUnpBMERiekpvVVBzN2pQTXQ3aks4UkVWd0lKR2NFcHE4NUZwOUQ3N2ZQMHZrSGVQaVlmcURPanRLT2RIalVMdHJRTWVsc09ENEVLRG5xLS15eWxmV1p5Vy1FaDJ3bVN6c0xFSjVDUk5oM1hkY1g0SXNBMU42ZUprMXBDLUxMN0taZjdzSnpPWGpnWVlwZnEzLUhTOE3SAd8BQVVfeXFMTnBrc3RQWVhmc2tpdUxiUXdodC1GaEZvUHplQUtodTNLeGUtNkhFVG9zamVyclVIQmYyVW1yZmtKT2pQOUVBOVpjTmh3MWpuT0tWNm03MjBQUW1UbkxsMjI0YmxFTUJ0QVBCbkpsenlOWkhiUEE3TGQyelp3aF9tZ09ZSFJGWFlWUldndkpFUUU0ellxcVZJS0JWWE5PeXEtaTV2Y0Y0aFdxQkZKTE1OWnA5dVFvU1pBVFhCNmthZVotX080bDVKeGJWMUtXMjdJaVZpb1RMQ3c0VjdOUFdXbw?oc=5"
+     },
+     {
+      "source": "Rediff",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSE42c2M2SnJtTGhmem8tUU9Hc09vUGxuRmx0akQ2WW1tdnNMSnd4dldmTjZDQUF2cWZlZHRFRDlMWUJ0NzhPN0hWakRhYWp0a3RQWTQwZk40RlRRSkd5c2ZYQmRjNlRrb3ZKMl9RWi1lSXVkZjlSTFNna0hpeUNwMWU5dlBJdlliSjM1NF85ZzhISmhBaU8yeTlSUUhyaEVFc1hsTnlSUldXYTVwTC1qUlZGV2pjN1ZQZlE?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "Stock markets end higher; Sensex and Nifty jump nearly 1%",
     "lang": "en",
     "coverage": 2,
     "sources": [
      "Deccan Herald",
-     "The Tribune"
+     "The Hindu"
     ],
-    "published": "2026-11-11T05:15:16+00:00",
+    "published": "2026-11-11T11:11:59+00:00",
     "links": [
      {
-      "source": "The Tribune",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeXZBTnlwc185OXFabUpiLXFJaWp2dnkyNWd4bzgxMVl3eHQxemlQUjNBVlR0M0c5eFR1U0d1VkhFRmhGUFkwWTNPVWFtUGVQeHBickRrNThqS1lDSU9VQl9TMlUwRVlJUnNSWmpRd2owSVRLX240UDdZT1VMR2RLd3RabHRXTnRldkE4R21qX2hQNjZRNUpqWVpBZGllcXlYOG5lSDZR0gGqAUFVX3lxTE0wV1Z5dDBNelB3MjRObTR0UmZVYWRSbURsWk1NLTlUOUd3YndzMGpDcW1FNzZNcm9LUjJfTDBrd3ltc3AtYTNPOEg2bmc0eEpsVjNYemlWX01vLS1uZVphOTU3aHk0TW9hVFMwSU5aWEtuQ3BxUHJDdTRGVlM5bUZ3N1lydnV0Qk5hMEJNQTBUTFhuVXRGclNXS2RYRkEtSm5fYXJkUG9zdFV3?oc=5"
+      "source": "The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNakU4aG82THd3Z01GTHRJQVEweW9FUXJnM3NIZFVKN1dNRkxBU1g2VTBydnFBejcwVHl4Q1pubk13a056ZVFqUVBHalBWb1ljQ2xUT0steXZXdEhkUlFwWTJSdFR6Yy11a1BpeDhaXzVBSkt5UDJxd0ZpaDNtenNKVFFRa2wyWDItQlppcE5EUXZJeGM2dVZDMmxLVVdJV3JEMXBVNTdNSTJhcm9UNUNXdC1wV251QmpsNTRuWlEyNXI3VTFoMXhV0gHOAUFVX3lxTE1qVlQ5R3RrQl9qMHN3V1FYaG1lWktMUkdoMmFyLXZHUlYyWkhQVWt1eWg2RFF5R1BtaVNNUlRCMnU4bWFXdEYweWlleGRmRVpVQ1ZkbjhLLTdLZzNVSVJhZnJjWlFPVDVIUDRVcWNTTGFKTklpdlU2V3VTbzBndFkzYWJMTEQwU08yc2Njb0lacGpfYmhXSE5JSjF2VE5Sak9vRjV5eTNNRXBaLWVpS09pMmljNkdoQjNOY0VrR053SjlxaDA0V3JCZEViRU5n?oc=5"
      },
      {
       "source": "Deccan Herald",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSHJ5U3RNUU5XcVFjWnZEQ3lndG5haGlwRW5FU3ExOVZzOHNNVTdKcHloNGREMTVCR0FNUU14Mnp4TjZDeWdaZ2M1YTZUamFWdk1wU3BYX1pBdU8wQVdjLWprcEpocDU2VGR2RUtvemJ3ZEtHN3NoSnM2Qk90WTBVWEVOb3ktcWRwUXpoZExrLWp0enFNanZQRml5b1p6LXVfOThYc0p0UkhMS0ZuZzVubjR1MA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNd3pROUMxOV9KOFBiVUpHVmZhN3BlU3h0cjM5SndvdmlSZjdYa3hkT2F1aG9Yb2dFSEpTaU1LSUZIZUZVeVVyREFDY0dHcTRNRFRUZ0VfdWtHbkhVc2ozQmVJWUt0cG9mMVphdWhIZDh4TkU2R2cxT2prMlRTbW9qd3FrTWdtQUQ3cDQxdkM1bnZsMjd3QmUtd21RazNoZUVNSHplSXNOT1Q?oc=5"
      }
     ]
    },
@@ -739,615 +772,591 @@
     ]
    },
    {
-    "headline": "Stocks to watch: Bajaj Finance, GRSE, LIC, Meesho, ITC, Tata Investment",
+    "headline": "Last chance to buy today ahead of record date! BN Agrochem announces split, stock delivers 28% return in 2 weeks",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "IndiaIPO"
+    ],
+    "published": "2026-11-13T02:32:50+00:00",
+    "links": [
+     {
+      "source": "IndiaIPO",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQlBSMjF6enA2RGxxOTNnUUs1WE5sYUZoaWl2NGdqcUE0NXFRalltejZlam11VzFWRVBRd3FRXzFuZHFWZS10MXVjRUxuVHljTGRnTDdLanZ2THVpMXZacjBIYmxQUUV6bmQ4OGJRZFRKN1ZFTmRJSzBtaGV6cndmTmZ2Ymk0eHhPdVVCWGhtMlJoX1dMRHFSSk5qa3NlY2tfdmZmd25lUE9yYl9YZjR3RjltX0FndXczRExsa2lvZVhFbWlPLVBxU2N6S3FFSDVuV3p3WDNDQUo0S2Yyb0E?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "Will inflation, higher bond yields spook markets? Here's what analysts say",
     "lang": "en",
     "coverage": 1,
     "sources": [
      "Business Standard"
     ],
-    "published": "2026-11-12T02:44:47+00:00",
+    "published": "2026-11-13T02:31:20+00:00",
     "links": [
      {
       "source": "Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYzVrQXZQQmcyY2Vvdk1yakVvMWJxRDBnemFtU2ZxWE1UY3Z0TTdTdkUyLW0ydmE3ZTFNM1RpWWJrOGtRcWh4VmhPMUZyZGlMUk82ODZSTUFvcHFlUzJOM3IydmVaNUYzVFlTcnc4aEtXLVItdXdBWDlLYUw5ZDlrNUc1SzhYeGh4ZURCWkF2ZEYtSjY5cGtPSTNCRXJleVI4TVl4NktKSWo3U3Rob3JRQU16VTE2UHNVWXVvdkxidFZLaDZneTNCYWFlZ27SAdIBQVVfeXFMTzUyeEYtNmxSZkJDZGVsSTV0Um9zRG5rVkNHQ1c1UHltYVdrdlllMGtSaTBNbWhrcUNPakc5NkpEMV9vSXEyYVBnUnQwZGxRQV9wN182SzFlRUw0c2ZvQUR2QWg4WTFueGFyUWFMSGliVnBXOFV5WHVaN1d0RVdGV0N5eTEyNExQUV9NZlkxRWNybVh2dTF5TFpZeEtVSHdzLUY0dzNXQnl6c0lxSUdSX3JpRzd0RW83QnNxdjZ4LThDSUdYUkl3d3l2LVdocWFGYmtB?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOVS1nSk5sVlpMZ2dBM0c4ZU12SjdXeDVDMUFKci1VTzNnbVlrMm9mTUU2TjhoN3RQREtMNDhET0Z3bkZjY2puTy0yTHF1TkVpMm9scXVUMDVsTHVySmsxang0Zi1ZOHo4WEFlR1ByWmZGYWpjbDA1ODZWWUZXTWlYVEg0blQ1SzZQS2tkdTRqMl9nVVJ3Q0cxeXRPdFBiRjZVdHZMUXYwMVNSb1k5NlpYaGR2SDRZNEN4N0ozZS1lWHg3c2tGNnNybDdxdm05aTRtZ21nd1oteVd5cUVuZVc2Q1RZNF81cWlUV0xLQmlXZFVjNnFLUDFN0gH8AUFVX3lxTE94N1VlbW0wY3k2RTNJTHYwbnNlaWVIMERlcGVmaXFqOUl3emo0Q0lROHgyMUdoLVQtZlpCYV9RdGVEc0pHNFdUTWxUZlpKVVZhc1ZSM20xVTJTTU1nRnQ4dTdNaTFKMkRuam1GQzd0Tk9ITmFua2ZzR0JKQ20zSEFycEFoQnNySEFjelFFak85MjJGVEg0ZzJwZ0FvLUhqUlJMU0RNU25LWlF6NS1kdnR6NkFMWTl0TjYzVjc1cHVqam54Z3FhSXRoSVF3aTBpdTlFNVo1bmtqX2M4SXZ2ckdoLXZrbmlhVXFCVE9fcW1EV0hUSU4wWXZjZXQxaA?oc=5"
      }
     ]
    },
    {
-    "headline": "MSCI Nov rejig: LIC, Adani Green, Meesho among 4 additions; PI Inds exits",
+    "headline": "Stocks to watch: ZEEL, Ola Electric, Vi, IHCL, Manappuram Finance, RPower",
     "lang": "en",
     "coverage": 1,
     "sources": [
      "Business Standard"
     ],
-    "published": "2026-11-12T02:41:03+00:00",
+    "published": "2026-11-13T02:29:46+00:00",
     "links": [
      {
       "source": "Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQZDJWWmN0THkyZ0xNdE9mVUZfcm5nTC1IZVltalEtT0RLNTk3MFdpRHotc3c3V0FVMjZGTzFnS2gxZFZDa1FnVHQzQk4yRF9meVVpYm4yVlBwUk9jcEYwaDJLUWxrM2hCSmFmb2xldXIzVGpNRDQxUTV5Z05yY2MwdW9tMXUwUDJodWhZcWlsYWxLLVZ5Tmt2eEk0cGtkZEdzc2h6ZVdpd2RwMEFCN196SFp2SnJUUzdaOFhVWVh5Z3lGOUhBR1hjUHJDVWJETHpNSE1RckRyYzRZeWpFaV800gHkAUFVX3lxTE8yLUZTOHAtRTJXVy16ekY2U0dVSnhxaGxIZ2YteFpLZHFXdllrc2FFQmNqdEVaZUFwSzdhbVZqUXd0YWhDdlo5YnhLbGpnOHlQRWtRMEtLdTM0cGc0SmJfREhzbUJoZEZDRXZXOUVvamFmR2cwd2V4VWMxYkpwRUtKanBtZ1J4bnowQnhLMkQ5eENUeDBkckN4ODNsSnZpN2VXN0VZMTdhUlUyQ3hZWXFFbDhuTXBtUzBhSUQybUdQanZObExWS0syZ2UwUzRGbDNzbjVMOUd2QU1oZ014emlDS2Z6WQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNc21IZmhKLXg4QnlwLUNPczdXRHJqOWwzd2pGZE4zZFJ4ZmlzUEFIZVRCSENOTWxDSEdsMGo2Q3FVd3VKemszX3hDcG5DTVdPYmUxV29MQ0o5bUt1T3N3RkRZbE5EUEhic0FTaE93c2cxU0hiUmsySGE0RE5OV21Zd0VuS21IYTd1UkZ0cWJ6Um1rd3BlLXhLdVYyZUs1T2N1bUVPeC1yZUFHSmFMeXZ3OWw2M3dneUlyMnA2TDE4UmNyUzJTa3B6TXNucURvVFnSAdQBQVVfeXFMT3F1eE5wbnpEbGNhNTVheGZObUV6X1FtclM5X0ozUTdqN0VWa2paZ0daRVlGSHRoZks3bmR3YWs4ZmlsTmxBN1BBZU5hNGNfZWlrRXVGamh4bW1oYXdNS3VyX2tsQkVBWDlaZHVHWk9nRmc5YVNzV1FyLVA2Q0Fhd3JPWUF5Ym9NOHppTkljTzNDZUpTSlljX1o1SGlpY1QyUDh6ZFVORjhFd3Q2eFltam80bEFlbmdYUkV1VUFlMDJ1ZWRqUlpINzM1amphRW1hWjdqVDE?oc=5"
      }
     ]
    },
    {
-    "headline": "शेअर बाजाराची ७७२ अंकांची झेप; निफ्टी नऊ महिन्यांच्या उच्चांकी पातळीवर",
-    "lang": "mr",
-    "coverage": 1,
-    "sources": [
-     "Lokmat.com"
-    ],
-    "published": "2026-11-12T02:37:00+00:00",
-    "links": [
-     {
-      "source": "Lokmat.com",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMmJQYUpzWHk2bkk0ZjZ2UWlxTGJUWHlKYnlkNVVyOHd2bDNTaWlISE9PcnA5TTQxTnRBcHJneGNuU0VPQjd6NGxZVHlXWWhsS2VYZEw1R2pNWE10bTlWX1FHM1h2OWQyZjdjVnc4UjFQejljdWhLb3Z4cmYwaDc5SFFrMl9WLWZfVkZGZWdKY043dVRZX2NSdmhGQlprSC1rNkhrMk5n0gG2AUFVX3lxTFBMejBJXzltaHVEVkFBOUk0eTAzZGZ6eUJmWTU4ekdyU2RPb2ZRdXlIaDZsaVRDSEMzcGEtaEV2RWROQ2V0czVTY0F6Yl90VVFEdm05MjM2Y1MyYWZhZFJtTDhNRFhFNzlHdWY3RGhydktIN0tIX1V0MWVaT3dCQ1VPWDZqZ0VFMlF3YXF5MXROYmhvRWhtT0FxaVFXUlg0U3BaemxaWjhSOFo1VmxUeFFzVFo1U0N3?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "GIFT Nifty up, signals steady start for Sensex, Nifty; Nvidia plunges 8% after hours, crude oil falls",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "Moneycontrol.com"
-    ],
-    "published": "2026-11-12T02:32:03+00:00",
-    "links": [
-     {
-      "source": "Moneycontrol.com",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNTEJUZGt6andyNDdnNkZoSGhybkR1QmlLcDZmcWdIUkxSbk1wTDdwdkJOWk1RNTRFS2JrbHVBaWJjZDQwSEtIbXBVNGxXd1psTGtCTFhzRFBGMFJCaTlMYTRTaGYtQ3Z0V05jVmtqTjE5bjBlbXJNVG9IQ2lfczhRQnRYYmZXcnI2UnBud0lzUEZnSHE2blFieUtPOHhfaExuV1dZLURyUTRwYmV4Z2xBbm9KVWxKQkdDd0ptWDBXYl9vQ0xCdVlpc1lsa21VZ0xHSE1BQ3Y2MzhsQ0NWd1FPV0JkU1NabUYxdHYtTC1KSU1TeDjSAfgBQVVfeXFMUHB2aEF4QkNlLUk2ZVQteFlGUUNLOTJsZmliYjZLNmZkdTRmYUlCRWtVOE5yaXU3Z1RlVnBTR3VCdGRJUFdkclp6VVFpakVibk5HOHlLVDBXRUREMzltSm5SMGs5R3d4S1NUVnFLQ0tKV1JLZFMyVEh0N2VhNkJ4ejFLaWwtVlVvcHJxbDd3Zm9xcjdFaHZtNTdabEJNS2RuQk0tMExKV0JFMHRxUkhua0lpZURPZDZlY0dObHdaRHpCbkVrdGpmanVDbUZ2QXF2cHQxX042OGFMTkZWMUNCa2JnOWlacFJLYnpQamNCYTJIZ0lZNGNFQmo?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "Stock market today: Can Sensex, Nifty extend Wednesday's big gains? GIFT Nifty offers early clues",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "NewsDrum"
-    ],
-    "published": "2026-11-12T02:27:46+00:00",
-    "links": [
-     {
-      "source": "NewsDrum",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWFBEd3dETVhoaDF5OVRQUGN5MFZCM1FkUzIyX3Q4Z0Ixc2tTN3VuYm1sNzVzay1fdnMyMlI3U0NyZWZ6eTNjYmJBVzByZU9wN2NXYzcxZVFJQmxDdWJ1N1lsLVFERURTLTdxV0xvVjlVdnRQdVlubnZteFNxQm9VZlRpTlZHcThJTXAxV2pEckI5UWVQdWpDTTk0bklZeGxYLTJFWWhHVVZsRVFVWjVJR25FU1VDRENJTVlNRHRCaXd5N1pfNHdYSmQtMjlQaG5n0gHQAUFVX3lxTFBYUER3d0RNWGhoMXk5VFBQY3kwVkIzUWRTMjJfdDhnQjFza1M3dW5ibWw3NXNrLV92czIyUjdTQ3JlZnp5M2NiYkFXMHJlT3A3Y1djNzFlUUlCbEN1YnU3WWwtUURFRFMtN3FXTG9WOVV2dFB1WW5udm14U3FCb1VmVGlOVkdxOElNcDFXakRyQjlRZVB1akNNOTRuSVl4bFgtMkVZaEdVVmxFUVVaNUlHbkVTVUNEQ0lNWU1EdEJpd3k3Wl80d1hKZC0yOVBobmc?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "GIFT NIFTY futures hint flat opening on November 12; what investors need to track before stock market open",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "Upstox"
-    ],
-    "published": "2026-11-12T02:24:03+00:00",
-    "links": [
-     {
-      "source": "Upstox",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOYl9rTkxNcnVTRk05ZHFoTUxLblB3SjJ5YVYwSXdfVTUxS3BWcnd3b3pkWDV2QkpLMU1MeFpHOTkwQmt0UTVNQmRzUXJLY3RGZHFoOU5vZTZwOE5GbTVCX2o1RDlqYVFwTTFnTmw1Yy1TX0FlR2NLV05Sa2ptenljeGxuZTVkU29rQ05TekFDck85NFE1TzZ3bU5OYTBKWE5NVnJUbmJiTVpvNDFfUWYwck1IUGZNdzg1QVU2bDdsbDJ0M3NmLXZCNUJLd0JjSVRnMk5NTjZ2RFJ6cXFlcW5Odk9wU0duUFNKYkRUNFZ2UnY4T2plQUtR?oc=5"
-     },
-     {
-      "source": "Upstox",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPVGJSWnFOXzJEdDdZM1ExMVlGbUV3WjM3ZnhDOGcwbnVYaDhVVlREeWtncDhVTGQxUjBQU0N0blRYbTRoM3U2bkdnalpacjkzU3hwdElTZUFvajZEeXR6Tm9QMWR2VFh5aXJHTF9fZEJMLS1ocnVvZWNObDRWQktEeVR4NTZrM3dJQ1RoZzNSQ2ZXR1lmcjZwX2ZrVURzWjNRRjhKbkVnX2VlWTR0eEJlY2ZrUU5TM21aa3FLOXdoSGYzeURscEVKd2hXTjM2dExBLWxxTkJ1czJzNVAwUDJOcWl6dllNZmIxZVFoUnFLck5kVk1y?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "Stock Market LIVE: GIFT Nifty signals positive open; Asian markets advance; Nvidia drops 7%",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "Business Standard"
-    ],
-    "published": "2026-11-12T02:21:10+00:00",
-    "links": [
-     {
-      "source": "Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQelAzVkdWckNmb3Azekt3dkttN01WaW9oOEVQWlluTEtVQkUyOUhTZjlNN3JZOXk3dnMxRWN0T2ozRGxRR0tSdlZ0U0NMdTJXUTA4ZkNlU1RPWlFhM1J1RUxORFlYb3VvUTQ1VlRlN1FrYVJVcjkzSUNOQlVWRmNRRm1zOXRuRVlOWG9Eaks3d2lTeDItNXlqcm85VnNMbVhNV3BIdmJyUlktR0d3VThONVo2UUNqbHRzYzNIZjE0MjZuVjF3MF94SEdsS2dYUXJBWTdSeXNuS2VVQkZBY2hGQW1meEZ0RG5sbnUzZjcxZ1ZGd1VfUEFQa2JLdFRCTU3SAYQCQVVfeXFMUGU5VzdWOTJGclZZdlRjYmo2aWpIUHdVVGRndDhCdWVpenI3Ung1NDNMN1F1d1A0RDNrc0Zta0tIMXdKaFFPN0JheExUWFRkTjZCS0hPZUZvOGV5Y1Z3S1I4U1NwTzRlSllnZmJTNTN6bTlhQkQyS3RjeXAyYU9LSl84Q215NzZULWcxUmtDMW5teTJqeENER08tcGRHX2FQeTRucWwwYkJuQXVLREU4cUVUWk5hdkxpSHFubGVEeTBaajhjSF9PdlZHTVp2UWpXY0Q3aTNpU3BtSkRLTzlYUUNRMWpGMGNoMjUzZG5ZdG9ocUVydE5sVU9MNFZvZlFCS2U4ZDc?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "Pre-Market Update: GIFT Nifty Signals Muted Opening; Q2 Earnings, Foreign Flows and Crude Oil in Focus",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "Dalal Street Investment Journal"
-    ],
-    "published": "2026-11-12T02:15:59+00:00",
-    "links": [
-     {
-      "source": "Dalal Street Investment Journal",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOSlVUWHo4SjN6aEtZZkRXV2t3OGozM3VhbVJVTk1NR2JVNVktanZnbU1vR3NEZVRfNGw0MFF2RHNPT3R6cElfMmhkdVZqWm1fcExzeVNQYzBndmllMDkyUnowcFE5OThaU2RyTmRVcU5QT1ZxMWFzWVJBWEVuYU1KejVCdjNsSDhBNk1ERlMtcU1YTlAwU2l0M3ctZ2tuS25YSTdQNlYxbUh3N0pma3NNUUhpLXVocXdrZjdLcEFvaEE5SVFnRHBGTEp5SVhURk0wMlNNY05sa0JZYnhrUVphOHZ3?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "Nifty could move to 25,500-25,750; Paytm among 3 stock ideas: Ajit Mishra",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "Business Standard"
-    ],
-    "published": "2026-11-12T02:13:01+00:00",
-    "links": [
-     {
-      "source": "Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPWWxEWFBHTHMyVkpLeVVKQ0dPU3JKZGJBVnNLV0J3VGstYnlMTDBTZnpDUUVVd3lDVzd5QlljQjlibXZrZjBMYWJ0Sy1zQVNxSzllTGRmdUVXMEpYMGVFVWhNcGpEVFo1WVhqX3g1eGhLcFVSU1MxR2Q4aFNkYkI4aHZCUWczaGFObG55VU5TWFVZUGVmN29mWnN5WXczejNRc1A5R1FDeXdtOWs2MERYSk5TZ2RscC1FRl81NTFBSFV4NGJKX2p6aGJzaWFjc25NLWVBSXlIdFIzN2ktWGFNbmtwdHlMZUxrVXlXZURpb9IB9AFBVV95cUxOdzVnRVFpajd6NklkcGZQcWNXX3d4bk9nME5KdGgtMG9NdW9oSV9ndzM1X2wyQzRMeDB0akZ6dmNxVkg1eWEtX3M5N0FNMTNiLUxGUHF5RG9aTTh5Uk9ZTU5NdUdJbU9jam80Vml2Z0pnVUJJd2NIWGd2Z0ZBX3ptLWpmaDM2Z0hjM1h0YnQyN2JqdWVqSDFBM0ZhR3A4NGttM2J6VXhXUTlXMFlCbVZESFVieXJ6RDMxUkR5dndpb01DeEppcmc0ZGN1RktOOXVkbGVGSzk0N241aXpmZ0hnTVBESTdUT1BfZ2tGRXFBUTRDQ3NX?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "Top stocks to watch today: Tata Power, Bajaj Finance, HAL, IRCTC shares in focus on Thursday, 12 November | Full list",
+    "headline": "Top stocks to watch today: Vodafone Idea, Ola Electric, IRCTC, Grasim shares in focus on Friday, 13 November | Full list",
     "lang": "en",
     "coverage": 1,
     "sources": [
      "Livemint"
     ],
-    "published": "2026-11-12T01:50:28+00:00",
+    "published": "2026-11-13T02:15:53+00:00",
     "links": [
      {
       "source": "Livemint",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPakVtaWtHX1hwSlhFVkZ0QU1TY0ZyR0hBM2k3YjROU19Ra0hVdGVvS1FyeEVVeS01UkZLWEVYU2o0VDB5LWVfcThOVTdVLVl0X2kxM2E3Y1JSRVFFcG5ZZ0pJMFBYc09sSm1lZ0tvRmxLaVVjZVdqd2NxVUVuWXN3Q0JoY251MEptdWVZWEY4bHU4VGRRMkJPcnlVR2pTZ0MwQmpBTzh5Y1lWZi1oU2RDdGVxMF9WLWdtWklsUTZ1ZWJxeWV4YVRRY3VwRkU0WUtmZm04NDJTU0ZmbzUwaVNRbVA1V2xNVlF6MnQ3b3M0S2s1cklxTkgyOTFJQkNubUN2M1B0U2hEZGNaTlli0gGSAkFVX3lxTFBEcmxIS1NGX3Q5ZHViS0RRWGxMRHd0UUwwUFh5QldnanU3M2hiZVYxV2FRRlVOUDBOemFsWHdxZ3VwRHB1dDJtMTFjQUFRYWRZSDZzWEkwbUgwdHNxaTV3XzVXNXppTnNfS1N3NFJrREV3RFdLUldrdnAycnAtOHlqMjhfd1g5UE56ZlJSaGIzM1dxTXJqcjRmRkFkbDFWMzlXQ29QbXhnZWpLM0FXd2VEX1NlRTFYMS1vQzdYRkVvZDVTMndjQWxOR2dvd2RFV1JER2pDSEdFYmdQODRRei1BdTd4YVJNYkpma1REUGF5OG5IdEd2a3dVdExReTFQREVEWnFUU09VTXMtcXlvLWZ6MFE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQNUs2SFA4UUJubHhWWWRHa01JV2VxMWppVGN3QklNaWtyNnJkSXM0Vm1oTi1JOTRpVFAxdWRPYkFOTlRsTGxmcURsY0lySGtKN2o3alN0dDNFZVMtaFFKVk9pV0pZRFBpT3JSWEhyTkQyNFRJdjk3bV9BWG9pcm1JdnhURDlBdC1KWklSamcwUmltS1pUTnFsdHZHaERSLXdoUTlURkZjLVJrZ1k0NFdMdnFYNHdaQXFFTmFORDZ0MEJ0ekdzUE9OdzRpNjBhcENyYzJVMHZTUFcwMWlSWHZTOXI3ZkpxZ1B2WWFmR3prTnI2SnQ5TkRqbmliQThSREt0R0M4aW5JRzFucHFsMWFJbdIBlgJBVV95cUxNdmhPT3JLV01lZzZ1MXJLaGNsOVZOYk5TZVNmUEhOd1N5OE94MHRSQ0RUajZCSk0tVzM4R2E0YjdsUXZJYTVQampZNE5yWEtjbC1tR2puemJaclN6T1Z2ek84UkIySmhGOXBTZkdnSEFQRXVwWV84eE1DblJlOGdGb0JhWlhGVVVVWWwySFF3VGtKQUxLUzJaeHBwUHdROS1PWGpTTHUtRVJ0RGNvX0k3ZmRsSU96dkx6VUV6ODBzMDhNNnctNzRyQV9NRXl1WHdMMEVWU0hzSzBwVXoyV1lxNlVBVDlOM1prVmJEYXQxNFB4X0RGeDlUNDVEUlVXN2pndUNFeHhsN3duc3hrQlAxR1dpVjRPUQ?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "भारतीय शेअर बाजार जगात पाचवा; तैवानला मागे टाकले, एकूण मूल्य ५.४ लाख कोटी डॉलर पुढे",
+    "lang": "mr",
+    "coverage": 1,
+    "sources": [
+     "Lokmat.com"
+    ],
+    "published": "2026-11-13T02:13:00+00:00",
+    "links": [
+     {
+      "source": "Lokmat.com",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNZm9TSzV6dzFTQjZTRXNsRmJEWlFTMWRzc1NkWjVmdVlSNGctSmJOd2V0N0Fxb1h3Y29zWXFUcEpqVzd3NWFGWm5wb2l5TDd4RXhaYWlFTVZNalJJWlpuNHJlNURzYUZGZTRISjRfSVU4VjNKTE1WdXBPNk84UTBsblBZUmZKbld1MWdqb1B2dFlDMWJYQXNGZ0VrWERsNmhJM2JURk5oRUNPN1V5Rmh0T2x6WE5PVnlwdmR3a2ZXWnFGb2tPcTQ2RUl1T1RYN0dLM2htZXpnYTRpTzZPLWkyMGVqTm1kU0RNS09RRjRR0gHzAUFVX3lxTE9pdnI1VVdPZC1zQjR4UDN4SDNmd1lHSmJHZjVEN0R2Rm9rYjNOclVjN2Q5UUVCRnI3UnBWTEpHc3ZQaDFpMUJfMjhlSHdkV25pODZEeVZHbnZwc1hOQ2FHRHhKU1hsYzhHOUp5Yk1GYXYtcTVmeFE1eTVJNnlHc1NvLXhfOF9nUU51RzhuWFl2Qm4tLXEyZHlxWmRQSVZNaWJFa1Y3TGluU3c0VERfeHV0d19NcGhKeERwTGlYcmVhWWRiMndaNTNGUUdBSVh1U1pQaTZQNkVZUzhnNTR1WHp0clFjMWhIOEhMcTlQTDZRSHVPSQ?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "Pre-Market Update: GIFT Nifty Signals Cautious Opening as Crude Oil Surges; Banking and FII Flows in Focus",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "Dalal Street Investment Journal"
+    ],
+    "published": "2026-11-13T02:11:12+00:00",
+    "links": [
+     {
+      "source": "Dalal Street Investment Journal",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQaDdnaVN5eDdQY3dnR2FQSlhXOG5ITlRoYVFaZWNwTlFYOVZlTUNhX0o5emtDOUF3QmxRbjFOTjl1SDRLOS1pN3o3S1FHMk9OY3oybk1wbldVMVRVbk01TW9fLWFBczNERENjSnNpTHJsQlZCME5mbHpWN0xhZlRLdTEybjE4WlE5SUpQUHFDTEFvQWhMQzllMV9oQWs2UkJCWHh1RWdaM3BoSkRTbzNpdnRmcHhTNzlXZnBZRUlJUXY3cWtTTl9ydUswX2lVWnNBWTFCLVllRVZNeTNGa2U4SVk1MzI0Nkhx?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "Stock Market Today: GIFT Nifty signals muted start; Brent Crude at $95/bbl",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "The Financial Express"
+    ],
+    "published": "2026-11-13T01:43:55+00:00",
+    "links": [
+     {
+      "source": "The Financial Express",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNMldZSC1seE5Ja1drYW5NS1J1Ql9VVFE1M3ZpeEhVNjFSYWtQa0ZQSnNyb21QOHJmWXcwMDNDS0d6LTJ2TUxGZDJxMkRBYjY0SXhZRHFWbzBvMTFaLVJCUFVyTjFuTjFfT2poM3g1blRFQkYzQVFXd0dMblpGdGNpODhxdEdWcXFuamJCWlB0MEFUVUFmS3FmZENaMmZXVHd5c3ZSekt3aWR3ekJ2eTFmbXVxQS1nOEZrcFk4U3ctRHp2dnN6UUF6dEotRWRPM3VueXZxb0o1cUVsVzAzZ1NwUkpsNXFCdlQzanhxbGVlSVNKQTFzWFN4Y09SU0lfZkU5aDVwTzRB0gGMAkFVX3lxTE1LaXZ0R1U3REhQZDRZcXJ3N2h2ZUtlQ3RpNU1rQ243SS1fLU91UXJXQm9heFB4NUVhaXhhRzNhRDV3OWx6MjBhc2N5cFRXWUVGXzFWWGlyNk5WRm9Ra3hoQklOWlVnNS1jMG1ZLUZvX2JqRl8xcHUtWF8xaXVYVzRFYjVKV2JTS2RMbVRTcFJWT1dPQTYxZ0NyZlRRYW16cE1NQWtBMHBuUmxpdkJCSnVIVi00bmJoU182WGljMnFpTHJaRm5TaENRaEpoUGtFYzh6TmczTDhUVlRhTWR6SWVaWjd5cUVlZUdZdDVZTU52WFhZQzBZaGE5TFY4Vm9laXBEanhPMFh5RUVqUmk?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "Sensex, Nifty close flat as investors await October CPI data; realty, banking stocks gain",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "Big News Network.com"
+    ],
+    "published": "2026-11-13T01:29:00+00:00",
+    "links": [
+     {
+      "source": "Big News Network.com",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZ0tuZzJxZGhJZlRfWnNkQU9Hc0s3b2JJakJnbUlqR2xuY29UdXJ1YW9sVUZWamdkdGxjdF9BX3Q3VTRLOEZUQ0czclJSWlVUTzlpUWwyeEpZQlRUcEpzM0hWaXdyemtmUEZNR0RmZmlOMFVmblNwVzFsQWd5RWNQZWZqUVdNdDZLV0dQT1I0dVB0djNHMzdTcEp1RFpqQ2JwRkQ5VThNS0pCWG9sNzQ5YS02YUh2N2ZORWtobVZWalBEM2phTnBoUkhRUWs?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "Stock market cues to watch today: Nvidia's Jensen Huang ouster, GIFT Nifty, FII and other data",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "ET Now"
+    ],
+    "published": "2026-11-13T01:01:24+00:00",
+    "links": [
+     {
+      "source": "ET Now",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPSVQ5RmZlZzlxSVh3enJfUGtLd2hHRUl4TzFpT1pMZDFXWlY3MjNmcnlRRGxnRXdDVnFYZXA4bFhlaFR2MXlLNk9EWkN6MTNuX1R3UlR4bFU0b1huazNsWE0wd3I1X1h4dzdTZ2hzbVRnckVtWTJGNG9GR1FSYkxDbklfMzhWN3JzaGRyMXVsamNCUU5NUUxtNWZCaGtiSW1PZ0tDcDMwZ0piUkdCamM1enVHZl84QWdqNjRsNHNDNHJ4d3hNMHJjWVc2ZDhuSVpXU3B5M0FFM0JxMG5DdmFDdDBERWpDYjBs0gHuAUFVX3lxTE5wVEx4aU41WVVQdmV3bnZmZHgzNklBOVF5RHgzYVRyYURFamNWZ1ZLNUhtZWxyQURJNW12OGpxRkktdnVZcTRNOHh5Z1FGOE1BN0ZsS3dHYTJvVl9lSFhHM2V4VExwTlUwNDhMQ256ai1XZEh1Q3BpQkc3MVJOX0RobndXVC1JdE5XN29ULV83cnBkcHQzM05zVXhhc2xrUVUzMEw0TGo3ZW1icGNqcW9sVk1zQThvbUpiUC05Y2hwLWU2VlJURmRibjJYSG12WFdZQjV3dHIxTHBXNXJ0R0dOUEhwVzNfNk01cWhrVkE?oc=5"
      }
     ]
    }
   ],
   "health": [
    {
-    "headline": "$7.2 million NIH funding supports research into long-lived plasma cells",
+    "headline": "Stanford Digital Brain Project to build predictive AI models | ETIH EdTech News",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "EdTech Innovation Hub"
+    ],
+    "published": "2026-11-13T00:17:21+00:00",
+    "links": [
+     {
+      "source": "EdTech Innovation Hub",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdEZHUWNPU21jX2FkNUJITF9qYjNlVzNqMmlGUjdkdDRjamhBWm1Zbjg2aWVNVjhzS09FcjdFUHBoenBtejE4dWpUVzI3VXVpM2JyUFduVy10b19jZnNjVjdUVk1aQTNIQWhMMGlBaTFlek9HWElmUjhWUzhEZkVfb0FjU2xkZGpYYU44VDVSMlBQRWdxNkwxTWJzRDZ5MkF1SEtBYnZZcTh2VGdVWHNsT25Xc05IVlZKV05BQUhMVDg?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "Global Tuberculosis Burden Declining, But Five Years Behind Schedule",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "Health Policy Watch"
+    ],
+    "published": "2026-11-12T23:12:03+00:00",
+    "links": [
+     {
+      "source": "Health Policy Watch",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOalg4bHlneDFNQS1idDE2RVJEWnMwV0JXZEZLQVBXenBmbnlpbGRlVUxmZ3hPZUt3Qlk1bWxubFRWeE1QRE5JMWVTbV9iMUVpQk93NUsyQWlwWjltVUpOR1BUcGlJX1lkX0RBUmMzY3hublAyMS1lUTVVY2hYTW1ja3Z3cE1GTEpjUVhJek5GQkt2UWdtX2Z5M0hrZ04yZUJkVWc?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "Liver-derived protein helps protect brain cells and improves memory in Alzheimer's mice",
     "lang": "en",
     "coverage": 1,
     "sources": [
      "News-Medical"
     ],
-    "published": "2026-11-12T03:00:00+00:00",
+    "published": "2026-11-12T22:26:00+00:00",
     "links": [
      {
       "source": "News-Medical",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQ0l4NDhFQ1BFdV9nTlFaMnNiSUpXdlVhTHFtbkhMb1ZKUjdlbFhzaVlhOS0zNjVXQ3hDWmU3ZmVYRi1qUzk1QjlpLWJram1BQnZEZFI4TGpqb2ZWT0NJc3p5OU44aFZxRVh0RkhoM0djWGxpVGY5dFRtTk5naHhDNkJDQWtRSXdvOEl1QlFCbHYxSEZKRUlxUHVsWjYxS1Z3bHBuMDJwOXlseWhvcUt5X0kyM05lUTVJcGJ3?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMDlzbm1jQlBWSFZIMzRCSHA2ZVNNdXlpR2s2TWZxVXNMVmRZdHI0eF81M1d2bGhVb3gzaWJDSE5WMjRGcVN0dzM5cU12bktLTVBPMUR2WkxwUGtrZzRlS2p6cDRqU19YZVFiX0RfYjJPSnltWHJSZ1VMWVlNb3J3ZjkxbW5nNEUzQ2t0bkg4ZDhpT1l5dEV4YTN2bGd2OGFra0lrX1UzWEtad3dXMFNXMERPUV9keDlqZEk0Ql9NSUdGZG1IS3VrSThLeUx1U0E?oc=5"
      }
     ]
    },
    {
-    "headline": "World Pneumonia Day 2026: फुफ्फुसांचा गंभीर संसर्ग न्यूमोनिया; 'या' लक्षणांकडे दुर्लक्ष करणे ठरू शकते प्राणघातक",
+    "headline": "Can Mindfulness for Insomnia Help Women With Cancer?",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "EMJ"
+    ],
+    "published": "2026-11-12T22:23:56+00:00",
+    "links": [
+     {
+      "source": "EMJ",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZmVBNHIwSGUwNEFmMDlFeldqWVR6SVBXQVpiQ3hmU0tYeWpWYVNyRFotMkNTdUhZUzM1cDlLMDB5NVpjTlk2UVJaMUgzSWFLWnVBYnhXZWhVck5FYTl2UGNYYkNON3IxcDlNUHhLdzJiMFgwZXIwN05VcjRmWTFOb1lIX0E3MnlYUkM3XzFUQmJfZlp1a2dpQQ?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "Congo Ebola outbreak still out of control after six months",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "Arab News"
+    ],
+    "published": "2026-11-12T21:54:28+00:00",
+    "links": [
+     {
+      "source": "Arab News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZVBfQ0JDMjk4TXd1VW5teC16QmZUZU9LRDg4QWl0WGlxQlB0SGJWbFU1QU5UVWUyWEsxWlBUTVNpZFNVM0N3R1dZMHZadFdDdmFHR0xOMjA5b3lXZ2E4M3VGakdRcHhrYWVWWHJEbzFReEpnaVhWVkVfRi1KbVNOVzRMbURiZGVuemV4dmRrMEVMM1ZGMU54N1JJWFpFQQ?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "Progress Is Possible: Our Goals for 2045",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "Gates Foundation"
+    ],
+    "published": "2026-11-12T19:44:28+00:00",
+    "links": [
+     {
+      "source": "Gates Foundation",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5KazJUb1lKNW1rbXlNZGxSZ1owSHRxTnJHSFdPTE84Y2FTRVB6TU5kUWFxcjNHRHJaRkF3NHBnVjFHVm9RUVdEb21lbHhKbkpuc3h3cmFveHBLUkdaZlE?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "CMC to organise exhibition, poster competition to mark World Diabetes Day",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "The Hindu"
+    ],
+    "published": "2026-11-12T19:37:18+00:00",
+    "links": [
+     {
+      "source": "The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMjF4ZVFFbXF5SVJPZ0pKZV8zOWJqMUZfMmtxaFh6SzBNNzRPWUFaMEhLYnVrTHZLaDlMXzdXdDhUYTRwM05kV25FV3AwNENkenpCR3FJRV9xTV9adDNDVVdaTjh2X21pOW1ET2RmeGp1UTFJMUN2UUhzdGctd0VhVzhnQnNEVkhzcnlleEhsZnpGakZkSDF4ZzI4Z2ZXdVVJVWhoY0Mxdkt5Q19pNXNTRmUxTzV6eTRrVk0tNlI3UDkybWVqQmdLdGowQTl0a3ptc0NrQWtRamFVQdIB4AFBVV95cUxPandJRGhYX0hMZE1NSFNhTFB0OXZ3azA2eC1jUFRSWFFfT25RM0VMLVZWVFltZkdGY2Y4MHk1VnBoanp0c1JWMV9fbDNEWXJxZHlLX2tkTEZsYTdqUnJfVk1qUDRJYmFhSm96Y1ZTUk11WFA5cGFOZzN1V3hIU2pFY3Vsc1pCQkFmNTFndDg1dk1ocmpEZmNVMGhwa3JHbkdTT0tPQVhrekdKQWo2X0QyWHlpeUtOOUhZTDBnQ0dncnd0MTRmR01KdHgxOEx3XzV3NDRjQW1UTUFzM3kxUFFIbA?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "'Heightmaxxing' through cancer drugs",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "The Mary Sue"
+    ],
+    "published": "2026-11-12T19:30:00+00:00",
+    "links": [
+     {
+      "source": "The Mary Sue",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTmo5SnJIY1dBLWNtSlQzejdoelVIejk3aktqcGx6YVdEdjI1dzlZbG1JMWVNUjdMLW9uMGQ2V1R5cHlhN0Jtdk0yT1BpTzhHMWZfdl9hMUFrY2g2UVIzdnRuOUZRTnNpYUZUQnZhZ2Z6SG1tZElzTmtYVk9SWHVXN0h1TEFhLTZHUi0zeXdicWZvcDRsTl8wQWxoejNFVnRreUIzckFsSFdrMjBuc0c2TExR?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "Sensors on buses and trams could make air quality measurements fairer",
+    "lang": "en",
+    "coverage": 1,
+    "sources": [
+     "Phys.org"
+    ],
+    "published": "2026-11-12T19:20:25+00:00",
+    "links": [
+     {
+      "source": "Phys.org",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1oQ01fZVZFRXpIMDBkLUZMcmhrZ3R4cVZWU082cGE4Y05EUWoyLXRYWWFPZWlqZ0pFZnB2cmowY1Q5dmZGSWhSSjNGOHE2WTg1SWhwSURtOFBqaXJNb0hRVkRuR2MtTTg3ckxvU1ltamx6YWNm?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "कच्चं बीट खावं की ज्यूस प्यावा? आरोग्यासाठी कोणता पर्याय आहे फायदेशीर?",
     "lang": "mr",
     "coverage": 1,
     "sources": [
-     "navarashtra"
+     "Marathi News Esakal"
     ],
-    "published": "2026-11-12T02:00:29+00:00",
+    "published": "2026-11-12T18:11:24+00:00",
     "links": [
      {
-      "source": "navarashtra",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNlNBZ3lNOTFHVDBEUVdIWVZVMVo1UHRjTzZMdE00SHEtX055RXE3NWphSXhQTXFMdnIxUjFvRmJtSG41UkszMGdUOVliT1BrRV9tQXZXSllzazlPX0lHRHFBRFlXMlhRbThNeUw5elRSU2pGNXFZRXJjd0MweFM2VlVMdXEweXRsMUhnWGhrcHpSZGFJaFpIa1JxRHluTkFMWFo0dGF0WTd0a0tXOGZOSnZObC1qMVVFT1840gHAAUFVX3lxTFBRWHJnMXp0Z2lBcEM2OWdLa1pKNEdCd21VUGlMMG9yLVNWa2NuVWtyWlNKbnpZNjYxYlNrbHczckxFVFBFaGd1SVRJMDJLdnVSZkNJMmo5Y2k2RV9xWk9pRDZBOU5EZHRlTVF0eXdmdGVVaWJaUjljVGVnQUVKYmhadHdPYVRsTElyZ2JXVWx0VjRrRE9XZFItSkRoZXprSEktOEhaNTNaVnBuQ1BHeXNIN19qa1ZheWtmMGFid0xBNg?oc=5"
+      "source": "Marathi News Esakal",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNY3pZZ0pNemk4VzFTTm54RmUyVW12Q1NOTWM1QTAyNnp1Mnlqa0RzYzRtNldpcnEzb1lNUGxaSnI3WjlpVFVvUUxTekVEbGtvQlIxY0xKOVJJUmI0a2FNZ05URGRXNk53SEduMnIxREN5Ni1fdU1nT3FmTGc3cGlGMWZ4R2ZWRXRjeVFwaE5sYy1IQ3dydGRKNlJJS3duNms1RVEydFVpa0JPbmFiOXNyb0txa3djcjhHenFoN19pNGp1R0t2V0EzQ0liYXpiaVE2LVFYcF8zR0hMYUE5UUZBaWh3aTBFVEd5THc?oc=5"
      }
     ]
    },
    {
-    "headline": "HCC Blood Test Score Tracks Tumor Size, Not Liver Disease Severity",
+    "headline": "'Smartphone Pinkie...' Signs You Are Overusing Phone Use | Vantage on Firstpost",
     "lang": "en",
     "coverage": 1,
     "sources": [
-     "HCPLive"
+     "Firstpost"
     ],
-    "published": "2026-11-11T22:00:30+00:00",
+    "published": "2026-11-12T17:48:20+00:00",
     "links": [
      {
-      "source": "HCPLive",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWE9KNTd5dURoMTJwdDd5QzVtZDZGLTdUSlpHOEhYdWtYa2dPSk4zVnVKOFFxV0lfTkFnSE1TcVc3WHZOVm8taWU3WXQxdWd1QlplSEVYcVRhZkNKSjQ3Ulg4TXNRUm0wY3gtN0VMUWwwUmRtUGEta2Vya1YzYy02UHQxM3kxOHVSMU9aZ21CRk1zcnNrMUNXZ3p3?oc=5"
+      "source": "Firstpost",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcEI4X2hpc1BQektOSF9XYWQ2UUJic0ZjTzNGa2tOdmZPeXVKUHBJZ3VyRUluUFVpR3BKWWpXR1JpWFNBVk5oMGdxc01XQVJ1OWo1MWF0XzBrYS1TNFNEQml4UEd1WDVGV3FDNThsbUg0Y0l2ZS12VVd1OFk1SDFDVEdBa2NvRVN1MUlTLTZhOVBYNFJpWUlSRzMwS0ctNWtLcTlYaVlYMUc4eDNnSzFpMHMzZGM0Vkxj0gG-AUFVX3lxTE5KMTVVa3NwWkVrVmU2TGNrTFhTRlphYURBbmoyNjhWV3FqUTBBbGNNb2pBVTl1ekp6cThyRmZwRV9SbkhsZnlaUkw2SnBZVjB1OXlFMkVWODFxRmFnbS1rM1FBRDU0dWkwbGJ1QXhMWGY2WEg5ckMtNGhaZWgxbW9nMXg2Rl93MHV3Qm5mSnlhRFlQUmc0UFllTEpwZVNNZ2FWd0tBUTFwRlVmNVRkWjg0RVlmYXBXOVVmdmpNdEE?oc=5"
      }
     ]
    },
    {
-    "headline": "New blood test claims to detect 50-plus cancers before symptoms",
-    "lang": "en",
+    "headline": "Healthy Habits : चुकीच्या जीवनशैलीमुळे वाढतोय गंभीर आजारांचा धोका; आजच बदला या सवयी",
+    "lang": "mr",
     "coverage": 1,
     "sources": [
-     "Japan Today"
+     "Agrowon - Agriculture News"
     ],
-    "published": "2026-11-11T21:31:36+00:00",
+    "published": "2026-11-12T17:05:33+00:00",
     "links": [
      {
-      "source": "Japan Today",
-      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOSE51SGlWS2s2dXdzSGxVS011VnBLQkZtcFAzWUtZa0pzWkJ3RllLWnV5Z2d5TzAzeHQ0WC1xbFlGbVVjcUNTOE5xRjdmalJGb1hyc2RpanFaa29pNy1oTWwzV2xEbnRwbGlqRUVrcjZPSnRGTDh6VGxyRnNaREJDOUx5X2JoOHlMeV9kUkpyV0Fpbi1xSGdkV0FTbm43aTRZNEZWRE5tRDlzWkF4clVIZDY1RG5lLS15OHMzdUlrdjI2dUZfM083VW91d25RM2NLREh2OFJ1VTYtb3MtMnNfc3dSV0w3VkNBVzdPRzdpNEUxMndLTlAzSm83dXVJZXZWNWxLLWVoQVpXd3hyWlpVbEFTTEViYVJLZEx1c21ITWdocVNh?oc=5"
+      "source": "Agrowon - Agriculture News",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQR2FQZTd4aWNPOUNUWndKek81bVRhRDlBZF9VeHhyQmRKSjh4UXBjYnUxTk8tbDRJWWc4VkZsME9taFRNZmZ3ZC00WWdqcUkzdzhXbDdGS1ROeC1BY0hFdFV3WC0xQl96T1lUbmlPS1d3TmNpeDdSTTdmczFGcXNGOEc4Wmd3RlBlUGpSdE1wNE9SS0R5dU9KWE1aajFhc1VEajZsSmhocmRWTFQ2cDllcVh3MkxDb29yanNRTHhyVXMwX1U50gHEAUFVX3lxTFBHYVBlN3hpY085Q1Rad0p6TzVtVGFEOUFkX1V4eHJCZEpKOHhRcGNidTFOTy1sNElZZzhWRmwwT21oVE1mZndkLTRZZ2pxSTN3OFdsN0ZLVE54LUFjSEV0VXdYLTFCX3pPWVRuaU9LV3dOY2l4N1JNN2ZzMUZxc0Y4RzhaZ3dGUGVQalJ0TXA0T1JLRHl1T0pYTVpqMWFzVURqNmxKaGhyZFZMVDZwOWVxWHcyTENvb3Jqc1FMeHJVczBfVTk?oc=5"
      }
     ]
    },
    {
-    "headline": "How ‘Heightmaxxing’ Is Pushing Teen Boys to Take a Risky Cancer Drug",
+    "headline": "Type 2 diabetes significantly increases risk of developing Alzheimer's disease",
     "lang": "en",
     "coverage": 1,
     "sources": [
-     "SheKnows"
+     "News-Medical"
     ],
-    "published": "2026-11-11T20:09:00+00:00",
+    "published": "2026-11-12T16:32:00+00:00",
     "links": [
      {
-      "source": "SheKnows",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWDNaT1pkT21Cb04wOFNVc0pOaEEzN25BNGY2aURudzR1QVF4bENVd0hWVC1CZDJWU1JwZFEwMmt4RUlwMG54dVo3T0tHV1V6bzFRMlFlVGhGWUhWOFY3S3ZjdktTZmdQWXhFaVJFUDA4OEw2Z1lQQ2tfb2NSVG1wci1RbGg4aWNu?oc=5"
+      "source": "News-Medical",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTk5VeFJ5UExGZldXX25Ua2FiLXNoQnpvWTJ4clpYYkRXTjUyX0JXRXZralVVaTRDTzJIQjg3cVhjMG43UThkWkx2REtpM3VCT0NOUmhid0ZtOEFLUXU2UVdqR1M4MFRTMFBXaGZ2ZU5TSGE1NE5MZE5hZzg3bHZZd084Ri1LcTBQandQT1p1TEpGX3lFaGFEeVFlVk1GM1dyTDlCeC1LY3B1TGZibnlXT0JjMkRJZHpfUHlDYXh1UTNYZHM?oc=5"
      }
     ]
    },
    {
-    "headline": "Blood proteins reveal how menopause may shape brain health later",
-    "lang": "en",
+    "headline": "कपल्समध्ये फर्टीलिटी वाढवतात हे 10 सूपरफूड्स",
+    "lang": "mr",
     "coverage": 1,
     "sources": [
-     "Futurity"
+     "TV9 Marathi"
     ],
-    "published": "2026-11-11T19:28:35+00:00",
+    "published": "2026-11-12T15:59:22+00:00",
     "links": [
      {
-      "source": "Futurity",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1HU2htdC1qakIyRnR0eG4zbVB5c19oUzhyQlFYVmlCYlZYUkZQZXhKdjN3V1dyUDdHb1QtcnlCLVRPRk9rN2daTS05SWNaNW9uWDhURTZDZkhCN0hrSlFiZEVNX2hIUFFRdFhWUkNMUmRlN3oyZ1NiMnFpUQ?oc=5"
+      "source": "TV9 Marathi",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZ2ZwRS1YaWY2aUtKNnRiVUh6R2hyM243OHJfZUQwUVEwank1czZRWFg2YVBvcXBRaVRHRVkwQWNraTFESG1URHYzcWdDcVRIVHl3WTZZb0VxWll2clZhOS12WlpUbFg4LVI2cVlCVXZORGRHbTVWd1JkV2Y3R1N0QXNaUnp3QUZkd3A0OExIcmlNaUpkYTNmX3hoWdIBmwFBVV95cUxNZ2ZwRS1YaWY2aUtKNnRiVUh6R2hyM243OHJfZUQwUVEwank1czZRWFg2YVBvcXBRaVRHRVkwQWNraTFESG1URHYzcWdDcVRIVHl3WTZZb0VxWll2clZhOS12WlpUbFg4LVI2cVlCVXZORGRHbTVWd1JkV2Y3R1N0QXNaUnp3QUZkd3A0OExIcmlNaUpkYTNmX3hoWQ?oc=5"
      }
     ]
    },
    {
-    "headline": "Future of AI brain models sparks debate",
+    "headline": "Anthracycline Chemo May Accelerate Biological Aging in Breast Cancer Survivors",
     "lang": "en",
     "coverage": 1,
     "sources": [
-     "The Transmitter"
+     "CancerNetwork"
     ],
-    "published": "2026-11-11T18:44:10+00:00",
+    "published": "2026-11-12T15:08:38+00:00",
     "links": [
      {
-      "source": "The Transmitter",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZ2JwS2FZcWhFM0tScjVQX2E2TnVrcTBydjFsQmF6RUE3c002X1JJS05sUVRxd0RsazBDZWZFM1I1aUJNTk05RkI1clNVZ0tPb3JscFp2OFExWV9ISGVTZDZzSkpSTHU0azl5eTV4NnNRN1Y4OFROUjNNQ004MEZSR1dSWUF3TElBcDlmb3RoUFpwT0k4aVJz?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "New study suggests bedroom air purifier may support healthy blood sugar",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "The Washington Post"
-    ],
-    "published": "2026-11-11T18:00:00+00:00",
-    "links": [
-     {
-      "source": "The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOFNPNDFjNHdkSmdXVUtnckNwU3NSNEVHSklxdlc2VEU2Rk5IMGNMVlkta01HemE4M0J4WDlZWGdjV19ac2dBVWRDWXp2cmdaT0JhSWhlY3N1SGpjRUJoTXJjeXVfb3VKMlc1NGp6T2xaWmxuRmppZVNLWmh4SlNUZ0RSSDllMC11T0NNLXl5RU5RdkdGZkVBeHNBZmZKMnFzV01aV2JzUXJHUEVUbElPcmJfVlNhelhodmdXREtMUHQ?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "Decoding medical misinformation in hospitals",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "Medical Buyer"
-    ],
-    "published": "2026-11-11T17:56:12+00:00",
-    "links": [
-     {
-      "source": "Medical Buyer",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAzOUNzdGQ0OFZtaF9RNHFzWU1UMTIzc2t4WHBTams2N1BwTkdycXNrX2tiWDJXZ1R6ZXMxZHNLcms0ZTRKdjNIQjVyRG96UXFLdVZNQmh2aDdUMnZiVnA0akFZVWRSY0NDWEpOdzFfSDJKcTQ5Mkh6OUVlWnI?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "Blood sugar spikes: What actually works to manage them",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "Medical Xpress"
-    ],
-    "published": "2026-11-11T16:30:01+00:00",
-    "links": [
-     {
-      "source": "Medical Xpress",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBtMnNENkVKTi1LcUwyZmpIMEV0R2lLYVNUdW5aNmpBWGlXM2FCenVSdHAtOUZMMGlNWTQ1eUJFUjI2ckhqRGNqcTVXQU0tTk02UmJ5SlZtVFdaT3JPUzdlOEplRG9lT29FclNWYUNGSQ?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "Potassium-Enriched Salt Could Prevent Nearly 3 Million Deaths a Year",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "Global Agriculture"
-    ],
-    "published": "2026-11-11T15:41:57+00:00",
-    "links": [
-     {
-      "source": "Global Agriculture",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQamdPSDRHSDRYbGIwWmI1bTJuTVE4NzZjX3NqWmI3RHJlWmQxY1VIem1FT2ZmcklLMWNQQTdzWUFpNkh1d1JjWHk0V1JjSWZQTnNlR0haSXA2dzg2aWR6SXJVbHR1UzVHUWhUcjB6X0RySFg2Nk93bUJyeFg0RF80WTN3d0oxWWs4aW9uTTF1cjJzYmU3MlRCV1ZXOFJ2OU8yM0N1eGgtRmR5Q1JTZzc0TTIxVzZ2MjZObTY5c0JzQWp1WlJ1ZEFZ?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "The final push to end polio: A conversation with WHO's Chris Wolff | GPEI",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "ReliefWeb"
-    ],
-    "published": "2026-11-11T13:33:06+00:00",
-    "links": [
-     {
-      "source": "ReliefWeb",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUmZfT09hcGJXWkx6QTZLS254b0VZTHNLNjVpaWdBMU80ZmpOQXdxNHNvTWdCQkpUWnpOa0p5RDlvQ0RDMDZJQXFjT1FFVFF4UkNZV2hmZlUyWjdwR1h3ODlJaFNUS1NzT3NRSlp3eUktSzJFUVFiSFdqblBSQVBkYURWd3hoQWxUQkN6RVVkd29qZWt2?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "Vitamin C vital to ward off a winter cold",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "Egyptian Gazette"
-    ],
-    "published": "2026-11-11T13:13:23+00:00",
-    "links": [
-     {
-      "source": "Egyptian Gazette",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQ25rSlBjVGlWZ3ZXMzc5RFlNUWppRWhZNDlHbVdqOTFab3JCT2ZRREVzaTFiR2dOYjdyczBOM0lxLVRrX28xRmtpNGJVV0huUEhwMkNGNjVmUVNVVEFwUkt6WEJqc2hTSERtbDRzeDJjQ2Q3OGctdm5nSjkzek1tNjlkT0JVcVJoblZkRk41VXdHVUo4SXNj?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "World Diabetes Day: Early Prevention And Screening Key To Reducing Type 2 Diabetes Risk",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "BW Healthcare World"
-    ],
-    "published": "2026-11-11T13:11:41+00:00",
-    "links": [
-     {
-      "source": "BW Healthcare World",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZDd6X0FtRnhhUElPY1pIYmZFZUVnMkdiWmlFUTlUVHJJNUwwbGFaV2ZZY21sZXUtTVVRczlfTnVvVlJoNWlObk1TNUZHNHk3Z0sxY1lOcXpWbEFLaUYwdVZ3NXpWSWZBcF9XbUdWdGtrLXpnMDlVWDVzSjJWQVhVYl9mR1JYTVd5LVo3TDZERGJvV0FhaGo0QXpHbVBUN0pLZlJNb1d2WkRNSm0tMWlmOG9WVmFXd0F1eHpDYWNSUjJ0ckxhdzdLLUcyNmVWWDRa?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "Patients faking symptoms to get antibiotics as drug resistance grows",
-    "lang": "en",
-    "coverage": 1,
-    "sources": [
-     "Yahoo"
-    ],
-    "published": "2026-11-11T13:03:25+00:00",
-    "links": [
-     {
-      "source": "Yahoo",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPYU9yUDNzVUNsV19JZkUxdmZfUVQzT0d2Z1dPM2N3N1J4anBhaG1VNXc2a3k2d1pZOFNfRk1pc1p5MFNjdEJiX3NrbHpmZHNqS0FfTmJiVkVyWmdMTEU2MGRCa2Fvb2hFNGtGVlE3WHFKS2QxNVB5bTZ3cXBXLVhwQmNDTlRzcFVlQ1Y3X0tBeWVETDliMmh4U09kOA?oc=5"
+      "source": "CancerNetwork",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPT2hrVTVWZXlTMGJ4cGlpTllXU0VnZGIyTDVGQVhlcDJVY29aY3Z3YVVQcXFLaXN4Y0EwRzhCV0pZbEZyRU9WUU1md0VBeU0yRk5vUkhXN2ZaTi1yYnZDSDQ5MENWcFdpYktmanNNaUEyNzJSbHN4X04yX0ZOeG9kMGN0ekZ3NzJMenBDU1c3WkdTbXk5OXFDNkhzYVVoQ0xtZm1XM3RVdDdrVVh5dG5UaWRwSQ?oc=5"
      }
     ]
    }
   ],
   "news": [
    {
-    "headline": "केंद्र सरकारचा मोठा निर्णय, रब्बी हंगामातील खतांसाठी 62370 कोटींचं अनुदान मंजूर,",
-    "lang": "mr",
-    "coverage": 2,
-    "sources": [
-     "ABP Majha",
-     "ABP माझा"
-    ],
-    "published": "2026-11-11T18:31:16+00:00",
-    "links": [
-     {
-      "source": "ABP Majha",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUDhMbUlPRF9CNEFVWVJ4WU9ZWnZDd1NhWnAtT1liY0RNVVFieTlNSWxqbHdqalZXaXdTVnlCT2U0bU10VUlxWUI5bExRSjlyUDc1d05td3pNSVlIZ0theGFmS095cXFSNHZVVG1pNHVxVE5JTlpQLTRxNmVzM0d6TS02d0VYUGVJeWhFQ0NROThxVDFFamdKeGhSUjFLQUFmQzNYRDFORlRrb3FaQzUzcHdUNDk2c3g0aEUySmJ3UWU4YUlXQnYxdHZKRWJ0c0s4SkJ30gHYAUFVX3lxTE1BN21TSjFheG5HdHNqNVY5eUM4UDIwM1IxM2JTU1dYdXl3c2VXekdRSVdRdVBJeVpISXh5elFEUmFqME00aEFOY0hNcnRSalMwb1ppSkVvNHh5VjdwcFY3WTdMN1dVVG5xbHR0SEduOUJNZnZ4NzJpbkdsaE9oc0N6MGp6YlpQdl9jYzViOGEtMktmY1JfQXJVQVZpazQxTjJnTHVlQ19EeHhFQ1ZiYndqSFpMTzBHUlViNEQ4LVB3d0tRWFUzTkgwaGIydjcxOU5hbWVEMkczdQ?oc=5"
-     },
-     {
-      "source": "ABP माझा",
-      "url": "https://marathi.abplive.com/business/narendra-modi-cabinet-approves-nutrient-based-subsidy-rates-for-fertilizers-rabi-2026-and-27-1445117"
-     }
-    ]
-   },
-   {
-    "headline": "Mumbai Crime: मालाडच्या मढ आयलंडवर धक्कादायक घटना, पार्टीत तरुणीला गुंगीचे औषध देऊन नको ते केलं, 22 वर्षांच्या विद्यार्थ्याला अटक",
+    "headline": "Amravati Farmer: अमरावतीत मायक्रो फायनान्सच्या जाचाला कंटाळून शेतकऱ्यानं स्वतःला विहिरीत झोकून दिलं;पालकमंत्री चंद्रशेखर बावनकुळे यांच्याकडून गंभीर दखल, म्हणाले...",
     "lang": "mr",
     "coverage": 1,
     "sources": [
      "ABP माझा"
     ],
-    "published": "2026-11-12T08:27:48+05:30",
+    "published": "2026-11-13T07:07:50+05:30",
     "links": [
      {
       "source": "ABP माझा",
-      "url": "https://marathi.abplive.com/crime/mumbai-crime-news-madh-island-party-22-year-college-boy-give-sedative-substance-to-girl-from-drink-then-make-physical-relation-marathi-news-1445123"
+      "url": "https://marathi.abplive.com/news/maharashtra/amravati-farmer-take-extreme-step-due-to-driven-to-despair-by-the-harassment-of-a-microfinance-firm-threw-himself-into-a-well-chandrashekhar-bawankule-taken-serious-note-marathi-news-1445190"
      }
     ]
    },
    {
-    "headline": "NCP Merger: राष्ट्रवादी काँग्रेसच्या विलीनीकरणाबाबत वेगवान घडामोडी, पण काहीच कळेना; काँग्रेस नेत्याच्या वक्तव्याने वेगळाच ट्विस्ट, नेमकं काय म्हणाला?",
-    "lang": "mr",
-    "coverage": 1,
-    "sources": [
-     "ABP माझा"
-    ],
-    "published": "2026-11-12T07:29:48+05:30",
-    "links": [
-     {
-      "source": "ABP माझा",
-      "url": "https://marathi.abplive.com/news/politics/ncp-merger-congress-leader-claims-ajit-pawar-wants-to-leave-mahayuti-devendra-fadavis-sharad-pawar-sunetra-pawar-marathi-news-1445121"
-     }
-    ]
-   },
-   {
-    "headline": "Diwali Fire Incidents Mumbai: मुंबईत अग्नीतांडव सुरुच! 5 दिवसांत 333 आगींच्या घटना, फटाक्यांवरील बंदी फक्त कागदावरच?",
-    "lang": "mr",
-    "coverage": 1,
-    "sources": [
-     "ABP माझा"
-    ],
-    "published": "2026-11-12T06:55:14+05:30",
-    "links": [
-     {
-      "source": "ABP माझा",
-      "url": "https://marathi.abplive.com/news/mumbai/diwali-2026-mumbai-333-fire-incidents-reported-in-just-5-days-ban-on-firecrackers-merely-on-paper-firecracker-explosion-malad-16-year-old-boy-dies-marathi-news-1445119"
-     }
-    ]
-   },
-   {
-    "headline": "Maharashtra Live blog updates: महाराष्ट्रात सायबर फसवणुकीचा मोठा विळखा; ८ महिन्यांत २,११९ कोटींचा गंडा",
-    "lang": "mr",
-    "coverage": 1,
-    "sources": [
-     "ABP माझा"
-    ],
-    "published": "2026-11-12T06:29:23+05:30",
-    "links": [
-     {
-      "source": "ABP माझा",
-      "url": "https://marathi.abplive.com/news/maharashtra/maharashtra-live-blog-updates-todays-breaking-news-12-november-2026-gokul-chairman-election-2026-kolhapur-ncp-sharad-pawar-maharashtra-politics-1445118"
-     }
-    ]
-   },
-   {
-    "headline": "बेडवरील डागांमुळे हॉटेल मालक हैराण, घेतला मोठा निर्णय, कुठेही जाण्याआधी एकदा वाचा",
-    "lang": "mr",
-    "coverage": 1,
-    "sources": [
-     "TV9 Marathi"
-    ],
-    "published": "2026-11-12T02:57:51+00:00",
-    "links": [
-     {
-      "source": "TV9 Marathi",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZElVZS1mZWMtSEdfS3dlUS1ZeUdkNlZCMVJhYmQxOFBJXzh2Uklma1NQamxidXRWeEJfc3NsNk9NN2FoTi1oRGdQb19mbUpENnF5b0haMWxpbmZ2azFhdXFma1lrWkVLejNTeER1OW1TNDhZaGFoOUhnQ2lSRkhYYmpBeVNwVkpBR2hFYjlWQ3NRZ19lNlM1d213LWRCdXgxZTlndzl5MktMWWFwSHBUblpqMmlVZVhuUUd5dTFxQ2xqcWJoeXUxemxCLU1BZ9IB0wFBVV95cUxNR1prU2N0YnpSZi1kRGg3bEw1RHM3cEhVa19JZFpfNHh3LWh1OTNwLTZmZjdENDJkaDZlekU2cS1IWkNFeDQ1dlBxT0poMllDSVpWNnpvM2RscGtxLXMtVFplYmlTMHVONWJ3WXJOTW40Y0wzTk8zUWpERlNSbnNVdEZrQU54MElKbDVHLUR3Mjg4cFU1SEREVzJMRExCOUNQbXZuSTNUUHhNSm9QaVB5NHY0Q2tpV1cyNUdUYXRnczR5NnN5V24zU21OLVN4endmUDU0?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "Anirudh Ravichander and Kavya Maran: चर्चांना पूर्णविराम! काव्या-अनिरुद्ध विवाहबंधनात अडकले लग्नातील",
+    "headline": "IND vs NZ 4th ODI : कर्णधार बदलला, खेळाडू बदलले! न्यूझीलंडविरुद्ध चौथ्या वनडे सामन्यासाठी",
     "lang": "mr",
     "coverage": 1,
     "sources": [
      "ABP Majha"
     ],
-    "published": "2026-11-12T02:44:03+00:00",
+    "published": "2026-11-13T01:54:16+00:00",
     "links": [
      {
       "source": "ABP Majha",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPYzgwYXhvT3VFWnJaTnJWbjBRVVdvZ1kycEZ4NVlILXgzRWFtLUtFamdleTlqUGZfeWo3NnFablpDU2pzRVVBY0E1c2wzVnprZ2VMTmlzOEZpRWxneTJYUDdSNmQ5WjZjT1EtU0tvNFItNUZCLUFDbktkWk56ZzdSZWtTTndDbi0xM19pRHpSWFFmUUV2ZHdQQkgtS0RlQUtCSXN1QllQS0daSnpUdXQxaWFteDdpNVlFRXRodm0wTlBQRGRKQUdPLVlwREhyZGFlVUlCY0hySdIB3AFBVV95cUxPUi1rZm4tTzBZVWpKakpRYkM1aUYweFN4YkR4Tkw3WDc4czZZbF82OHRtaGVHNm5rendWaTk4NXpUS200NkVrSElFVFlZRFhRMWdaWjVUMy03OTlOMDdlV0h4OEsyN011elp2dFhSMzVXelRCT2JaNGFMZnZDX1BZRVV2TEpZZVhpZVoyR3pfTDhUb0I4aGNFLVdtMU9CTU14UDBwLWhJb1NUM0pPSkRKU29lc3F0V1piUno5WXZ0d3c3YzZETUpFMDFueDZleDlhZV9yc3JMYkJTb2tn?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQWVBQVl9Uc0ViUS16enpHM2dCUE10WHNqMk5uUzRDdUtBWVA5cjk0UGVWdjktS2I5dTNkQUJ1bnhhOUxoWFRkV2ZIT25uZUVpN2ZwRkhSNHl2RjRZWC1NSU5obEpGc1VOajdkbWgtNEphX3V2ZGFZY3ZsZHJ1M09SV2h5Z2ViSnBfNTBENmZpRnBpQ2J2UUI1aFFvUFZCaTdQMzhpNjBBUWc2c2FMN0lVeFlXOVVzdmZENHNZWTNkMDVKZURWS1BBSkN2N0Q1Y0hVRndadTJzQ2o5ZHd4VTB5SW5GdmdpYXRKX2toQUNvb3FLZmxqZkZya3J3aG5HWEprNXN2a1hJdk5BdFg3SEHSAZMCQVVfeXFMTThsMVlpY29KNWZnekVFbXVyS242T2NuVGNNcXg1SzlIYUtya2NYTi1oRW9EaVU3NzFYZGxYcXNhRmVRT0VSN3AxRVdtOFF2aURaMWNGaEMtZlBtcG4wdDJYY3cyWUxkM2psZm1ZX3NHb25kYWtSQUxoYThiemlkclVxM3FvTjFGaHR3MGI4UkxSV2ZOQnBWSHhlN0w2U1VvQ3lsdEFUQU5vUWRhRUd1b290WnVleUsxQjJHXzlBU3hDUTExb2tiZ3lQT1ZEdUszNVQ0bV9PdTBRRFdUck9hR1cwUUpTVVlPS18wdTBXS1JTemFRaHdpOEdkWHYzR0h6WTN3OWNFTW5ESXVGcER1dXdDSTg?oc=5"
      }
     ]
    },
    {
-    "headline": "उद्योग, व्यवसायासाठी कर्ज मिळणार; मुद्रा योजनेला २०३१ पर्यंत मुदतवाढ, ५ वर्षांत १२.६ लाख कोटी…",
+    "headline": "IPL 2027: एस. बद्रीनाथने सुचवली सीएसकेच्या ३ खेळाडूंची नावे",
+    "lang": "mr",
+    "coverage": 1,
+    "sources": [
+     "Maharashtra Desha महाराष्ट्र देशा"
+    ],
+    "published": "2026-11-13T01:45:31+00:00",
+    "links": [
+     {
+      "source": "Maharashtra Desha महाराष्ट्र देशा",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBDTUNDWlhfZm4tSFU1QWhkYWhvNXJoQzFLbHFOaGVtWlBvbm1vdFFld000OHJuQ0hERmczd0tQWU1XVkUtMkRmc0w4bWg2NWM2Z1lOWVpkT3ZRQjBKMWdqNmJWVllldmlOczBOdlQ3WUQydWpjNXFWR2tn?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "आजचे राशीभविष्य, १३ नोव्हेंबर, २०२६: मनोरंजन व आनंद-प्रमाद करण्याचा दिवस; आर्थिक लाभ होतील!",
     "lang": "mr",
     "coverage": 1,
     "sources": [
      "Lokmat.com"
     ],
-    "published": "2026-11-12T02:30:00+00:00",
+    "published": "2026-11-13T01:43:00+00:00",
     "links": [
      {
       "source": "Lokmat.com",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPa1BCc0JCMHN2MndNdlVyUnhFdW1rR2s4cmIteUNDeTJDV2RvMzFHYVRrMlJTNzhvSll3clJ1bmMzOGpuZ0wwZ1lWNTVNZmFMTTdOdk9GQ1RvazhhYy1QTkFpTmlIdDJmUVFSMXNuZTZsMS16TFFEYlh0cHliNkVzSm54VFdYeThLX1A1b1hGb2oxaHhkOHdWVFdQTm1ObnhITjk1Y2ZtSkl0UnBMa2RpZm9RaTZLRWlWRmFKaFk5cGhGNkh0UUVJZGl3SFI5VkJMVU9ONnB4TmRjZ3pxUXh0emZBaFBJa0dTMUJPVTNyZmJ1RnVBV19UQlFUZ9IBgAJBVV95cUxOejd5Qi1oTVQ5ZF9UNlczdlBTVjRuajRabVFoQlVyR0xOT0p2bjFKR1FpcmpSVEZVb0g4UW5xM2pxYTNPRjZTelFXUjVrdC1tY3FObzJ5Z1Ffdlg2VEkyOGNTdzV2cWo2OGJzYTFDaldVcThLLVk0b1piejRuVndtSGdPN1I3ZnNTOWt1dGNrTzNUYUlkZzBqcUFfMlpYZHB1YnBwd2pmWUtCV1Y4a0tEc2owY3c5dkxwajlIejVqdHctQ2ZFZXVPdmRmM2RyTy1vdWE3SkQtazFDeTdHNXdxTkwwZUhoeDd5bTc0eEFPNE9XWkdFWFpaQU45R2ZBYjZP?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQaVpISXVPeDF3S0Ftb1V3aFFwRGR1WDVMMGtWX3RCVlZHbTRsUTgzSDNuaG1lcEZseFBOZkNza0tseUp5anQ4OGVRMlBnMTAzMzktV2lpaHI4MzhBM0l1UmxGbEdpaWVTQkwzRjZ0ZUJjcjk4NFpHcmRSdDRpZ00wODlHM2E0N1NsTTZzamN0UnVIWUhveEVpWHIxMEhSbGIxLUoxWDZHR29lR0REVmtpRmtqRU5vb243dFRKQVRkN3VkN2tZRlZsbmZiYW84dw?oc=5"
      }
     ]
    },
    {
-    "headline": "Iran US Tensions : इराणचा अमेरिकेला मोठा इशारा; युरोपसह इतर ठिकाणच्या लष्करी तळांनाही लक्ष्य करण्याची धमकी",
+    "headline": "Ind vs Pak U19 Asia Cup 2026 Final : पाकिस्तानने भारताला 191 धावांनी रडवलं होतं, आता बदला घेण्याची वेळ!",
     "lang": "mr",
     "coverage": 1,
     "sources": [
-     "Esakal"
+     "ABP Majha"
     ],
-    "published": "2026-11-12T02:22:30+00:00",
+    "published": "2026-11-13T01:23:01+00:00",
     "links": [
      {
-      "source": "Esakal",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaU5JTWVMS2tWR24zNGJaUEc0SlJGZkg0LU9BS05YSnhDem9lOGxaeVlGXzBabE5mbFY1TWVFM0ljaW4tLUFCd2dBYklYTm5RZm02WlFoRUtqTmJMY29CYjRweUFVU0pseExPbHI1eFZxSjZfWmROUHR0Nm5BRlJCX1N2MEk0WVBrbDR4Tjh6anIwcnhZQ2ItS1dqOTkwS2l3MnZpMXE3bkRxVHdzNkVmbnNsZXN3andI?oc=5"
+      "source": "ABP Majha",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPQXljcHZmdVlUMXV5TDJnYU5nU3pNcGhYT01jTmg1cWItNTFlTEdNWE5sVTVKbG45UHJxWFZ3dXRZdTNsajN5WmdNOXhuZUtJOC1za1dxbGZvOEpHLTMyTWM2Ui1sVWtxT2JaWmVRWUlpSllDcDg4NlJCX01pV29lZmstRHJ0YzRvQ3VzVENodUlXc2JNekJXV1pRVHd5RGlnY0loUmNKOURzUmdhVHZzOGdDQ0U4NUlZTkRENG1mOVlnMnRLZ0o1T3dNYXVVVm1hcW82NER3NGE3cS1NT2lleTZWQ3VXb1BtMmhsb2h4Q2ZEakpaZV9JcdIB_gFBVV95cUxPM3NCTnNPMWJ0d3EzZ1dONTJUeFhRcmVRZXY1RkZxUllnSWlHOERkTkdEQ3U5dmgyNUxvdGtYTVRRbkpZd3dqVUVNMGhzSWpoTHNCb3d3T29GTWZ5bDJLcFM3b1hvcHA3RnFzZS04NEZYbUp4Sy1neFBWTTR3VGExMWxCSTlsZFd0Y3o2SzJwR09vQ0JhOEVMS1pfY2xsekU0dEgwbUJ0YXR4WV83d1hhR1Bqck8xNGVLNzVkS1BpWGlwbWVBM095QkY1RktiR3U0ckh3M29wVVgxMmVYaGNLWXQtZDdqd0tVOHZwajIyX194QmIwR0c3NjRia0pHUQ?oc=5"
      }
     ]
    },
    {
-    "headline": "Aircraft Accident: विमान अपघाताला अनधिकृत इथेनॉलमिश्रित इंधन कारणीभूत? डीजीसीएच्या चौकशीत धक्कादायक निष्कर्ष; मनुष्यबळावरही ठपका",
+    "headline": "Sanjay Shirsat: मध्यरात्री मोठी खळबळ, मंत्री संजय शिरसाट यांच्या घरावर हल्ल्याचा प्रयत्न, मद्यधुंद...",
     "lang": "mr",
     "coverage": 1,
     "sources": [
-     "Esakal"
+     "TV9 Marathi"
     ],
-    "published": "2026-11-12T02:18:06+00:00",
+    "published": "2026-11-13T01:04:15+00:00",
     "links": [
      {
-      "source": "Esakal",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxON2ZTZFhRcV80WGQ2NnhVYk9tM2ROZVJZQzFWcGh3al92NG5yMDN1aEtnV05KenZuMVZ5ZVBXcGNMMTU3WVZxM2NJanp0N1YxQ0xmZnVDdFZwV1lIY2dsaFQ2djNGWWR3ZjV5bktRMUZsZE4zbHItZnZoRGVUZlhLX1NISW9BQjNmbXlwZG1jQ2JkQklTN1h2eHBnOWlnbnNRajFXaG5CNjZpSEQ3NlYxaEVYRXFNNkFMaVJXWjdhRk5IeXlidDliQjRaQzVGLVplOGJxMU5iNzJncFVuSFNSWnpONTZhTk04R0Jz?oc=5"
+      "source": "TV9 Marathi",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQWUJWU1RFcjEtcWRlUVBObmtMaU9KTVJSbW5tU0p4YnprSWhJOUdCWm41aUdfM08tZWVvRjRfY2FzMnZNNFBmUTFPMHpfTV9YRXI1QzVaeDBJMzBzd0pvbWpsRHp6U2VId1BuTHFwcWwyQTI0YTQxdFFJMWEwRWsxaFozdXlFcmlmVk95R0lsNkx1Qk5wVEdCUkxtMWFFT0lIN05IazVycHVjNDR0LTZYVlllRk8tNF9QTFBJZ0ptWEFQT3prN2dfeG5IT1RibVVZeEhxdms3S1gxZk9nS190bmNTa3ZDZHdSLTVRRTEwdUXSAfYBQVVfeXFMUHI3QzVRMWVJWklSTmNvaGdGcGs2d0lDNXRmUFVYU3k1VzdGVTBtVTYzbFFVNzVDMzJEQ29oMENwNHpuVjVTZlAzU3VjRVNRT0drbGxUS3J5WTdiOXdqQXpkd1BiWUhNa0VibUtNUkRXaXhsTTZIWW90aHhFZVVSWHBPM1Z3ZjQ5bTJTc254ZS1yYUxWZHlxWWgydlEzaEFKX3JUWGZxTHRxdDFWZzVYQjZoTFN2TE0xM1ByUHNTSGZONHlzTklLZXBEQVVHcld5Um5YeDJsS3ByLVc4Q0hfZVNHMFd3NzRTbG5nRFFlRHc4cEVJQ3F3?oc=5"
      }
     ]
    },
    {
-    "headline": "आजचे राशीभविष्य, १२ नोव्हेंबर २०२६; 'या' राशींच्या लोकांना मिळणार मोठा धनलाभ, तर काहींना प्रकृतीची घ्यावी लागणार काळजी",
+    "headline": "नॉर्वेच्या पत्रकाराचा व्हिसा दहा मिनिटे आधी रद्द; भारत शिखर परिषदेसाठी येण्यापूर्वीच कारवाई",
     "lang": "mr",
     "coverage": 1,
     "sources": [
      "Lokmat.com"
     ],
-    "published": "2026-11-12T01:55:00+00:00",
+    "published": "2026-11-13T00:55:00+00:00",
     "links": [
      {
       "source": "Lokmat.com",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQbWhhbTlWV1p2dk16LUVYUy0taDlLc0d6TGpVaFJlMk8xeTZpTXFGcnBvSWhsWElhUEdycFBreC1BY2NHdU9CeVUyak1qT3VKQXVONlFFYTFoS2FncExyLWpYVnZRSHFIc2JtcVRWNkFPZng3c0x0VzBWenk1MzhZSjVIRjNLVWJMdHEwb3czZnVVN29kS2p0ZVNPYklrTjBpQ1hrTHRKaXpiTDFhcldWNU92MHc3d29wejN2dEQ5NFc3eS02STBzcVJ0WVRKRVJJeVRVb1FRU09hb2lsV2k2bk56bzRSTGNZRXp2VHZmWlEyUTNsdmhmZDBqUmp5SzhGLWVpTQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbnlYb0l3QXF1NnpFVHZwQV83ZFhGaGV1cHJDMTRwMUxvV0ZlbFZmT3BRY2pvYnZQSmp2UzIwVXNTUU9nOFJIWnU4b01iTjVLX25DUTg2Mnpza09BbVN2WlNtbDdDeFlMS09ILXkzQ2Mtd0xoWlplQU1DSXNTQ25sZU1ublNZNlFyUVdNVUhwbk1Mc0tEcWhEaE5fVVRzYlhtRW5nTno2V3h6cDQzUG5MQk1aSUJGOUoyYWdFTDVadWwwaVI4S1ZBN0drYnHSAdIBQVVfeXFMUG9JekgzNV93QnkwWWlRd25MLXR6MVpKRzlmWWljaVBTdVlGV3NZWS1fVlFyS3hOVWQ2MVVETlNGVGJieG1jZ3FIc29ZT0ZIQ3hiaDFuYUhvWDlnemlaUGNHMm4xWVVJdV9jMzhtQlJ6QUY1Nk0tQnFkUjZvOWRyQUE2MG9rSENhYVlnamcxbmpRdnduZEFuMnB1N1NsLU5zNGpNV1dESW1kMkloZ2ZYM2swRjI2eTctNFc2Q3FOc0tURXZjV1daXzRkb1Q2X3E4VURB?oc=5"
      }
     ]
    },
    {
-    "headline": "मुंबईतून एकही आंतरराष्ट्रीय उड्डाण नवी मुंबई विमानतळाकडे हलवू नका: CM देवेंद्र फडणवीस",
+    "headline": "Weather Update: पहाटे गारठा, दुपारी चटका",
     "lang": "mr",
     "coverage": 1,
     "sources": [
-     "Lokmat.com"
+     "Agrowon"
     ],
-    "published": "2026-11-12T00:42:00+00:00",
+    "published": "2026-11-13T00:30:00+00:00",
     "links": [
      {
-      "source": "Lokmat.com",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQT0JoeTBxMnhXS0ZWUkVjTFdKdndzWXBoWHFxLUdWZ1ZNdWJ1OFRLWFgzV05wZFBBWFRDcmpsT2h2OGhfbWFoNHB0Q1E5Vk55MWI4alZjNVdXNDhwMEt5czc0M1BJa2hqVW5VMUhzLUx4VW9HcU4wYkJycVlzaEtBc0FDdmVkVTNfanNDbW15RDZuQ1ZwZnUxaGhxZ3hHU3IwVTlVb1V3eUp1dE1pbUJtbnJmMGd4WXpqa1BGVlJ5cGlJQzU3Wm1WYm42ZUxqUHdpSGY1a1VTNkFBaGhjVU5xWTJ6OGY?oc=5"
+      "source": "Agrowon",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQb3hLX3lpTE5YREd0ekhsdDZnVlZaczVlNlBDWnA1Sy1SbUxlVU9EMUpUZjRjajMyS05nelFMTHJPcnYyY3NuVUYxcDM1WGZySU1OZ0ItWm50NHBXcVFBSWlEUDVNN2g3LWxjNWl2eG9DNkUydmRlWE1vc3FmMm9ZRnUzRnVnZVM4ZVVCVHdrNFBkU2lMWG1EV0xCQnVHYS1s?oc=5"
      }
     ]
    },
    {
-    "headline": "Weather Update: मुंबईकरांनो, पुढील 48 तास महत्त्वाचे! नेमका हवामान खात्याचा अंदाज तरी काय?",
-    "lang": "mr",
-    "coverage": 1,
-    "sources": [
-     "MumbaiTak"
-    ],
-    "published": "2026-11-11T23:30:08+00:00",
-    "links": [
-     {
-      "source": "MumbaiTak",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOUm5MVDk3d2hZMDhYMExiQVRnVG5NWHQtQUtZSzZldFdGMVFoVk81YkNxWThUUG9hRWxDOXlpcEhmMm1wTXZ3N3R6c24tWUp3WnRBRE51Yy1VTklRUU8xQTdLRVRpT2wzQUNORjJGazNvXzhiTWlVbkw0Mno4cXE1dVpfR3Q0RDZ1bjNNdk9sRVBBSHpBbWxEY1ZnT0h1OU83eTJBU05CT0NqNXoxSU5WTUlTQmdtd2pDLTZ5VHJwOW9oMzgwbTB1N0d5V2JiUdIBzgFBVV95cUxOUm5MVDk3d2hZMDhYMExiQVRnVG5NWHQtQUtZSzZldFdGMVFoVk81YkNxWThUUG9hRWxDOXlpcEhmMm1wTXZ3N3R6c24tWUp3WnRBRE51Yy1VTklRUU8xQTdLRVRpT2wzQUNORjJGazNvXzhiTWlVbkw0Mno4cXE1dVpfR3Q0RDZ1bjNNdk9sRVBBSHpBbWxEY1ZnT0h1OU83eTJBU05CT0NqNXoxSU5WTUlTQmdtd2pDLTZ5VHJwOW9oMzgwbTB1N0d5V2JiUQ?oc=5"
-     }
-    ]
-   },
-   {
-    "headline": "Kavya Maran Marriage : काव्या मारन-अनिरुद्ध रविचंदर विवाहबंधनात अडकले, ग्रीसमध्ये विवाहसोहळा संपन्न, लग्नाचे फोटो शेअर करताच शुभेच्छांचा पाऊस",
+    "headline": "Mumbai Police : मुंबई पोलीस दलातील जवानानं जीवन संपवलं, पोलिसानं टोकाचं पाऊल का उचललं?  कारण समोर",
     "lang": "mr",
     "coverage": 1,
     "sources": [
      "ABP माझा"
     ],
-    "published": "2026-11-11T22:06:49+05:30",
+    "published": "2026-11-12T23:51:17+05:30",
     "links": [
      {
       "source": "ABP माझा",
-      "url": "https://marathi.abplive.com/photo-gallery/entertainment/kavya-maran-anirudh-ravichander-tied-the-knot-share-first-photo-after-grand-wedding-marathi-news-1445112"
+      "url": "https://marathi.abplive.com/crime/mumbai-police-constable-vijay-bagul-end-life-due-to-leg-injury-not-recover-marathi-news-1445184"
      }
     ]
    },
    {
-    "headline": "संपत्तीपुढे नात्याचं मोलच नाही; कल्याणमध्ये वडिलांसह सख्ख्या भावावर झाडल्या गोळ्या, मुलगा अटकेत",
+    "headline": "Sonia Gandhi | शरद पवारांनी परदेशी मुळाचा मुद्दा मांडल्‍याने अश्रू आले : सोनिया गांधी",
+    "lang": "mr",
+    "coverage": 1,
+    "sources": [
+     "Pudhari News"
+    ],
+    "published": "2026-11-12T23:30:00+00:00",
+    "links": [
+     {
+      "source": "Pudhari News",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZ21GUGo5Umw4MnFqYklPUV9nM3N4S2N1SDd0VkJ5elFnMHRhLWR3eWNzazZYZDdubmRDSlh6RmxvN0tEUmpxT0hDeDQ0Wk8ydmZ4Xzl2MTZuNGo0clNSUG1oeHpqUkNTckw1M3l6cEZwVWk4emtGZjBfajRtTVhqZWRsZk0wNmtrQl9tbFQ2T04tZjBkUm5sNWZiY0VVbF9ta3hhMVRod2LSAbYBQVVfeXFMTzRLUWNDTEd5eFRnZm42bFktdkF3WXJ0ZUMzMjJLdmhVemMyTmxiZlpmU3NaeHJVUG56YkJKUXlJS2ZfWnZyeUV4Y1BKZUNNS3pIRGJmSzFLZmRUOUVmbzI5eHVUX2t0MWlmb2o1RkpvYV9zbnRvUnlkT0VTWG90amJBTklLRURBTFhZd1E1TGloZGN3N3dxM1hYZHZxOUZNdWY0QVNZanVKY2hoRVh6WUIxRTFJN1E?oc=5"
+     }
+    ]
+   },
+   {
+    "headline": "Nagpur Hotel Fire : नागपूरमधील अनंततारा हॉटेलला आग, शॉर्ट सर्किटनं आग लागली, एका व्यक्तीचा मृत्यू, तीन जण जखमी",
     "lang": "mr",
     "coverage": 1,
     "sources": [
      "ABP माझा"
     ],
-    "published": "2026-11-11T21:16:12+05:30",
+    "published": "2026-11-12T22:18:27+05:30",
     "links": [
      {
       "source": "ABP माझा",
-      "url": "https://marathi.abplive.com/crime/kalyan-crime-news-firing-son-opens-fire-on-his-own-father-and-brother-relationships-hold-no-value-compared-to-wealth-1445110"
+      "url": "https://marathi.abplive.com/photo-gallery/news/nagpur-nagpur-ananattara-hotel-fire-manoj-bande-died-due-to-fire-and-smog-three-injured-marathi-news-1445182"
+     }
+    ]
+   },
+   {
+    "headline": "दोन्ही राष्ट्रवादीने एकत्र यायचं ठरलं होतं, 18 जानेवारीला बैठक झालेली; विलिनीकरणाबाबत हर्षवर्धन पाटलांनी सगळं सांगितलं",
+    "lang": "mr",
+    "coverage": 1,
+    "sources": [
+     "ABP माझा"
+    ],
+    "published": "2026-11-12T21:18:47+05:30",
+    "links": [
+     {
+      "source": "ABP माझा",
+      "url": "https://marathi.abplive.com/news/politics/harshvardhan-patil-revealed-ncp-merger-ajit-pawar-meeting-both-ncp-factions-had-decided-to-come-together-january-18th-1445179"
+     }
+    ]
+   },
+   {
+    "headline": "Nvidia :  एनवीडियाचे सीईओ जेनसेन हुआंग यांचा राजीनामा, चिनी महिलेसोबतचं प्रेमप्रकरण भोवलं, जेनसेन हुआंगच्या अडचणीत वाढ",
+    "lang": "mr",
+    "coverage": 1,
+    "sources": [
+     "ABP माझा"
+    ],
+    "published": "2026-11-12T21:03:28+05:30",
+    "links": [
+     {
+      "source": "ABP माझा",
+      "url": "https://marathi.abplive.com/news/world/nvidia-ceo-jensen-huang-resigns-from-his-position-after-allegations-of-affair-with-chinese-woman-1445180"
+     }
+    ]
+   },
+   {
+    "headline": "NCP Merger : माझा भाऊ गेला तेव्हाच माझ्यासाठी तो विषय संपला,सुप्रिया सुळे यांचं राष्ट्रवादीच्या विलिनीकरणाच्या चर्चांवर भाष्य",
+    "lang": "mr",
+    "coverage": 1,
+    "sources": [
+     "ABP माझा"
+    ],
+    "published": "2026-11-12T20:12:02+05:30",
+    "links": [
+     {
+      "source": "ABP माझा",
+      "url": "https://marathi.abplive.com/news/politics/supriya-sule-said-no-one-talk-with-her-about-both-ncp-merger-and-this-issue-end-after-ajit-pawar-death-marathi-news-1445178"
+     }
+    ]
+   },
+   {
+    "headline": "तहसील कार्यालयात अस्वच्छता, मंत्री गिरीश महाजनांच्या हाती झाडू; दारुच्या रिकाम्या बाटल्या पाहून संताप",
+    "lang": "mr",
+    "coverage": 1,
+    "sources": [
+     "ABP माझा"
+    ],
+    "published": "2026-11-12T20:10:33+05:30",
+    "links": [
+     {
+      "source": "ABP माझा",
+      "url": "https://marathi.abplive.com/news/politics/minister-girish-mahajan-picks-up-a-broom-outraged-upon-seeing-empty-liquor-bottles-filth-at-the-tehsil-office-jamner-1445177"
      }
     ]
    }
@@ -1355,240 +1364,231 @@
  },
  "trends": [
   {
-   "query": "एसीसी अंडर-19 यूथ एशिया कप",
+   "query": "tim seifert",
+   "traffic": "5000+",
+   "published": "2026-11-12T18:30:00-08:00",
+   "articles": [
+    {
+     "title": "Seifert praises India's pacers, says they've adapted well to conditions",
+     "url": "https://www.thehindu.com/sport/cricket/seifert-praises-indias-pacers-says-theyve-adapted-well-to-conditions/article71695333.ece",
+     "source": "The Hindu"
+    },
+    {
+     "title": "Can’t target anyone individually, India bowl well as a unit, says Tim Seifert",
+     "url": "https://www.ap7am.com/en/139229/cant-target-anyone-individually-india-bowl-well-as-a-unit-says-tim-seifert",
+     "source": "AP7AM"
+    },
+    {
+     "title": "Tim Seifert on New Zealand's comeback, India's bowling & Glenn Phillips' record breaking series",
+     "url": "https://timesofindia.indiatimes.com/videos/sports/cricket/tim-seifert-on-new-zealands-comeback-indias-bowling-glenn-phillips-record-breaking-series/videoshow/135764048.cms",
+     "source": "The Times of India"
+    }
+   ]
+  },
+  {
+   "query": "અમિતાભ બચ્ચન",
    "traffic": "200+",
-   "published": "2026-11-11T18:50:00-08:00",
+   "published": "2026-11-12T18:30:00-08:00",
    "articles": [
     {
-     "title": "India vs. Afghanistan start time, live stream and TV channel for U-19 Asia Cup semi-final",
-     "url": "https://sports.yahoo.com/articles/india-vs-afghanistan-start-time-123001360.html",
-     "source": "Yahoo Sports"
+     "title": "અમિતાભ બચ્ચનના બંગલાને ફરી ઉડાવી દેવાની ધમકી: 20 દિવસમાં ત્રીજો ઈમેલ; તેમાં એરપોર્ટ, મેયર ઓફિસ અને PNB બ્રા...",
+     "url": "https://www.divyabhaskar.co.in/national/news/amitabh-bachchan-jalsa-bungalow-bomb-threat-mumbai-pnb-bank-139665031.html",
+     "source": "Divya Bhaskar"
     },
     {
-     "title": "Noor Ali Niazai has 13 wickets for 71 runs, and he is what stands between India’s Under-19s and the Asia Cup final",
-     "url": "https://www.sportsadda.asia/cricket/news/noor-ali-niazai-has-13-wickets-for-71-runs-and-he-is-what-stands-between-indias-under-19s-and-the-asia-cup-final/",
-     "source": "SportsAdda"
+     "title": "Mumbai Bomb Threat: Security Tightened Across City",
+     "url": "https://sandesh.com/india/breakingnews/mumbai-bomb-threat-amitabh-bachchan-bungalow-bmc-airport",
+     "source": "Sandesh"
     },
     {
-     "title": "India vs Bangladesh U19 Asia Cup Live Streaming: When And Where To Watch Semifinal Clash",
-     "url": "https://sports.ndtv.com/cricket/india-vs-bangladesh-u19-asia-cup-live-streaming-when-and-where-to-watch-semifinal-clash-12315012",
-     "source": "NDTV Sports"
+     "title": "Breaking News: મુંબઈમાં દહેશતનો માહોલ… અમિતાભ બચ્ચનના ‘જલસા’ બંગલા, બોમ્બે હાઈકોર્ટ...",
+     "url": "https://tv9gujarati.com/national/amitabh-bachchan-jalsa-bungalow-bombay-high-court-and-bse-receive-bomb-threats-in-mumbai-1544382.html",
+     "source": "TV9 Gujarati"
     }
    ]
   },
   {
-   "query": "കേരള പോലീസ്",
+   "query": "nahay khay",
    "traffic": "100+",
-   "published": "2026-11-11T18:50:00-08:00",
+   "published": "2026-11-12T18:30:00-08:00",
    "articles": [
     {
-     "title": "എൽപിഎസ്ടി ഉദ്യോ​ഗാർഥികളുടെ സമരപ്പന്തൽ രാത്രിയെത്തി പൊളിച്ചുമാറ്റി പൊലീസ്, വളര്‍മതിയെ ആശുപത്രിയിലേക്ക് മാറ്റി, സ്ഥലത്ത് സംഘര്‍ഷാവസ്ഥ",
-     "url": "https://www.asianetnews.com/kerala-news/police-dismantled-the-lpst-rank-holders-protest-tent-at-night-articleshow-d1b9v0r",
-     "source": "Asianet News Malayalam"
+     "title": "Chhath Puja 2026: Check Full 4-Day Schedule, From Nahay Khay To Usha Arghya",
+     "url": "https://www.ndtv.com/offbeat/chhath-puja-2026-check-full-4-day-schedule-from-nahay-khay-to-usha-arghya-12317525",
+     "source": "NDTV"
     },
     {
-     "title": "സെക്രട്ടേറിയറ്റിനു മുന്നിലെ എൽപിഎസ്ടി സമരപ്പന്തൽ പൊളിച്ചു; വളർമതിയെ പൊലീസ് ജനറൽ ആശുപത്രിയിലേക്കു മാറ്റി",
-     "url": "https://www.manoramaonline.com/news/latest-news/2026/11/11/lpst-rank-holders-protest-secretariat-police-removes-strike-tent-valormathi-custody.html",
-     "source": "Manorama Online"
+     "title": "From Prehistoric Sun Worship To Chhath: Tracing Bihar’s 1,000-Year-Old Festival Of Faith",
+     "url": "https://www.etvbharat.com/en/bharat/from-prehsitoric-sun-worship-to-chhath-racing-bihars-1000-year-old-festival-of-faith-enn26111202390",
+     "source": "ETV Bharat"
     },
     {
-     "title": "'വളർമതി മുടിമുറിക്കുന്നത് കണ്ട്‌ കരഞ്ഞുപോയ മുഖ്യമന്ത്രിയല്ലേ ഈ അതിക്രമത്തിന് നേതൃത്വം നൽകുന്നത്'",
-     "url": "https://www.mathrubhumi.com/news/kerala/pinarayi-vijayan-condemns-udf-government-lpst-protest-crackdown-uib8pjcb",
-     "source": "Mathrubhumi"
+     "title": "Ghats in Kolkata and Howrah get Chhath-ready",
+     "url": "https://timesofindia.indiatimes.com/city/kolkata/ghats-in-kolkata-and-howrah-get-chhath-ready/articleshow/135780712.cms",
+     "source": "The Times of India"
     }
    ]
   },
   {
-   "query": "gsw",
-   "traffic": "100+",
-   "published": "2026-11-11T18:50:00-08:00",
+   "query": "arshdeep singh",
+   "traffic": "5000+",
+   "published": "2026-11-12T18:20:00-08:00",
    "articles": [
     {
-     "title": "Kevin Durant, Houston Rockets look to cool off Stephen Curry, Golden State Warriors on ESPN on Disney+",
-     "url": "https://www.espn.in/espn/story/_/id/50442103/kevin-durant-houston-rockets-stephen-curry-golden-state-warriors-espn-disney+",
+     "title": "'Definitely long term': Ness Wadia on Hardik Pandya's acquisition",
+     "url": "https://www.cricbuzz.com/cricket-news/140872/definitely-long-term-ness-wadia-on-hardik-pandyas-pbks-trade-involving-arshdeep-singh-cricbuzzcom",
+     "source": "Cricbuzz"
+    },
+    {
+     "title": "Hardik Pandya and Arshdeep Singh complete major trade between PBKS and MI",
+     "url": "https://www.iplt20.com/news/article/hardik-pandya-and-arshdeep-singh-complete-major-trade-between-pbks-and-mi",
+     "source": "IPL"
+    },
+    {
+     "title": "Ness Wadia promises a long-term future with Hardik Pandya at Punjab Kings",
+     "url": "https://www.thehindu.com/shorts/ness-wadia-promises-a-long-term-future-with-hardik-pandya-at-punjab-kings/article71693108.ece",
+     "source": "The Hindu"
+    }
+   ]
+  },
+  {
+   "query": "நியூசிலாந்து - இந்தியா",
+   "traffic": "2000+",
+   "published": "2026-11-12T18:20:00-08:00",
+   "articles": [
+    {
+     "title": "இந்திய தொடர்: 5 பந்துகளில் 5 விக்கெட்டுகளை வீழ்த்தியவருக்கு நியூசிலாந்து அணியில் இடம்!",
+     "url": "https://www.dinamani.com/sports/cricket/2026/Nov/12/new-zealand-call-up-pacer-brett-randell-for-4th-and-5h-odis-against-india",
+     "source": "DinaMani"
+    },
+    {
+     "title": "டெஸ்ட் தொடர்: இந்தியாவுக்கு எதிரான நியூசிலாந்து அணி அறிவிப்பு!",
+     "url": "https://www.dinamani.com/sports/cricket/2026/Nov/11/new-zealand-name-conway-rachin-subject-to-fitness-for-india-tests",
+     "source": "DinaMani"
+    },
+    {
+     "title": "IND vs NZ Test: இந்தியாவுக்கு எதிராக ஆடவுள்ள 14 பேர் கொண்ட நியூசிலாந்து டெஸ்ட் அணி அறிவிப்பு",
+     "url": "https://tamil.mykhel.com/cricket/ind-vs-nz-new-zealand-announce-14-member-squad-for-india-test-series-rachin-ravindra-returns-127423.html",
+     "source": "myKhel tamil"
+    }
+   ]
+  },
+  {
+   "query": "wizards vs pistons",
+   "traffic": "100+",
+   "published": "2026-11-12T18:20:00-08:00",
+   "articles": [
+    {
+     "title": "Pistons vs. Wizards (13 Nov, 2026) Pregame",
+     "url": "https://www.espn.in/nba/preview/_/gameId/401909977",
      "source": "ESPN India"
     },
     {
-     "title": "BetMGM bonus code CBSSPORTS: Get $1,500 in bonus bets for Ball State-Buffalo, Warriors-Rockets, NBA betting",
-     "url": "https://www.cbssports.com/betting/news/betmgm-bonus-code-cbssports-get-1500-bonus-bets-ball-state-buffalo-warriors-rockets-nba-betting/",
-     "source": "CBS Sports"
+     "title": "Pistons vs. Wizards preview: Round two against the Wizards",
+     "url": "https://sports.yahoo.com/articles/pistons-vs-wizards-preview-round-170000456.html",
+     "source": "Yahoo Sports"
     },
     {
-     "title": "Warriors List Six Players on Injury Report for Rockets Game",
-     "url": "https://sports.yahoo.com/articles/warriors-list-six-players-injury-205618543.html",
-     "source": "Yahoo Sports"
+     "title": "Wizards Notes: Davis, Defense, Dybantsa, Start To Season",
+     "url": "https://www.hoopsrumors.com/2026/11/wizards-notes-davis-defense-dybantsa-start-to-season.html",
+     "source": "Hoops Rumors"
     }
    ]
   },
   {
-   "query": "रचिन रविंद्र",
+   "query": "chhath puja song",
    "traffic": "100+",
-   "published": "2026-11-11T18:50:00-08:00",
+   "published": "2026-11-12T18:20:00-08:00",
    "articles": [
     {
-     "title": "NZ vs IND- test series -भारत के ख़िलाफ़ टेस्ट सीरीज़ के लिए न्यूज़ीलैंड टीम में रचिन रवींद्र और कॉन्वे की वापसी",
-     "url": "https://www.cricinfo.com/hindi/story/nz-vs-ind-test-series-new-zealand-squad-rachin-ravindra-devon-conway-return-1562167",
-     "source": "Cricinfo"
+     "title": "Railways faces backlash for playing Bhojpuri songs at Mumbai train stations",
+     "url": "https://www.thehindu.com/news/cities/mumbai/railways-faces-backlash-for-playing-bhojpuri-songs-at-mumbai-train-stations/article71693059.ece",
+     "source": "The Hindu"
     },
     {
-     "title": "भारत बनाम न्यूजीलैंड टेस्ट सीरीज के लिए टीम का ऐलान, 14 प्लेयर्स को मिली जगह, कौन संभालेगा कमान",
-     "url": "https://www.indiatv.in/sports/cricket/india-vs-new-zealand-reveal-squad-for-home-test-series-against-india-tom-latham-captain-2026-11-11-1253786",
+     "title": "Chhath Puja songs at Mumbai railway stations stirs row",
+     "url": "https://www.rediff.com/news/report/chhath-puja-songs-at-mumbai-railway-stations-stirs-row/20261112.htm",
+     "source": "Rediff"
+    },
+    {
+     "title": "Devotional Bhojpuri songs at Mumbai stations ahead of Chhath Puja strike discordant note",
+     "url": "https://timesofindia.indiatimes.com/city/mumbai/devotional-bhojpuri-songs-at-mumbai-stations-ahead-of-chhath-puja-strike-discordant-note/articleshow/135780932.cms",
+     "source": "The Times of India"
+    }
+   ]
+  },
+  {
+   "query": "new zealand vs india",
+   "traffic": "1000000+",
+   "published": "2026-11-12T18:10:00-08:00",
+   "articles": [
+    {
+     "title": "Cricbuzz Live: India elect to bowl first | Ishan, Kuldeep, Ruturaj named in XI",
+     "url": "https://www.cricbuzz.com/cricket-videos/218594/cricbuzz-live-india-elect-to-bowl-first-ishan-kuldeep-ruturaj-named-in-xi",
+     "source": "Cricbuzz"
+    },
+    {
+     "title": "India tour of New Zealand: New Zealand vs India fourth ODI in Mount Maunganui on November 13, 2026",
+     "url": "https://www.thehindu.com/sport/cricket/india-vs-new-zealand-fourth-odi-in-mount-maunganui/article71696407.ece",
+     "source": "The Hindu"
+    },
+    {
+     "title": "Shreyas Iyer Set for ODI Captaincy Debut as India Eye Series Win",
+     "url": "https://www.rediff.com/cricket/report/4th-odi-preview-shreyas-iyer-set-for-odi-captaincy-debut-as-india-eye-series-win/20261112.htm",
+     "source": "Rediff"
+    }
+   ]
+  },
+  {
+   "query": "न्यूजीलैंड बनाम भारत",
+   "traffic": "20000+",
+   "published": "2026-11-12T18:10:00-08:00",
+   "articles": [
+    {
+     "title": "न्यूजीलैंड का घर में होगा शिकार! 7 साल बाद इतिहास रचने से 1 जीत दूर टीम इंडिया",
+     "url": "https://www.aajtak.in/sports/cricket/story/india-vs-new-zealand-3rd-odi-series-win-history-mount-maunganui-bmsp-dskc-2694825-2026-11-12",
+     "source": "AajTak"
+    },
+    {
+     "title": "IND vs NZ 4th ODI LIVE SCORE: भारत ने जीता टॉस, श्रेयस अय्यर का पहले बॉलिंग का फैसला",
+     "url": "https://www.indiatv.in/sports/cricket/india-vs-new-zealand-live-score-4th-odi-live-updates-ind-vs-nz-match-hindi-commentary-2026-11-13-1254138",
      "source": "India TV Hindi"
     },
     {
-     "title": "IND vs NZ: 'अभी बहुत क्रिकेट बाकी है', चोट भूलकर टीम इंडिया से भिड़ने को तैयार मैट हेनरी",
-     "url": "https://www.jagran.com/cricket/apni-baat-matt-henry-eyes-return-against-india-in-4th-odi-at-mount-maunganui-ind-vs-nz-match-40433868.html",
-     "source": "Jagran"
+     "title": "Today School Assembly News 11 November 2026: राष्ट्रीय, अंतरराष्ट्रीय, शिक्षा और खेल जगत की प्रमुख खबरें",
+     "url": "https://www.prabhatkhabar.com/education/today-school-assembly-news-11-november-2026-top-national-international-and-sports-headlines",
+     "source": "Prabhat Khabar"
     }
    ]
   },
   {
-   "query": "womens emerging nations trophy",
-   "traffic": "100+",
-   "published": "2026-11-11T18:40:00-08:00",
-   "articles": [
-    {
-     "title": "Ireland aiming high at ICC Women's Emerging Nations Trophy",
-     "url": "https://www.icc-cricket.com/tournaments/icc-women-s-emerging-nations-trophy-2026/news/ireland-aiming-high-at-icc-women-s-emerging-nations-trophy",
-     "source": "ICC"
-    },
-    {
-     "title": "Emerging Nations Trophy: Ireland name two uncapped players for T20 tournament",
-     "url": "https://www.bbc.com/sport/cricket/articles/c8e366xzkyp9o",
-     "source": "BBC"
-    },
-    {
-     "title": "Pakistan women in Ajman for Emerging Nations Cricket",
-     "url": "https://www.thenews.pk/print/1448237-pakistan-women-in-ajman-for-emerging-nations-cricket",
-     "source": "The News Pakistan"
-    }
-   ]
-  },
-  {
-   "query": "ఇంటర్వ్యూ",
-   "traffic": "100+",
-   "published": "2026-11-11T18:40:00-08:00",
-   "articles": [
-    {
-     "title": "‘What Comes First, Day or Night?’ UPSC ఇంటర్వ్యూలో అభ్యర్థి సమాధానం వింటే నవ్వాల్సిందే!",
-     "url": "https://tv9telugu.com/career-jobs/upsc-interview-tricky-question-what-comes-first-day-or-night-1955576.html",
-     "source": "TV9 Telugu"
-    },
-    {
-     "title": "ఆర్యవీర్ సెహ్వాగ్: డబుల్ సెంచరీ చేసిన తన కుమారుడిని చూసి ‘ఫెరారీ మిస్ అయ్యావని’ సెహ్వాగ్ ఎందుకన్నారు?",
-     "url": "https://www.bbc.com/telugu/articles/c6wy04xe2l1eo",
-     "source": "BBC"
-    },
-    {
-     "title": "Aaryavir Sehwag: కోహ్లీతో ఆర్యవీర్‌ సెహ్వాగ్ ఇంటర్వ్యూ.. వైరల్ అవుతున్న పాత వీడియో",
-     "url": "https://www.eenadu.net/videos/playvideo/aaryavir-sehwag-old-interview-with-virat-kohli-goes-viral/4/82578",
-     "source": "Eenadu"
-    }
-   ]
-  },
-  {
-   "query": "dictionary",
-   "traffic": "100+",
-   "published": "2026-11-11T18:40:00-08:00",
-   "articles": [
-    {
-     "title": "Word Watch: November 11, 2026",
-     "url": "https://www.thetimes.com/puzzles/quizzes-teasers/article/word-watch-november-11-2026-5s2qlxmdn",
-     "source": "The Times"
-    },
-    {
-     "title": "Word Watch: November 12, 2026",
-     "url": "https://www.thetimes.com/article/word-watch-november-12-2026-hll26vxmg",
-     "source": "The Times"
-    },
-    {
-     "title": "'Mogging' is Collins' word of the year... but do you know what it means?",
-     "url": "https://www.bbc.com/news/articles/cve8rp085zzjo",
-     "source": "BBC"
-    }
-   ]
-  },
-  {
-   "query": "breakfast near me",
+   "query": "રાશિ",
    "traffic": "200+",
-   "published": "2026-11-11T18:40:00-08:00",
+   "published": "2026-11-12T18:10:00-08:00",
    "articles": [
     {
-     "title": "Applebee’s® Honors Veterans & Active Duty Military with Free Meals on Veterans Day",
-     "url": "https://www.applebees.com/en/news/2026/veterans-day",
-     "source": "Applebee's"
+     "title": "વાર્ષિક રાશિફળ: વિક્રમ સંવત 2083નું વર્ષ બારેય રાશિના જાતકો માટે કેવું રહેશે? વીડિયો દ્વારા જાણો આવનારા વર્...",
+     "url": "https://www.divyabhaskar.co.in/dharm-darshan/news/vikram-samvat-2083-twelve-zodiac-signs-know-complete-prediction-139581310.html",
+     "source": "Divya Bhaskar"
     },
     {
-     "title": "Veterans Day 2026 Free Meals, Freebies and Deals",
-     "url": "https://www.legion.org/information-center/news/veterans-day/2026/november/veterans-day-deals-and-discounts",
-     "source": "The American Legion"
+     "title": "મિથુન (ક.છ.ઘ.)",
+     "url": "https://www.gujaratsamachar.com/news/astro/gemini-kchg-36660024858",
+     "source": "Gujarat Samachar"
     },
     {
-     "title": "Groceries, gas, a ‘Grand Slam’: here are your Veterans Day discounts",
-     "url": "https://www.militarytimes.com/veterans/2026/11/10/groceries-gas-a-grand-slam-here-are-your-veterans-day-discounts/",
-     "source": "Military Times"
-    }
-   ]
-  },
-  {
-   "query": "உழவர்",
-   "traffic": "100+",
-   "published": "2026-11-11T18:30:00-08:00",
-   "articles": [
-    {
-     "title": "'விவசாயிகளுக்கு 10 சதவீதம் கூடுதல் விலை தருகிறோம்!'",
-     "url": "https://www.dinamalar.com/dinam-dinam/solgirargal/we-are-giving-10-per-cent-extra-price-to-farmers/4369982",
-     "source": "Dinamalar"
-    },
-    {
-     "title": "டெல்டாவில் ஒரே குடையின் கீழ் 30 ஆயிரம் விவசாயிகள்... இடுபொருட்கள் மலிவு... விளைபொருட்களுக்கு",
-     "url": "https://tamil.abplive.com/agriculture/30-000-farmers-in-the-delta-region-unite-under-one-umbrella-access-to-affordable-agricultural-inputs-and-new-opportunities-for-better-prices-on-produce-tnn-279370",
-     "source": "ABP Nadu"
-    }
-   ]
-  },
-  {
-   "query": "মার্কিন যুক্তরাষ্ট্র",
-   "traffic": "100+",
-   "published": "2026-11-11T18:30:00-08:00",
-   "articles": [
-    {
-     "title": "তাইওয়ানি মহড়ায় টানা পাঁচ বার ডাহা ফেল! মার্কিন ক্ষেপণাস্ত্রের রাহুর দশায় মুখ টিপে হাসছে জিনপিঙের চিন",
-     "url": "https://www.anandabazar.com/photogallery/five-test-failures-of-usa-anti-tank-missile-amid-taiwan-tensions-have-beijing-watching-dgtl-photogallery-prnt/cid/1725467",
-     "source": "Anandabazar Patrika"
-    },
-    {
-     "title": "চীনের আপত্তি উপেক্ষা করে তাইওয়ানকে যুদ্ধবিমান দিল যুক্তরাষ্ট্র",
-     "url": "https://citizensvoicebd.com/international/155757/",
-     "source": "https://citizensvoicebd.com/"
-    },
-    {
-     "title": "চীনের আপত্তির মধ্যেই তাইওয়ানকে তিন যুদ্ধবিমান দিল যুক্তরাষ্ট্র",
-     "url": "https://www.protifolon.com/international/news/127878/%E0%A6%9A%E0%A7%80%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%B0-%E0%A6%AE%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A7%87%E0%A6%87-%E0%A6%A4%E0%A6%BE%E0%A6%87%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%A8%E0%A6%95%E0%A7%87-%E0%A6%A4%E0%A6%BF%E0%A6%A8-%E0%A6%AF%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%AC%E0%A6%BF%E0%A6%AE%E0%A6%BE%E0%A6%A8-%E0%A6%A6%E0%A6%BF%E0%A6%B2-%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A6%BE%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0",
-     "source": "protifolon"
+     "title": "ગુજરાતી નવું વર્ષ વિક્રમ સંવત રાશિફળ 2026: વાંચો મેષથી મીન સુધીની તમામ 12 રાશિઓનું રાશિ ભવિષ્ય",
+     "url": "https://gujarati.news18.com/news/dharm-bhakti/horoscope-for-all-12-zodiac-signs-for-the-gujarati-new-year-vikram-samvat-2083-dp-ws-b-2660818.html",
+     "source": "News18 Gujarati"
     }
    ]
   }
  ],
- "recent_posts": [
+ "recent_posts": [],
+ "failed_feeds": [
   {
-   "date": "2026-11-02",
-   "category": "health",
-   "title": "हवेची गुणवत्ता खालावत आहे; श्वास आणि फुफ्फुसांसाठी या ७ गोष्टी आजपासून करा",
-   "slug": "air-quality-season-lung-care-2026"
-  },
-  {
-   "date": "2026-11-02",
-   "category": "finance",
-   "title": "PNB क्रेडिट कार्डवर १ नोव्हेंबरपासून हे ५ बदल; रिवॉर्ड वापरायलाही शुल्क लागणार",
-   "slug": "pnb-credit-card-charges-november-2026"
-  },
-  {
-   "date": "2026-11-02",
-   "category": "ai",
-   "title": "वेबसाइटचा मजकूर AI ला शिकायला देऊ नका; robots.txt मधली एक ओळ चार मोठ्या कंपन्या पाळणार",
-   "slug": "ai-training-opt-out-robots-txt-token"
+   "feed": "PIB (Govt. of India)",
+   "error": "not well-formed (invalid token): line 8, column 766"
   }
- ],
- "failed_feeds": []
+ ]
 }
